@@ -1,0 +1,5 @@
+c:\users\patrick\documents\visual studio 2010\Projects\RecruitWeb\RecruitWeb\bin\RecruitWeb.dll
+c:\users\patrick\documents\visual studio 2010\Projects\RecruitWeb\RecruitWeb\bin\RecruitWeb.pdb
+c:\users\patrick\documents\visual studio 2010\Projects\RecruitWeb\RecruitWeb\obj\Debug\ResolveAssemblyReference.cache
+c:\users\patrick\documents\visual studio 2010\Projects\RecruitWeb\RecruitWeb\obj\Debug\RecruitWeb.dll
+c:\users\patrick\documents\visual studio 2010\Projects\RecruitWeb\RecruitWeb\obj\Debug\RecruitWeb.pdb

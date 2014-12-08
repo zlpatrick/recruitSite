@@ -901,7 +901,7 @@ html {
 }
 body {
   font-family: "Î¢ÈíÑÅºÚ","Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -915,7 +915,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: olive;
+  color: grey;
   text-decoration: none;
 }
 a:hover,
@@ -4214,7 +4214,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: white;
-  background-color: orange;
+  background-color: grey;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
