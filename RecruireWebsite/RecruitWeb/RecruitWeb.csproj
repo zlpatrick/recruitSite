@@ -54,6 +54,7 @@
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="img\logo.jpg" />
     <Content Include="insights.aspx" />
     <Content Include="job-center.aspx" />
     <Content Include="js\bootstrap.js" />
