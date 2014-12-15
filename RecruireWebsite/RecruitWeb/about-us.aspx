@@ -25,14 +25,41 @@
         padding:25px;
         color:#666;
     }
+    
+    .list-group
+    {
+        width:20%;
+        position:fixed;
+    }
+   
+    .list-group-item span
+    {
+        float:right;
+    }
+  
     </style>
 </head>
 
 <body>
 <!-- #include file="nav.aspx"-->
 <div class="container">
-       
-                <div>
+               
+             <div class="row">
+             
+             <div class="col-md-3">
+             <div class="list-group">
+                <a href="#" class="list-group-item active">
+                概况<span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                <a href="#" class="list-group-item">价值<span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a href="#" class="list-group-item">联系方式<span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a href="#" class="list-group-item">加入我们<span class="glyphicon glyphicon-chevron-right"></span></a>
+               
+             </div>
+             </div>
+             <div class="col-md-9">
+             
+             <div>
                     <div class="solution-section-header">
                      概况&nbsp;<span class="glyphicon glyphicon-chevron-down"></span>
                     </div>
@@ -82,10 +109,17 @@
 
                     </div>
                 </div>
+             
+             </div>
+             
+             </div>  
+                 
+                
        
 
 
         
 </div>
+<!-- #include file="bottom.aspx"-->
 </body>
 </html>
