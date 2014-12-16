@@ -28,8 +28,7 @@
     
     .list-group
     {
-        width:20%;
-        position:fixed;
+        
     }
    
     .list-group-item span
@@ -43,7 +42,13 @@
 <body>
 <!-- #include file="nav.aspx"-->
 <div class="container">
-               
+            <ul class="breadcrumb" style="background-color: white">
+			    <li><span class="glyphicon glyphicon-home"></span> &nbsp;<a
+				    href="index.aspx">首页</a><span class="divider"></span></li>
+			    <li class="active">关于我们</li>
+		    </ul>
+
+
              <div class="row">
              
              <div class="col-md-3">

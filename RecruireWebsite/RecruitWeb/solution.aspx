@@ -30,7 +30,11 @@
 <body>
 <!-- #include file="nav.aspx"-->
 <div class="container">
-       
+       <ul class="breadcrumb" style="background-color: white">
+			    <li><span class="glyphicon glyphicon-home"></span> &nbsp;<a
+				    href="index.aspx">首页</a><span class="divider"></span></li>
+			    <li class="active">解决方案</li>
+		    </ul>
                 <div>
                     <div class="solution-section-header">
                     服务领域&nbsp;<span class="glyphicon glyphicon-chevron-down"></span>

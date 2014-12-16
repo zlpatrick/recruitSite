@@ -49,14 +49,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about-us.aspx" />
+    <Content Include="bottom.aspx" />
     <Content Include="common.aspx" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="img\banner.gif" />
+    <Content Include="img\insights1.png" />
+    <Content Include="img\insights2.jpg" />
     <Content Include="img\logo.jpg" />
     <Content Include="insights.aspx" />
     <Content Include="job-center.aspx" />
+    <Content Include="job-list.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.js" />
@@ -80,6 +85,13 @@
     </Compile>
     <Compile Include="about-us.aspx.designer.cs">
       <DependentUpon>about-us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bottom.aspx.cs">
+      <DependentUpon>bottom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bottom.aspx.designer.cs">
+      <DependentUpon>bottom.aspx</DependentUpon>
     </Compile>
     <Compile Include="common.aspx.cs">
       <DependentUpon>common.aspx</DependentUpon>
@@ -111,6 +123,13 @@
     </Compile>
     <Compile Include="job-center.aspx.designer.cs">
       <DependentUpon>job-center.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="job-list.aspx.cs">
+      <DependentUpon>job-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="job-list.aspx.designer.cs">
+      <DependentUpon>job-list.aspx</DependentUpon>
     </Compile>
     <Compile Include="nav.aspx.cs">
       <DependentUpon>nav.aspx</DependentUpon>

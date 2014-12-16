@@ -15,6 +15,7 @@
 				<li><a href="index.aspx">首页</a></li>
 				<li><a href="solution.aspx">解决方案</a></li>
 				<li><a href="job-center.aspx">工作机会</a></li>
+                <li><a href="job-list.aspx">职位列表</a></li>
 				<li><a href="insights.aspx">行业视角</a></li>
                 <li><a href="about-us.aspx">关于我们</a></li>
 			</ul>
