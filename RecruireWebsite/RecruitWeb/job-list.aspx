@@ -79,7 +79,7 @@
             <p style="padding-left:20px;padding-top:10px">我们致力于帮助国际知名地产商和国际型酒店获得长期稳健的人力资源咨询服务。我们的候选人皆为来自住宅地产、购物中心及城市综合体、旅游地产的专业技术人才及中高级管理人才。 
 更多信息，请咨询我们的顾问 – Roger Wang：Roger@leadvilles.com</p>
             </div>
-            <div class="col-md-2" style="padding-top:30px"><a href="#" id="A1" class="applyButton" style="float:right;">查看详情</a></div>
+            <div class="col-md-2" style="padding-top:30px"><a href="job-detail.aspx" id="A1" class="applyButton" style="float:right;">查看详情</a></div>
            
         </div>
 

@@ -59,8 +59,10 @@
     <Content Include="img\insights1.png" />
     <Content Include="img\insights2.jpg" />
     <Content Include="img\logo.jpg" />
+    <Content Include="insights-detail.aspx" />
     <Content Include="insights.aspx" />
     <Content Include="job-center.aspx" />
+    <Content Include="job-detail.aspx" />
     <Content Include="job-list.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
@@ -110,6 +112,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="insights-detail.aspx.cs">
+      <DependentUpon>insights-detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="insights-detail.aspx.designer.cs">
+      <DependentUpon>insights-detail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="insights.aspx.cs">
       <DependentUpon>insights.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -123,6 +132,13 @@
     </Compile>
     <Compile Include="job-center.aspx.designer.cs">
       <DependentUpon>job-center.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="job-detail.aspx.cs">
+      <DependentUpon>job-detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="job-detail.aspx.designer.cs">
+      <DependentUpon>job-detail.aspx</DependentUpon>
     </Compile>
     <Compile Include="job-list.aspx.cs">
       <DependentUpon>job-list.aspx</DependentUpon>

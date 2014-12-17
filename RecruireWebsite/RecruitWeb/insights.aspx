@@ -59,7 +59,7 @@
             <div class="row insights-section-body">
                 <div class="col-md-2"><img src="img/insights1.png" class="img-responsive" /></div>
                 <div class="col-md-10">
-                <p>金融服务</p>
+                <p><a href="insights-detail.aspx">金融服务</a></p>
                 <p>我们与全球金融业的顶尖人才保持着良好的合作关系。无论是银行、证券，还是保险、基金，我们都有相应的行业资深顾问。优秀的专业背景﹑专业的金融知识和丰富的经验，这些是能满足组织人力资源需求、超越客户预期的保障。 </p>
                 
                 </div>
