@@ -7,3 +7,4 @@ C:\Users\Patrick\git\recruitSite\RecruireWebsite\RecruitWeb\bin\RecruitWeb.dll
 C:\Users\Patrick\git\recruitSite\RecruireWebsite\RecruitWeb\bin\RecruitWeb.pdb
 C:\Users\Patrick\git\recruitSite\RecruireWebsite\RecruitWeb\obj\Debug\RecruitWeb.dll
 C:\Users\Patrick\git\recruitSite\RecruireWebsite\RecruitWeb\obj\Debug\RecruitWeb.pdb
+C:\Users\Patrick\git\recruitSite\RecruireWebsite\RecruitWeb\obj\Debug\RecruitWeb.csprojResolveAssemblyReference.cache
