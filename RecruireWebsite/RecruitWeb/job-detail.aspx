@@ -19,7 +19,7 @@
     <form id="form1" runat="server">
     <div class="container">
         <ul class="breadcrumb" style="background-color: white">
-			    <li><span class="glyphicon glyphicon-home"></span> &nbsp;<a
+			    <li><a
 				    href="index.aspx">首页</a><span class="divider"></span></li>
 			    <li class="active">职位详情</li>
 		    </ul>

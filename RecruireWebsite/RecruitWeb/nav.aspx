@@ -1,4 +1,16 @@
 ﻿<style>
+.home-banner
+{
+    list-style:none;
+    padding:0
+}   
+.home-banner>li
+{
+    float:left;
+    width:20%;
+    
+} 
+    
 .home-banner-column
 {
     border-left:1px solid lightgrey;
@@ -63,8 +75,8 @@
 				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/" title="Home" style="padding: 0"><img
-				src="img/logo.jpg" class="img-responsive" style="height:45px;margin-left:20px;"/></a>
+			<a class="navbar-brand" href="/index.aspx" title="Home" style="padding: 0"><img
+				src="/img/logo.jpg" class="img-responsive" style="height:45px;margin-left:20px;"/></a>
 		</div>
 		<div class="navbar-collapse collapse">
 			<!--<ul class="nav navbar-nav" style="margin-left:50px;margin-top:5px">
@@ -85,41 +97,49 @@
 	</div>
     <div class="navbar-collapse collapse">
     <div class="container" style="margin-top:10px">
-        <div class="row" style="padding-left:20px">
-            <div class="col-md-3 home-banner-column">
+        <ul class="home-banner" >
+            <li class="home-banner-column">
                     <ul>
-                        <li class="home-banner-column-title">解决方案</li>
+                        <li class="home-banner-column-title"><a href="/solution.aspx">解决方案</a></li>
                         <li>高端人才寻访</li>
                         <li>员工心理咨询</li>
                     </ul>
 
 
-            </div>
-            <div class="col-md-3 home-banner-column">
+            </li>
+            <li class="home-banner-column">
                     <ul>
-                        <li class="home-banner-column-title">工作机会</li>
+                        <li class="home-banner-column-title"><a href="/job-center.aspx">工作机会</a></li>
                         <li>欧美公司职位</li>
                         <li>日本公司职位</li>
                         <li>中国公司职位</li>
                     </ul>
-            </div>
-            <div class="col-md-3 home-banner-column">
+            </li>
+            <li class="home-banner-column">
                 
                         <ul>
-                            <li class="home-banner-column-title">行业视角</li>
+                            <li class="home-banner-column-title"><a href="/insights.aspx">行业视角</a></li>
                             <li>人事法规</li>
                             <li>职业规划</li>
                             <li>猎头知识</li>
                         </ul>
-            </div>
-            <div class="col-md-3 home-banner-column">
+            </li>
+            <li class="home-banner-column">
                         <ul>
-                            <li class="home-banner-column-title">关于我们</li>
+                            <li class="home-banner-column-title"><a href="/about-us.aspx">关于我们</a></li>
                             <li>联系我们</li>
                         </ul>           
-            </div>
-        </div>
+            </li>
+            <li class="home-banner-column">
+                        <ul>
+                            <li class="home-banner-column-title">网站语言</li>
+                            <li>中文</li>
+                            <li>英文</li>
+                            <li>日文</li>
+                        </ul>           
+            </li>
+        </ul>
     </div>
     </div>
 </div>
-<div style="height:100px">&nbsp;</div>
+<div style="height:180px">&nbsp;</div>
