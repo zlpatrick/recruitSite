@@ -13,5 +13,10 @@ namespace RecruitWeb.admin
         {
 
         }
+
+        protected void submitButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/admin/main.aspx");
+        }
     }
 }

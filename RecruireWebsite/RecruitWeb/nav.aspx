@@ -64,7 +64,17 @@
 {
     top:5px;
 }
-     
+
+a
+{
+    color:#333;
+}
+
+a:hover
+{
+    color:grey;
+    text-decoration:none;
+}
 </style>
 <div class="navbar navbar-default navbar-fixed-top"
 	style="padding-top: 15px;margin-bottom:0px;padding-bottom:15px">

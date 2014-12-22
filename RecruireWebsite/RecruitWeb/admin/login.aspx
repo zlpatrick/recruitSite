@@ -40,6 +40,14 @@
         width:100%;
         opacity:0.6;
     }
+    table
+    {
+        font-size:12px;
+    }
+    table tr
+    {
+        height:35px;
+    }
     </style>
 </head>
 
@@ -47,9 +55,33 @@
 <form id="Form1" runat="server">
 <!-- #include file="../nav.aspx"-->
 
-    
+<div class="container">
+<ul class="breadcrumb" style="background-color: white">
+			    <li><a
+				    href="index.aspx">首页</a><span class="divider"></span></li>
+			    <li class="active">后台登录</li>
+		    </ul>
+<hr />
+    <table style="width:400px;margin: 50px auto;">
+    <tr><td colspan="2" style="text-align:center">请登录后台</td></tr>
+    <tr><td colspan="2" style="text-align:center"><hr /></td></tr>
+    <tr>
+    <td style="text-align:right;padding-right:10px">登录名</td>
+    <td><asp:TextBox ID="loginName" runat="server" style="width:90%"></asp:TextBox></td>
+    </tr>
 
-<!-- #include file="../bottom.aspx" -->
+    <tr>
+    <td style="text-align:right;padding-right:10px">密码</td>
+    <td><asp:TextBox ID="loginPass" runat="server" style="width:90%"></asp:TextBox></td>
+    </tr>
+    <tr><td colspan="2" style="text-align:center"><hr /></td></tr>
+    <tr><td colspan="2" style="text-align:center"><asp:Button ID="submitButton" 
+            runat="server" Text="登录" 
+            style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" 
+            onclick="submitButton_Click"/></td></tr>
+    </table>
+    </div>
+
 </form>
 </body>
 </html>

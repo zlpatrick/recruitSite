@@ -13,5 +13,15 @@ namespace RecruitWeb.admin
         {
 
         }
+
+        protected void submitPosition_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void submitButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
