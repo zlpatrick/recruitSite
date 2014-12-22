@@ -55,6 +55,7 @@
     <Content Include="about-us.aspx" />
     <Content Include="admin\login.aspx" />
     <Content Include="admin\main.aspx" />
+    <Content Include="App_Data\data.mdb" />
     <Content Include="bottom.aspx" />
     <Content Include="CKEditor.NET.dll" />
     <Content Include="ckeditor\adapters\jquery.js" />
@@ -480,6 +481,7 @@
     <Compile Include="common.aspx.designer.cs">
       <DependentUpon>common.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DBUtil.cs" />
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -527,9 +529,7 @@
       <DependentUpon>solution.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="ckeditor\.htaccess" />
     <None Include="css\bootstrap-theme.css.map" />

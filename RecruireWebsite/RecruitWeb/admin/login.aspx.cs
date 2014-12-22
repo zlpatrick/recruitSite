@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
 
 namespace RecruitWeb.admin
 {
@@ -16,7 +17,22 @@ namespace RecruitWeb.admin
 
         protected void submitButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("/admin/main.aspx");
+            string userid = this.loginName.Text.Trim();
+            string pass = this.loginPass.Text.Trim();
+
+            string sql = "select * from Users where userid='" + userid + "'";
+            DataSet ds = DBUtil.executeQuery(sql);
+            int count = ds.Tables[0].Rows.Count;
+            if (count > 0)
+            {
+                string password = ds.Tables[0].Rows[0]["userpassword"].ToString();
+                if (pass.Equals(password))
+                {
+                    Session["adminName"] = userid;
+                    Response.Redirect("/admin/main.aspx");
+                }
+            }
+            
         }
     }
 }

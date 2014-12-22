@@ -11,7 +11,10 @@ namespace RecruitWeb.admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["adminName"] == null)
+            {
+                Response.Redirect("/admin/login.aspx");
+            }
         }
 
         protected void submitPosition_Click(object sender, EventArgs e)
