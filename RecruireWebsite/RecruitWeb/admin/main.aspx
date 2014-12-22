@@ -50,7 +50,7 @@
 
 <ul class="nav nav-tabs" role="tablist" style="border-bottom:1px solid #ccc;margin-bottom:30px;">
   <li role="presentation" class="active"><a href="#insights" role="tab" data-toggle="tab">行业视角</a></li>
-  <li role="presentation"><a href="#position" role="tab" data-toggle="tab">职位信息</a></li>
+  <li role="presentation"><a href="#position" role="tab" data-toggle="tab">添加职位</a></li>
   <li role="presentation"><a href="#resume" role="tab" data-toggle="tab">简历查看</a></li>
 </ul>
 
