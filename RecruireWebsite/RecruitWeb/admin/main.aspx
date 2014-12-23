@@ -35,6 +35,30 @@
     {
        height:25px;
     }
+    
+    #resumeList
+    {   
+        width:80%;
+        margin:auto;
+        border-color:lightgrey;
+    }
+    
+    #resumeList tr
+    {
+        height:30px;
+        font-size:12px;
+    }
+    
+    #resumeList tr td
+    {
+        padding-left:10px;
+        padding-right:10px;
+    }
+    
+    .resumeRow
+    {
+    }
+    
     </style>
 </head>
 
@@ -62,34 +86,33 @@
     <tr><td colspan="2" style="text-align:center">添加行业视角文章</td></tr>
     <tr><td colspan="2"><hr /></td></tr>
     <tr><td style="padding-right:20px;text-align:right">图片</td><td>
-<asp:FileUpload  id="imgUpload" runat="server"/></td>
+        <asp:FileUpload  id="imgUpload" runat="server"/></td>
     </tr>
 
     <tr><td style="padding-right:20px;text-align:right">文字</td><td>
-<asp:TextBox TextMode="MultiLine" Rows="5" Columns="60"   id="contentText" runat="server"/></td>
+        <asp:TextBox TextMode="MultiLine" Rows="5" Columns="60"   id="contentText" runat="server"/></td>
     </tr>
 
     <tr><td style="padding-right:20px;text-align:right">栏目</td><td>
-<asp:DropDownList ID="area" runat="server">
-<asp:ListItem>金融服务</asp:ListItem>
-<asp:ListItem>制造工业</asp:ListItem>
-<asp:ListItem>能源及化工</asp:ListItem>
-<asp:ListItem>汽车及配件</asp:ListItem>
-<asp:ListItem>生命科学</asp:ListItem>
-<asp:ListItem>酒店地产</asp:ListItem>
-</asp:DropDownList>
+        <asp:DropDownList ID="area" runat="server">
+        <asp:ListItem Value="finance">金融服务</asp:ListItem>
+        <asp:ListItem Value="manufacturer">制造工业</asp:ListItem>
+        <asp:ListItem Value="energy">能源及化工</asp:ListItem>
+        <asp:ListItem Value="auto">汽车及配件</asp:ListItem>
+        <asp:ListItem Value="life">生命科学</asp:ListItem>
+        <asp:ListItem Value="hotel">酒店地产</asp:ListItem>
+        </asp:DropDownList>
     </td>
     </tr>
     <tr><td style="padding-right:20px;text-align:right">文档</td><td>
-    <asp:FileUpload  id="docUpload" runat="server"/></td>
+        <asp:FileUpload  id="docUpload" runat="server"/></td>
     </tr>
     <tr><td style="padding-right:20px;text-align:right">语言</td><td>
-<asp:DropDownList ID="language" runat="server">
-<asp:ListItem>中文</asp:ListItem>
-<asp:ListItem>英文</asp:ListItem>
-<asp:ListItem>日文</asp:ListItem>
-
-</asp:DropDownList>
+        <asp:DropDownList ID="language" runat="server">
+        <asp:ListItem Value="zh">中文</asp:ListItem>
+        <asp:ListItem Value="en">英文</asp:ListItem>
+        <asp:ListItem Value="jp">日文</asp:ListItem>
+        </asp:DropDownList>
     </td>
     </tr>
     <tr>
@@ -109,7 +132,7 @@
     <hr />
         <div style="height:30px"><span>标题&nbsp;&nbsp;&nbsp;&nbsp;</span><asp:TextBox ID="title" runat="server" style="width:560px"></asp:TextBox></div>
         <div style="height:30px"><span>内容&nbsp;&nbsp;&nbsp;&nbsp;</span><br /></div> 
-        <CKEditor:CKEditorControl ID="CKEditor1" BasePath="/ckeditor/" runat="server"></CKEditor:CKEditorControl>
+        <CKEditor:CKEditorControl ID="positionContent" BasePath="/ckeditor/" runat="server"></CKEditor:CKEditorControl>
         
         <div style="text-align:center;padding-top:10px">
            <asp:Button Text="提交" runat="server" ID="submitPosition" 
@@ -120,10 +143,19 @@
 </div>
 
 <div id="resume" role="tabpanel" class="tab-pane" >
-简历查看
+    <asp:DataGrid runat="server" ID="resumeList" AllowPaging="true" AutoGenerateColumns="false" PageSize="10">
+    <HeaderStyle CssClass="resumeList" />
+    <ItemStyle CssClass="resumeRow" />
+    <Columns>
+    <asp:BoundColumn DataField="username" HeaderText="姓名"></asp:BoundColumn>
+    <asp:BoundColumn DataField="useremail" HeaderText="电子邮箱"></asp:BoundColumn>
+    <asp:BoundColumn DataField="submitDateTime" HeaderText="提交时间"></asp:BoundColumn>
+    <asp:HyperLinkColumn HeaderText="相关职位" Text="查看" NavigateUrl="/job-detail.aspx?id="></asp:HyperLinkColumn>
+    <asp:HyperLinkColumn  HeaderText="操作" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/admin/resume-download.aspx?id={0}" Text="下载"></asp:HyperLinkColumn>
+    </Columns>
+    </asp:DataGrid>
 </div>
 </div>
-
 <!-- #include file="../bottom.aspx" -->
 </form>
 </body>

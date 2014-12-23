@@ -48,7 +48,16 @@
     {
         height:35px;
     }
+    #failTip
+    {
+        display:none;
+    }
     </style>
+    <script>
+        function showFailTip() {
+            $("#failTip").css("display","block");
+        }
+    </script>
 </head>
 
 <body>
@@ -75,11 +84,14 @@
     <td><asp:TextBox ID="loginPass" runat="server" style="width:90%"></asp:TextBox></td>
     </tr>
     <tr><td colspan="2" style="text-align:center"><hr /></td></tr>
+
+   
     <tr><td colspan="2" style="text-align:center"><asp:Button ID="submitButton" 
             runat="server" Text="登录" 
             style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" 
             onclick="submitButton_Click"/></td></tr>
     </table>
+    <div style="text-align:center" id="failTip">登录失败，请检查登录名或密码</div>
     </div>
 
 </form>

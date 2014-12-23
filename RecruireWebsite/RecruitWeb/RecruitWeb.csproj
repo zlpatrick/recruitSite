@@ -55,6 +55,7 @@
     <Content Include="about-us.aspx" />
     <Content Include="admin\login.aspx" />
     <Content Include="admin\main.aspx" />
+    <Content Include="admin\resume-download.aspx" />
     <Content Include="App_Data\data.mdb" />
     <Content Include="bottom.aspx" />
     <Content Include="CKEditor.NET.dll" />
@@ -467,6 +468,13 @@
     <Compile Include="admin\main.aspx.designer.cs">
       <DependentUpon>main.aspx</DependentUpon>
     </Compile>
+    <Compile Include="admin\resume-download.aspx.cs">
+      <DependentUpon>resume-download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\resume-download.aspx.designer.cs">
+      <DependentUpon>resume-download.aspx</DependentUpon>
+    </Compile>
     <Compile Include="bottom.aspx.cs">
       <DependentUpon>bottom.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -529,7 +537,11 @@
       <DependentUpon>solution.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="InsightFiles\document\" />
+    <Folder Include="InsightFiles\thumbnail\" />
+    <Folder Include="ResumeFiles\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="ckeditor\.htaccess" />
     <None Include="css\bootstrap-theme.css.map" />

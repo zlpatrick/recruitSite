@@ -15,10 +15,32 @@ namespace RecruitWeb
         {
             DataSet ds = new DataSet();
             OleDbConnection conn = new OleDbConnection(connStr);
-            OleDbDataAdapter ada = new OleDbDataAdapter(sql, conn);
-            ada.Fill(ds);
-            conn.Close();
+            conn.Open();
+            try
+            {
+                OleDbDataAdapter ada = new OleDbDataAdapter(sql, conn);
+                ada.Fill(ds);
+            }
+            finally
+            {
+                conn.Close();
+            }
             return ds;
+        }
+
+        public static void executeNonQuery(string sql)
+        {
+            OleDbConnection conn = new OleDbConnection(connStr);
+            conn.Open();
+            try
+            {
+                OleDbCommand command = new OleDbCommand(sql, conn);
+                command.ExecuteNonQuery();
+            }
+            finally
+            {
+                conn.Close();
+            }
         }
 
     }

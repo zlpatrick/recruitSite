@@ -12,7 +12,10 @@ namespace RecruitWeb.admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["adminName"] != null)
+            {
+                Response.Redirect("/admin/main.aspx");
+            }
         }
 
         protected void submitButton_Click(object sender, EventArgs e)
@@ -31,6 +34,14 @@ namespace RecruitWeb.admin
                     Session["adminName"] = userid;
                     Response.Redirect("/admin/main.aspx");
                 }
+                else
+                {
+                    ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>showFailTip();</script>");
+                }
+            }
+            else
+            {
+                ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>showFailTip();</script>");
             }
             
         }

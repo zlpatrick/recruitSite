@@ -85,13 +85,13 @@ namespace RecruitWeb.admin {
         protected global::System.Web.UI.WebControls.TextBox title;
         
         /// <summary>
-        /// CKEditor1 控件。
+        /// positionContent 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::CKEditor.NET.CKEditorControl CKEditor1;
+        protected global::CKEditor.NET.CKEditorControl positionContent;
         
         /// <summary>
         /// submitPosition 控件。
@@ -101,5 +101,14 @@ namespace RecruitWeb.admin {
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button submitPosition;
+        
+        /// <summary>
+        /// resumeList 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DataGrid resumeList;
     }
 }
