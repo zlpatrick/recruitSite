@@ -16,7 +16,7 @@
     
     .insights-section-header
     {
-        font-size:14px;
+        font-size:12px;
         height:40px;
         line-height:40px;
         border-bottom:solid 1px lightgrey;
@@ -28,6 +28,7 @@
     {
         padding:20px;
         line-height:22px;
+        color:grey;
     }
     </style>
 </head>
@@ -45,10 +46,11 @@
          <div class="col-md-6">
             <div class="insights-section-header">金融服务</div>
             <div class="row insights-section-body">
-                <div class="col-md-2"><img src="img/insights1.png" class="img-responsive" /></div>
+                <div class="col-md-2"><img src="<%=financeImg %>" class="img-responsive" /></div>
                 <div class="col-md-10">
-                <p><a href="insights-detail.aspx">金融服务</a></p>
-                <p>我们与全球金融业的顶尖人才保持着良好的合作关系。无论是银行、证券，还是保险、基金，我们都有相应的行业资深顾问。优秀的专业背景﹑专业的金融知识和丰富的经验，这些是能满足组织人力资源需求、超越客户预期的保障。 </p>
+                <p><%=financeTitle %></p>
+                <p><%=financeContent %></p>
+                <p><a href="insights-area.aspx?area=finance">更多..</a></p>
                 
                 </div>
             </div>
@@ -58,11 +60,11 @@
             <div class="row insights-section-body">
                
                 <div class="col-md-10">
-                <p  style="text-align:right"><a href="insights-detail.aspx">金融服务</a></p>
-                <p>我们与全球金融业的顶尖人才保持着良好的合作关系。无论是银行、证券，还是保险、基金，我们都有相应的行业资深顾问。优秀的专业背景﹑专业的金融知识和丰富的经验，这些是能满足组织人力资源需求、超越客户预期的保障。 </p>
-                
+                <p  style="text-align:right"><%=autoTitle %></p>
+                <p><%=autoContent %></p>
+                <p style="text-align:right"><a href="insights-area.aspx?area=auto">更多..</a></p>
                 </div>
-                 <div class="col-md-2"><img src="img/insights1.png" class="img-responsive" /></div>
+                 <div class="col-md-2"><img src="<%=autoImg %>" class="img-responsive" /></div>
             </div>
         </div>
      </div>
@@ -71,11 +73,11 @@
         <div class="col-md-6">
             <div class="insights-section-header">生命科学</div>
             <div class="row insights-section-body">
-                <div class="col-md-2"><img src="img/insights1.png" class="img-responsive" /></div>
+                <div class="col-md-2"><img src="<%=lifeImg %>" class="img-responsive" /></div>
                 <div class="col-md-10">
-                <p>金融服务</p>
-                <p>我们与全球金融业的顶尖人才保持着良好的合作关系。无论是银行、证券，还是保险、基金，我们都有相应的行业资深顾问。优秀的专业背景﹑专业的金融知识和丰富的经验，这些是能满足组织人力资源需求、超越客户预期的保障。 </p>
-                
+                <p><%=lifeTitle %></p>
+                <p><%=lifeContent %></p>
+                <p><a href="insights-area.aspx?area=life">更多..</a></p>
                 </div>
             </div>
         </div>
@@ -84,11 +86,11 @@
             <div class="row insights-section-body">
                 
                 <div class="col-md-10">
-                <p  style="text-align:right"><a href="insights-detail.aspx">金融服务</a></p>
-                <p>我们与全球金融业的顶尖人才保持着良好的合作关系。无论是银行、证券，还是保险、基金，我们都有相应的行业资深顾问。优秀的专业背景﹑专业的金融知识和丰富的经验，这些是能满足组织人力资源需求、超越客户预期的保障。 </p>
-                
+                <p  style="text-align:right"><%=powerTitle %></p>
+                <p><%=powerContent %></p>
+                <p style="text-align:right"><a href="insights-area.aspx?area=power">更多..</a></p>
                 </div>
-                <div class="col-md-2"><img src="img/insights2.jpg" class="img-responsive" /></div>
+                <div class="col-md-2"><img src="<%=powerImg %>" class="img-responsive" /></div>
             </div>
         </div>
     </div>
@@ -96,11 +98,11 @@
         <div class="col-md-6">
             <div class="insights-section-header">制造工业</div>
             <div class="row insights-section-body">
-                <div class="col-md-2"><img src="img/insights1.png" class="img-responsive" /></div>
+                <div class="col-md-2"><img src="<%=manufImg %>" class="img-responsive" /></div>
                 <div class="col-md-10">
-                <p>金融服务</p>
-                <p>我们与全球金融业的顶尖人才保持着良好的合作关系。无论是银行、证券，还是保险、基金，我们都有相应的行业资深顾问。优秀的专业背景﹑专业的金融知识和丰富的经验，这些是能满足组织人力资源需求、超越客户预期的保障。 </p>
-                
+                <p><%=manufTitle %></p>
+                <p><%=manufContent %></p>
+                <p><a href="insights-area.aspx?area=manuf">更多..</a></p>
                 </div>
             </div>
         </div>
@@ -109,11 +111,11 @@
             <div class="row insights-section-body">
                 
                 <div class="col-md-10">
-                <p  style="text-align:right"><a href="insights-detail.aspx">金融服务</a></p>
-                <p>我们与全球金融业的顶尖人才保持着良好的合作关系。无论是银行、证券，还是保险、基金，我们都有相应的行业资深顾问。优秀的专业背景﹑专业的金融知识和丰富的经验，这些是能满足组织人力资源需求、超越客户预期的保障。 </p>
-                
+                <p  style="text-align:right"><%=hotelTitle %></p>
+                <p><%=hotelContent %></p>
+                <p style="text-align:right"><a href="insights-area.aspx?area=hotel">更多..</a></p>
                 </div>
-                <div class="col-md-2"><img src="img/insights2.jpg" class="img-responsive" /></div>
+                <div class="col-md-2"><img src="<%=hotelImg %>" class="img-responsive" /></div>
             </div>
         </div>
     </div>  

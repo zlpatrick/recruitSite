@@ -10,8 +10,25 @@
    
     .jobitem-title
     {
-        font-size:14px;
+        font-size:12px;
+        color:grey;
+        
     }
+    
+    table
+    {
+        margin:auto;
+    }
+    table tr
+    {
+        height:35px;
+    }
+    
+    table tr td
+    {
+        border:none;
+    }
+    
     </style>
 </head>
 <body>
@@ -24,18 +41,46 @@
 			    <li class="active">职位详情</li>
 		    </ul>
 
-        <div class="jobitem-title">某国有大型企业招聘软件工程师一名 <input type="button" value="上传简历" style="margin-left: 30px;font-size: 12px;outline:none;background-color: grey;border: none;padding: 8px;color: white;"/></div>
+        <div class="jobitem-title"><%=jobTitle %> <a href="#" data-toggle="modal" data-target="#UploadCV" style="margin-left:20px"> 上传简历 </a></div>
         <hr />
-        <div>工作地点：上海</div>
-        <br />
-        <br />
         <div>
-       <div style="padding-bottom:20px;"><p><b>岗位职责：</b></p><br><p>1、负责欧美区域海外政企项目产品应标支撑，进行项目网络设计、方案制作、BOQ配置与应答、技术澄清、客户交流等工作； </p><br><p>2、负责相关产品的市场信息管理、需求管理和竞争策划等； </p><br><p>3、负责技术营销活动及品牌策划的实施，论坛、展会等活动的支撑； </p><br><p>4、负责项目整体运作，负责组建项目运作团队，与项目团队成员合作，协调资源，推进项目；协助一线完成招投标工作；</p><br><p><b>专业背景：</b></p><br><p>1、统招本科以上学历（通信、电子、计算机等相关专业）。</p><br><p>2、工作本科三年以上，研究生一年以上。</p><br><p>3、熟练的英语听、说、读、写能力，大学英语四级以上，可以作为工作语言。</p><br><p>4、性格开朗、工作认真，能够承受年出差长达6个月左右的海外出差。</p><br><p>5、具备良好的团队协作精神，善于沟通和表达，有较强的市场策划、协调能力。</p><br><p>6、丰富项目运作经验，有政府和行业网项目运作经验或能长期频繁出差者优先考虑。</p><br><p>7、有无线产品、固网、数通、波分产品经验者优先考虑。</p><br><p>8、主要工作职责： 1）本区域内所涉及该产品的重点项目应投标工作；2）收集产品需求，负责与产品线沟通，落实产品实施；3）所负责产品的主要技术负责人，负责相关技术咨询和解答</p></div>
+        <%=jobContent %>
         </div>
        
 
         
     </div>
+
+<div id="UploadCV" class="modal fade in" tabindex="-1" aria-labelledby="seekFeedbackTitle" role="dialog" aria-hidden="false">
+        <table height="100%" width="100%">
+        <tbody><tr><td valign="middle">
+		<div class="modal-dialog feedbackDialogWidth">
+			<div class="modal-content">
+				<div class="modal-header feedbackHeader">
+							<button type="button" class="close feedbackClose" data-dismiss="modal" aria-hidden="true">×</button>
+							<div class="modal-title" style="font-size:12px">上传简历</div>
+				</div>
+                <div style="padding-top:20px;padding-bottom:20px">
+                    <table style="font-size:12px;">
+                        <tr><td>您的姓名</td><td><asp:TextBox ID="yourName" runat="server" style="width:85%"></asp:TextBox></td></tr>
+                        <tr><td>您的邮箱</td><td><asp:TextBox ID="yourEmail" runat="server" style="width:85%"></asp:TextBox></td></tr>
+                        <tr><td>选择文件：</td><td><asp:FileUpload ID="yourCV" runat="server" /></td></tr>
+                        <tr><td colspan="2">&nbsp;</td></tr>
+                        <tr><td colspan="2" style="text-align:center"><asp:Button Text="提交" runat="server" ID="submitYourCV" 
+                
+                                style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" onclick="submitYourCV_Click" 
+                /></td></tr>
+                    
+                    </table>
+                </div>
+                
+			</div>
+		</div>
+		</td></tr>
+		</tbody></table>
+</div>
+
+
     </form>
 <!-- #include file="bottom.aspx"-->
 </body>

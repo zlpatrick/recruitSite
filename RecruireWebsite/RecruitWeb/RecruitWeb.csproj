@@ -54,7 +54,15 @@
   <ItemGroup>
     <Content Include="about-us.aspx" />
     <Content Include="admin\login.aspx" />
-    <Content Include="admin\main.aspx" />
+    <Content Include="admin\main-insights-add.aspx" />
+    <Content Include="admin\main-insights-delete.aspx" />
+    <Content Include="admin\main-insights-edit.aspx" />
+    <Content Include="admin\main-insights-list.aspx" />
+    <Content Include="admin\main-position-add.aspx" />
+    <Content Include="admin\main-position-delete.aspx" />
+    <Content Include="admin\main-position-edit.aspx" />
+    <Content Include="admin\main-position-list.aspx" />
+    <Content Include="admin\main-resume-list.aspx" />
     <Content Include="admin\resume-download.aspx" />
     <Content Include="App_Data\data.mdb" />
     <Content Include="bottom.aspx" />
@@ -427,6 +435,7 @@
     <Content Include="img\insights2.jpg" />
     <Content Include="img\logo.jpg" />
     <Content Include="img\solution.jpg" />
+    <Content Include="insights-area.aspx" />
     <Content Include="insights.aspx" />
     <Content Include="job-center.aspx" />
     <Content Include="job-detail.aspx" />
@@ -461,12 +470,68 @@
     <Compile Include="admin\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\main.aspx.cs">
-      <DependentUpon>main.aspx</DependentUpon>
+    <Compile Include="admin\main-insights-add.aspx.cs">
+      <DependentUpon>main-insights-add.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\main.aspx.designer.cs">
-      <DependentUpon>main.aspx</DependentUpon>
+    <Compile Include="admin\main-insights-add.aspx.designer.cs">
+      <DependentUpon>main-insights-add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\main-insights-delete.aspx.cs">
+      <DependentUpon>main-insights-delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\main-insights-delete.aspx.designer.cs">
+      <DependentUpon>main-insights-delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\main-insights-edit.aspx.cs">
+      <DependentUpon>main-insights-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\main-insights-edit.aspx.designer.cs">
+      <DependentUpon>main-insights-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\main-insights-list.aspx.cs">
+      <DependentUpon>main-insights-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\main-insights-list.aspx.designer.cs">
+      <DependentUpon>main-insights-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\main-position-add.aspx.cs">
+      <DependentUpon>main-position-add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\main-position-add.aspx.designer.cs">
+      <DependentUpon>main-position-add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\main-position-delete.aspx.cs">
+      <DependentUpon>main-position-delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\main-position-delete.aspx.designer.cs">
+      <DependentUpon>main-position-delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\main-position-edit.aspx.cs">
+      <DependentUpon>main-position-edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\main-position-edit.aspx.designer.cs">
+      <DependentUpon>main-position-edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\main-position-list.aspx.cs">
+      <DependentUpon>main-position-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\main-position-list.aspx.designer.cs">
+      <DependentUpon>main-position-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\main-resume-list.aspx.cs">
+      <DependentUpon>main-resume-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\main-resume-list.aspx.designer.cs">
+      <DependentUpon>main-resume-list.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\resume-download.aspx.cs">
       <DependentUpon>resume-download.aspx</DependentUpon>
@@ -499,6 +564,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="insights-area.aspx.cs">
+      <DependentUpon>insights-area.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="insights-area.aspx.designer.cs">
+      <DependentUpon>insights-area.aspx</DependentUpon>
     </Compile>
     <Compile Include="insights.aspx.cs">
       <DependentUpon>insights.aspx</DependentUpon>

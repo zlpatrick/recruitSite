@@ -13,16 +13,16 @@
     {
         padding-left:20px;
         padding-right:20px;
+        color:grey;
     }
     
     .leftText p
     {
         line-height:25px;  
     }
-     .jobitem
+     .jobitemHeader
     {
-        padding-left:20px;
-        line-height:25px;
+        display:none;
        
     }
     .jobitem-title
@@ -35,7 +35,17 @@
     }
     table tr
     {
-        height:30px;
+        height:35px;
+    }
+    
+    table tr td
+    {
+        border:none;
+    }
+    
+    #positionList
+    {
+        font-size:12px;
     }
     </style>
 </head>
@@ -55,34 +65,23 @@
 <p>请将您的个人简历发送至：<a href="mailto:job@sagepowerhr.com">job@sagepowerhr.com</a></p>
 <p>或直接<a href="#" data-toggle="modal" data-target="#UploadCV"> 上传 </a>简历给我们</p></div>
     <div class="col-md-9" style="border-left:1px solid lightgrey">
+    <div style="width:95%;margin:auto;color:Grey">职位列表</div>
+    <hr />
+
+    <asp:DataGrid runat="server" ID="positionList" PagerStyle-PrevPageText="上一页" 
+        PagerStyle-NextPageText="下一页" AllowPaging="true"  AutoGenerateColumns="false" 
+        PageSize="20" style="width:95%;margin:auto;border:none" 
+            onpageindexchanged="positionList_PageIndexChanged">
+   <HeaderStyle CssClass="jobitemHeader" />
+    <Columns>
+   
+    <asp:HyperLinkColumn HeaderText="职位列表" DataTextField="titleText" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/job-detail.aspx?id={0}"></asp:HyperLinkColumn>
+   
+   </Columns>
+    </asp:DataGrid>
     
-        <div class="row jobitem" >
-            <div class="jobitem-title"><a href="job-detail.aspx">某国有大型企业招聘软件工程师一名</a> </div>
-            <p style="padding-left:20px;padding-top:10px">我们致力于帮助国际知名地产商和国际型酒店获得长期稳健的人力资源咨询服务。我们的候选人皆为来自住宅地产、购物中心及城市综合体、旅游地产的专业技术人才及中高级管理人才。 
-更多信息，请咨询我们的顾问 – Roger Wang：Roger@leadvilles.com</p>
-           
-        </div>
-        <hr />
-        <div class="row jobitem">
-            <div class="jobitem-title">[上海] 某国有大型企业招聘软件工程师一名</div>
-            <p style="padding-left:20px;padding-top:10px">我们致力于帮助国际知名地产商和国际型酒店获得长期稳健的人力资源咨询服务。我们的候选人皆为来自住宅地产、购物中心及城市综合体、旅游地产的专业技术人才及中高级管理人才。 
-更多信息，请咨询我们的顾问 – Roger Wang：Roger@leadvilles.com</p>
-          
-        </div>
-        <hr />
-        <div class="row jobitem">
-            <div class="jobitem-title">[上海] 某国有大型企业招聘软件工程师一名</div>
-            <p style="padding-left:20px;padding-top:10px">我们致力于帮助国际知名地产商和国际型酒店获得长期稳健的人力资源咨询服务。我们的候选人皆为来自住宅地产、购物中心及城市综合体、旅游地产的专业技术人才及中高级管理人才。 
-更多信息，请咨询我们的顾问 – Roger Wang：Roger@leadvilles.com</p>
-           
-        </div>
-        <hr />
-        <div class="row jobitem">
-            <div class="jobitem-title">[上海] 某国有大型企业招聘软件工程师一名</div>
-            <p style="padding-left:20px;padding-top:10px">我们致力于帮助国际知名地产商和国际型酒店获得长期稳健的人力资源咨询服务。我们的候选人皆为来自住宅地产、购物中心及城市综合体、旅游地产的专业技术人才及中高级管理人才。 
-更多信息，请咨询我们的顾问 – Roger Wang：Roger@leadvilles.com</p>
-           
-        </div>
+    
+     
     
 
 

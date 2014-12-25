@@ -11,7 +11,32 @@ namespace RecruitWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                loadPositions();
+            }
+        }
 
+        private void loadPositions()
+        {
+            string companyType = "";
+            if (Request.QueryString["type"] != null)
+            {
+                string type = Request.QueryString["type"];
+                if (type.Equals("zh"))
+                    companyType = "中国公司";
+                else if (type.Equals("jp"))
+                    companyType = "日本公司";
+                else if (type.Equals("en"))
+                    companyType = "欧美公司";
+            }
+            string sql = "select * from Positions order by submitDateTime desc";
+            if (!companyType.Equals(""))
+            {
+                sql = "select * from Positions where companyType='"+companyType+"'order by submitDateTime desc";
+            }
+            this.positionList.DataSource = DBUtil.executeQuery(sql);
+            this.positionList.DataBind();
         }
 
         private string getExtention(string file)
@@ -31,6 +56,13 @@ namespace RecruitWeb
             string sql = string.Format("insert into Resumes(positionId,resumeLoc,username,useremail,submitDateTime) values({0},'{1}','{2}','{3}','{4}')"
                 , -1, timestamp + getExtention(filename), name, email, DateTime.Now.ToString());
             DBUtil.executeNonQuery(sql);
+        }
+
+        protected void positionList_PageIndexChanged(object source, DataGridPageChangedEventArgs e)
+        {
+            int index = e.NewPageIndex;
+            this.positionList.CurrentPageIndex = index;
+            loadPositions();
         }
     }
 }

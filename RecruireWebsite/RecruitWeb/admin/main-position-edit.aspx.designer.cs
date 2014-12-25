@@ -7,54 +7,63 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace RecruitWeb {
+namespace RecruitWeb.admin {
     
     
-    public partial class job_detail {
+    public partial class main_position_edit {
         
         /// <summary>
-        /// form1 控件。
+        /// Form2 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm Form2;
         
         /// <summary>
-        /// yourName 控件。
+        /// title 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox yourName;
+        protected global::System.Web.UI.WebControls.TextBox title;
         
         /// <summary>
-        /// yourEmail 控件。
+        /// companyType 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox yourEmail;
+        protected global::System.Web.UI.WebControls.DropDownList companyType;
         
         /// <summary>
-        /// yourCV 控件。
+        /// language 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload yourCV;
+        protected global::System.Web.UI.WebControls.DropDownList language;
         
         /// <summary>
-        /// submitYourCV 控件。
+        /// positionContent 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button submitYourCV;
+        protected global::CKEditor.NET.CKEditorControl positionContent;
+        
+        /// <summary>
+        /// submitPosition 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button submitPosition;
     }
 }

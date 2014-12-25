@@ -14,7 +14,7 @@ namespace RecruitWeb.admin
         {
             if (Session["adminName"] != null)
             {
-                Response.Redirect("/admin/main.aspx");
+                Response.Redirect("/admin/main-insights-add.aspx");
             }
         }
 
@@ -32,7 +32,7 @@ namespace RecruitWeb.admin
                 if (pass.Equals(password))
                 {
                     Session["adminName"] = userid;
-                    Response.Redirect("/admin/main.aspx");
+                    Response.Redirect("/admin/main-insights-add.aspx");
                 }
                 else
                 {
