@@ -41,33 +41,63 @@
 				    href="index.aspx">首页</a><span class="divider"></span></li>
 			    <li class="active">行业视角</li>
 		    </ul>
+      <%
+          if (ds != null && ds.Tables[0].Rows.Count > 0)
+          {
+              for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
+              {
+                  string imgUrl = "/InsightFiles/thumbnail/"+ ds.Tables[0].Rows[i]["thumbnailText"].ToString();
+                  string titleTxt = ds.Tables[0].Rows[i]["titleText"].ToString();
+                  string contentTxt = ds.Tables[0].Rows[i]["contentText"].ToString();
+                  string docLink = "/InsightFiles/thumbnail/" + ds.Tables[0].Rows[i]["documentLoc"].ToString();
+                  if (i % 2 == 0)
+                  {
+           %>
      <div class="row">
        
          <div class="col-md-6">
-            <div class="insights-section-header">金融服务</div>
+            
             <div class="row insights-section-body">
-                <div class="col-md-2"><img src="<%=financeImg %>" class="img-responsive" /></div>
+                <div class="col-md-2"><img src="<%=imgUrl %>" class="img-responsive" /></div>
                 <div class="col-md-10">
-                <p></p>
-                <p></p>
-                <p><a href="insights-area.aspx?area=finance">更多..</a></p>
+                <p><%=titleTxt%></p>
+                <p><%=contentTxt %></p>
+                <p><a href="<%=docLink %>">下载文档</a></p>
+                
                 
                 </div>
             </div>
-        </div>
+        </div><%   }
+                  else
+                  {%>
         <div class="col-md-6">
-           <div class="insights-section-header" style="text-align:right;padding-right:10px">汽车及配件</div>
+           
             <div class="row insights-section-body">
                
                 <div class="col-md-10">
-                <p  style="text-align:right"><%=autoTitle %></p>
-                <p><%=autoContent %></p>
-                <p style="text-align:right"><a href="insights-area.aspx?area=auto">更多..</a></p>
+                <p  style="text-align:right"><%=titleTxt%></p>
+                <p><%=contentTxt%></p>
+                
                 </div>
-                 <div class="col-md-2"><img src="<%=autoImg %>" class="img-responsive" /></div>
+                 <div class="col-md-2"><img src="<%=imgUrl %>" class="img-responsive" /></div>
             </div>
         </div>
      </div>
+                <%  
+                 }
+
+                    if (i == (ds.Tables[0].Rows.Count - 1))
+                    {
+                     %>
+                     <div class="col-md-6">
+                    </div>
+                 </div>
+                 <%
+                    }
+                  
+
+              }
+          } %>
      
 
         

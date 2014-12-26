@@ -35,6 +35,13 @@ namespace RecruitWeb
             {
                 sql = "select * from Positions where companyType='"+companyType+"'order by submitDateTime desc";
             }
+
+            string searchKey = "";
+            if (Request.QueryString["search"] != null)
+            {
+                searchKey = Request.QueryString["search"];
+                sql = "select * from Positions where titleText like '%" + searchKey + "%'order by submitDateTime desc";
+            }
             this.positionList.DataSource = DBUtil.executeQuery(sql);
             this.positionList.DataBind();
         }
@@ -50,6 +57,10 @@ namespace RecruitWeb
             string name = this.yourName.Text.Trim();
             string email = this.yourEmail.Text.Trim();
             string filename = this.yourCV.FileName;
+            if (name.Equals("") || email.Equals("") || filename.Equals(""))
+            {
+                return;
+            }
             string timestamp = DateTime.Now.Ticks.ToString();
             string serverFile = Server.MapPath("\\ResumeFiles\\" + timestamp + getExtention(filename));
             this.yourCV.SaveAs(serverFile);

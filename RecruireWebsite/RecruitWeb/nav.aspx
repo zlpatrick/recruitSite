@@ -48,9 +48,9 @@
 {  
     height:30px;
     font-size:12px;
-    color:lightgrey;
+    color:grey;
     padding-left:5px;
-    width:270px;
+    width:260px;
 }
     
 .main-form a
@@ -76,6 +76,14 @@ a:hover
     text-decoration:none;
 }
 </style>
+<script>
+    function doSearch() {
+        var searchKeyWord = $("#positionName")[0].value;
+        if ((searchKeyWord != null) && (searchKeyWord != "")) {
+            location.href = "/job-center.aspx?search=" + searchKeyWord;
+        }
+    }
+</script>
 <div class="navbar navbar-default navbar-fixed-top"
 	style="padding-top: 15px;margin-bottom:0px;padding-bottom:15px">
 	<div class="container">
@@ -98,7 +106,8 @@ a:hover
                 <li><a href="about-us.aspx">关于我们</a></li>
 			</ul>-->
             <div class="main-form">
-        <div><input type="text" placeholder="请输入搜索职位名" ID="positionName"></input><a href="#" id="searchButton"><span class="glyphicon glyphicon-search"></span></a></div>
+        <div>
+        <input type="text" placeholder="请输入搜索职位名" ID="positionName"/> <a href="#" id="searchButton" onclick="doSearch()"><span class="glyphicon glyphicon-search"></span></a></div>
         
         
     </div>
