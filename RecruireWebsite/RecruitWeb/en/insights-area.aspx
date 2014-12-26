@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>
-    行业视角 | 赛启咨询
+    Insights | SagePower
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -38,8 +38,8 @@
 <div class="container">
        <ul class="breadcrumb" style="background-color: white">
 			    <li><a
-				    href="index.aspx">首页</a><span class="divider"></span></li>
-			    <li class="active">行业视角</li>
+				    href="index.aspx">Home Page</a><span class="divider"></span></li>
+			    <li class="active">Insights</li>
 		    </ul>
       <%
           if (ds != null && ds.Tables[0].Rows.Count > 0)
@@ -62,7 +62,7 @@
                 <div class="col-md-10">
                 <p><%=titleTxt%></p>
                 <p><%=contentTxt %></p>
-                <p><a href="<%=docLink %>">下载文档</a></p>
+                <p><a href="<%=docLink %>">Download Document</a></p>
                 
                 
                 </div>

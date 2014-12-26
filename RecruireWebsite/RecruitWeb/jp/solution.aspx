@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-    解决方案 | 赛启咨询
+    Solutions | SagePower
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -49,20 +49,20 @@
        <ul class="breadcrumb" style="background-color: white">
 			    <li><a
 				    href="index.aspx">首页</a><span class="divider"></span></li>
-			    <li class="active">解决方案</li>
+			    <li class="active">ソリューション</li>
 		    </ul>
-            <img src="img/solution.jpg" class="img-responsive" style="width:100%;opacity:0.8" />
+            <img src="/img/solution.jpg" class="img-responsive" style="width:100%;opacity:0.8" />
                 <div>
                     <div class="solution-section-header">
-                    服务领域</span>
+                    サービス領域</span>
                     </div>
                     <div class="solution-section-body">
-                        <p>莱德维尔人力资源咨询对所专注的行业领域进行深入的分析和研究，协助我们的客户进行人力资源管理。在人才获取，候选人测评等方面，提供战略性的组织人力资源咨询服务。我们的专业服务包括：</p>
-                        <ul><li>高级管理层寻访</li>
-                        <li>组织架构映射</li>
-                        <li>人才评估中心</li>
-                        <li>背景调研</li>
-                        <li>市场薪资调查</li>
+                        <p>セ-ジパワー人材コンサルティングは、専心している領域に深くの分析と研究をしていて、お客様に協力をして、人的資源管理を行う。人材獲得、候補の評価などでは、戦略的な人材コンサルティングサービス組織を提供する。当社の専門サービスには、</p>
+                        <ul><li>上級管理職の検索</li>
+                        <li>組織化マップ</li>
+                        <li>タレントアセスメントセンター</li>
+                        <li>身元調査</li>
+                        <li>市場給与調査</li>
                         </ul>
                        
                        
@@ -70,53 +70,53 @@
                 </div>
                 <div>
                     <div class="solution-section-header">
-                    行业专长
+                    業界特長
                     </div>
                     <div class="solution-section-body">
                     <div class="row">
-                    <p>致力于为您提供中高级管理人才、专业技术类人才招聘服务， 我们的行业资深顾问在个细分行业及职能领域中精准高效的帮助您获取顶尖人才：</p>
+                    
                     <div class="col-md-6">
                     
-                    <p style="color:#333">金融服务</p>
+                    <p style="color:#333">金融業務</p>
                     <hr/>
                     <p style="margin-left:20px">
-我们与全球金融业的顶尖人才保持着良好的合作关系。无论是银行、证券，还是保险、基金，我们都有相应的行业资深顾问。优秀的专业背景﹑专业的金融知识和丰富的经验，这些是能满足组织人力资源需求、超越客户预期的保障。
-<br />更多信息，请咨询我们的顾问 – Daniels.Zhang：<a href="mailto:daniels.zhang@sagepowerhr.com">daniels.zhang@sagepowerhr.com</a></p>
+私たちは、世界的な金融業界の優秀な人材との良好な協力関係を維持している。それは、銀行、証券、または保険基金である。我々は適切なシニア業界のコンサルタントを持っている。金融知識と経験の卓越した専門的背景、職業、これらのニーズを満たし、保護の顧客の期待を超える人材の組織です。
+<br />Daniels.Zhang：<a href="mailto:daniels.zhang@sagepowerhr.com">daniels.zhang@sagepowerhr.com</a></p>
                     </div>
                     <div class="col-md-6" >
-                    <p style="color:#333;text-align:right">生命科学</p>
+                    <p style="color:#333;text-align:right">ライフサイエンス</p>
                     <hr/>
                     <p style="margin-left:20px">
-                    因为关乎生死，医药和医疗一直都作为我们持续关注的热点行业。多年的行业经验使得我们在研发设计、采购制造、销售市场、技术支持等方面都能驾轻就熟，为客户的人才管理提供最佳解决方案。
-<br />更多信息，请咨询我们的顾问 – Johnny Jiang：<a href="mailto:johnny.jiang@sagepowerhr.com">johnny.jiang@sagepowerhr.com</a></p>
+                    生と死、医学、医療ので当社の継続事業の一環として注目されている。業界での長年の経験は、我々を、研究開発、調達製造、販売市場、技術サポートおよび他の側面に、楽なことができ、お客様に最高の人材管理に関して、最もいい方案を提供する。
+<br />Johnny Jiang：<a href="mailto:johnny.jiang@sagepowerhr.com">johnny.jiang@sagepowerhr.com</a></p>
 </div></div>
 
 <div class="row"><div class="col-md-6">
-                    <p style="color:#333">制造工业</p>
+                    <p style="color:#333">製造業</p>
                     <hr/>
                     <p style="margin-left:20px">
-                    在传统制造型机械工业向现代自动化工业发展的历程中，我们积累了丰富的人力资源，涵盖了研发中心、制造工厂、采购中心、市场营销、技术支持等领域。为我们的客户提供全方位的人才管理咨询服务。
-<br />更多信息，请咨询我们的顾问 – Zane Gong：<a href="mailto:zane_gong@sagepowerhr.com">zane_gong@sagepowerhr.com</a></p>
+                    現代の自動化機械産業の発展への伝統的な製造業の過程で、我々は豊富な人的資源を蓄積してきてきました。開発センターを始め、製造工場、調達センター、マーケティング、技術サポート、およびその他の分野のど領域をカバーできました。我々はお客様に人材管理コンサルティングサービスのフルレンジを提供します。
+<br />Zane Gong：<a href="mailto:zane_gong@sagepowerhr.com">zane_gong@sagepowerhr.com</a></p>
                     </div>
                     <div class="col-md-6">
 
-                    <p style="color:#333;text-align:right">汽车及配件</p><hr />
+                    <p style="color:#333;text-align:right">自動車及び部品</p><hr />
                     <p style="margin-left:20px">
-                    汽车及配件的市场在全球经久不衰，得益于在美国、日本和中国的该行业人才市场的持续积累，我们能提供从研发制造到销售市场的全套人才解决方案，为我们的客户赢得全球化的人才竞争优势。
-<br />更多信息，请咨询我们的顾问 – Robin Wu: <a href="mailto:robin.wu@sagepowerhr.com">robin.wu@sagepowerhr.com</a></p>
+                    世界の自動車および付属品市場に長く耐える。その理由は業界の人材市場で米国、日本、中国の持続的な蓄積のおかげです。当社は、開発製造から販売市場へ完全な範囲の人材を提供することができます。
+<br />Robin Wu: <a href="mailto:robin.wu@sagepowerhr.com">robin.wu@sagepowerhr.com</a></p>
 </div></div>
 <div class="row">
 <div class="col-md-6">
-                    <p style="color:#333">能源及化工</p><hr />
+                    <p style="color:#333">エネルギー•化学</p><hr />
                     <p style="margin-left:20px">
-                    得益于美国能源与化工市场的持续成功，在中国市场，我们将自始至终维持先行者的优势。您在该领域组织发展所需的人才管理方案，我们将会是最优的顾问之一。
-<br />更多信息，请咨询我们的顾问 – Dennis Zhang: <a href="mailto:dennis.zhang@sagepowerhr.com">dennis.zhang@sagepowerhr.com</a></p>
+                    米国のエネルギーや化学市場のおかげで、中国市場での成功を継続し、我々は一貫して先行者優位性を維持します。あなたはその組織発展的な人材管理方案に求めているの人材は、我々は最も適切なコンサルタントの一つ。
+<br />Dennis Zhang: <a href="mailto:dennis.zhang@sagepowerhr.com">dennis.zhang@sagepowerhr.com</a></p>
 </div>
 <div class="col-md-6">
-                    <p style="color:#333;text-align:right">酒店地产</p><hr />
+                    <p style="color:#333;text-align:right">ホテル不動産</p><hr />
                     <p style="margin-left:20px">
-                    我们致力于帮助国际知名地产商和国际型酒店获得长期稳健的人力资源咨询服务。我们的候选人皆为来自住宅地产、购物中心及城市综合体、旅游地产的专业技术人才及中高级管理人才。
-<br />更多信息，请咨询我们的顾问 – Roger Wang：<a href="mailto:Roger@leadvilles.com">Roger@leadvilles.com</a></p>
+                    私たちは、人材コンサルティングサービスの長期安定性のために国際的に有名な不動産開発と国際ホテルを支援することにコミットしている。私たちの候補者は、すべての住宅用不動産、ショッピングセンターや都市複合体、観光不動産プロの技術者や上級管理職である。
+<br />Roger Wang：<a href="mailto:Roger@leadvilles.com">Roger@leadvilles.com</a></p>
                     </div>
                     </div>
                     </div>

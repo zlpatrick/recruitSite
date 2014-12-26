@@ -129,9 +129,9 @@ a:hover
             <li class="home-banner-column">
                     <ul>
                         <li class="home-banner-column-title"><a href="/job-center.aspx">工作机会</a></li>
-                        <li><a href="/job-center.aspx?type=en">欧美公司职位</a></li>
-                        <li><a href="/job-center.aspx?type=jp">日本公司职位</a></li>
-                        <li><a href="/job-center.aspx?type=zh">中国公司职位</a></li>
+                        <li>欧美公司职位</li>
+                        <li>日本公司职位</li>
+                        <li>中国公司职位</li>
                     </ul>
             </li>
             <li class="home-banner-column">
@@ -152,9 +152,9 @@ a:hover
             <li class="home-banner-column">
                         <ul>
                             <li class="home-banner-column-title">网站语言</li>
-                            <li>中文</li>
-                            <li>英文</li>
-                            <li>日文</li>
+                            <li><a href="/index.aspx">中文</a></li>
+                            <li><a href="/en/index.aspx">英文</a></li>
+                            <li><a href="/jp/index.aspx">日文</a></li>
                         </ul>           
             </li>
         </ul>

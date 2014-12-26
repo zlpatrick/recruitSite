@@ -36,7 +36,7 @@ namespace RecruitWeb
             else if (area.Equals("hotel"))
                 areaText = "酒店地产";
 
-            string sql = "select * from Insights where areaText='" + areaText + "' and languageText='中文' order by submitDateTime desc";
+            string sql = "select * from Insights where areaText='" + areaText + "' and languageText='英文' order by submitDateTime desc";
             ds = DBUtil.executeQuery(sql);
         }
     }

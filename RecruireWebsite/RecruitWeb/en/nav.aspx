@@ -80,7 +80,7 @@ a:hover
     function doSearch() {
         var searchKeyWord = $("#positionName")[0].value;
         if ((searchKeyWord != null) && (searchKeyWord != "")) {
-            location.href = "/job-center.aspx?search=" + searchKeyWord;
+            location.href = "/en/job-center.aspx?search=" + searchKeyWord;
         }
     }
 </script>
@@ -93,7 +93,7 @@ a:hover
 				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/index.aspx" title="Home" style="padding: 0"><img
+			<a class="navbar-brand" href="/en/index.aspx" title="Home" style="padding: 0"><img
 				src="/img/logo.jpg" class="img-responsive" style="height:45px;margin-left:20px;"/></a>
 		</div>
 		<div class="navbar-collapse collapse">
@@ -107,7 +107,7 @@ a:hover
 			</ul>-->
             <div class="main-form">
         <div>
-        <input type="text" placeholder="请输入搜索职位名" ID="positionName"/> <a href="#" id="searchButton" onclick="doSearch()"><span class="glyphicon glyphicon-search"></span></a></div>
+        <input type="text" placeholder="Input to search positions" ID="positionName"/> <a href="#" id="searchButton" onclick="doSearch()"><span class="glyphicon glyphicon-search"></span></a></div>
         
         
     </div>
@@ -119,42 +119,42 @@ a:hover
         <ul class="home-banner" >
             <li class="home-banner-column">
                     <ul>
-                        <li class="home-banner-column-title"><a href="/solution.aspx">解决方案</a></li>
-                        <li>高端人才寻访</li>
-                        <li>员工心理咨询</li>
+                        <li class="home-banner-column-title"><a href="/en/solution.aspx">Solutions</a></li>
+                        <li>Talent Visit</li>
+                        <li>Psychological counseling</li>
                     </ul>
 
 
             </li>
             <li class="home-banner-column">
                     <ul>
-                        <li class="home-banner-column-title"><a href="/job-center.aspx">工作机会</a></li>
-                        <li><a href="/job-center.aspx?type=en">欧美公司职位</a></li>
-                        <li><a href="/job-center.aspx?type=jp">日本公司职位</a></li>
-                        <li><a href="/job-center.aspx?type=zh">中国公司职位</a></li>
+                        <li class="home-banner-column-title"><a href="/en/job-center.aspx">Job Center</a></li>
+                        <li>Europe & America Openings</li>
+                        <li>Japan Openings</li>
+                        <li>China Openings</li>
                     </ul>
             </li>
             <li class="home-banner-column">
                 
                         <ul>
-                            <li class="home-banner-column-title"><a href="/insights.aspx">行业视角</a></li>
-                            <li>人事法规</li>
-                            <li>职业规划</li>
-                            <li>猎头知识</li>
+                            <li class="home-banner-column-title"><a href="/en/insights.aspx">Insights</a></li>
+                            <li>Human Resource Law</li>
+                            <li>Career Plan</li>
+                            <li>Headhunter Knowledge</li>
                         </ul>
             </li>
             <li class="home-banner-column">
                         <ul>
-                            <li class="home-banner-column-title"><a href="/about-us.aspx">关于我们</a></li>
-                            <li>联系我们</li>
+                            <li class="home-banner-column-title"><a href="/en/about-us.aspx">About Us</a></li>
+                            <li>Contact Us</li>
                         </ul>           
             </li>
             <li class="home-banner-column">
                         <ul>
-                            <li class="home-banner-column-title">网站语言</li>
-                            <li>中文</li>
-                            <li>英文</li>
-                            <li>日文</li>
+                            <li class="home-banner-column-title">Language</li>
+                            <li><a href="/index.aspx">Chinese</a></li>
+                            <li><a href="/en/index.aspx">English</a></li>
+                            <li><a href="/jp/index.aspx">Japanese</a></li>
                         </ul>           
             </li>
         </ul>

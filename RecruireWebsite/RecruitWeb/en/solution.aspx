@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-    解决方案 | 赛启咨询
+    Solutions | SagePower
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -48,21 +48,21 @@
 <div class="container">
        <ul class="breadcrumb" style="background-color: white">
 			    <li><a
-				    href="index.aspx">首页</a><span class="divider"></span></li>
-			    <li class="active">解决方案</li>
+				    href="index.aspx">Home Page</a><span class="divider"></span></li>
+			    <li class="active">Solutions</li>
 		    </ul>
-            <img src="img/solution.jpg" class="img-responsive" style="width:100%;opacity:0.8" />
+            <img src="/img/solution.jpg" class="img-responsive" style="width:100%;opacity:0.8" />
                 <div>
                     <div class="solution-section-header">
-                    服务领域</span>
+                    Our services</span>
                     </div>
                     <div class="solution-section-body">
-                        <p>莱德维尔人力资源咨询对所专注的行业领域进行深入的分析和研究，协助我们的客户进行人力资源管理。在人才获取，候选人测评等方面，提供战略性的组织人力资源咨询服务。我们的专业服务包括：</p>
-                        <ul><li>高级管理层寻访</li>
-                        <li>组织架构映射</li>
-                        <li>人才评估中心</li>
-                        <li>背景调研</li>
-                        <li>市场薪资调查</li>
+                        <p>With in-depth study and research in our adept area of expertise,Sagepower assists our clients with managing talent, providing strategic organizational HR consulting services to help our clients on talent acquisition, candidate assessment and evaluation.Our professional services include:</p>
+                        <ul><li>Executive Search</li>
+                        <li>Organization Talent Mapping</li>
+                        <li>Talent Assessment Center</li>
+                        <li>Reference Check</li>
+                        <li>Salary Survey</li>
                         </ul>
                        
                        
@@ -70,53 +70,53 @@
                 </div>
                 <div>
                     <div class="solution-section-header">
-                    行业专长
+                    Industrial Expertise
                     </div>
                     <div class="solution-section-body">
                     <div class="row">
-                    <p>致力于为您提供中高级管理人才、专业技术类人才招聘服务， 我们的行业资深顾问在个细分行业及职能领域中精准高效的帮助您获取顶尖人才：</p>
+                    
                     <div class="col-md-6">
                     
-                    <p style="color:#333">金融服务</p>
+                    <p style="color:#333">Financial Services</p>
                     <hr/>
                     <p style="margin-left:20px">
-我们与全球金融业的顶尖人才保持着良好的合作关系。无论是银行、证券，还是保险、基金，我们都有相应的行业资深顾问。优秀的专业背景﹑专业的金融知识和丰富的经验，这些是能满足组织人力资源需求、超越客户预期的保障。
-<br />更多信息，请咨询我们的顾问 – Daniels.Zhang：<a href="mailto:daniels.zhang@sagepowerhr.com">daniels.zhang@sagepowerhr.com</a></p>
+We maintain good relationships with top talents in this industry around the world. Spanning from Banking, Securities to Insurance, Fund, we are equipped with consultants with excellent professional background, rich financial literacy and experience. We will exceed your expectation on the critical business talentsneeds.
+<br />More Info, please contact – Daniels.Zhang：<a href="mailto:daniels.zhang@sagepowerhr.com">daniels.zhang@sagepowerhr.com</a></p>
                     </div>
                     <div class="col-md-6" >
-                    <p style="color:#333;text-align:right">生命科学</p>
+                    <p style="color:#333;text-align:right">Life Science</p>
                     <hr/>
                     <p style="margin-left:20px">
-                    因为关乎生死，医药和医疗一直都作为我们持续关注的热点行业。多年的行业经验使得我们在研发设计、采购制造、销售市场、技术支持等方面都能驾轻就熟，为客户的人才管理提供最佳解决方案。
-<br />更多信息，请咨询我们的顾问 – Johnny Jiang：<a href="mailto:johnny.jiang@sagepowerhr.com">johnny.jiang@sagepowerhr.com</a></p>
+                    We are continuously keeping focus on this hot industry, for both pharmaceutical and medical treatments are all about life. Based on years of industrial experience in R&D, procurement& production, sales &marketing, technical supporting, we are committed to provide our clients with the best HR solution on their business.
+<br />More Info, please contact – Johnny Jiang：<a href="mailto:johnny.jiang@sagepowerhr.com">johnny.jiang@sagepowerhr.com</a></p>
 </div></div>
 
 <div class="row"><div class="col-md-6">
-                    <p style="color:#333">制造工业</p>
+                    <p style="color:#333">Manufacturing Industry</p>
                     <hr/>
                     <p style="margin-left:20px">
-                    在传统制造型机械工业向现代自动化工业发展的历程中，我们积累了丰富的人力资源，涵盖了研发中心、制造工厂、采购中心、市场营销、技术支持等领域。为我们的客户提供全方位的人才管理咨询服务。
-<br />更多信息，请咨询我们的顾问 – Zane Gong：<a href="mailto:zane_gong@sagepowerhr.com">zane_gong@sagepowerhr.com</a></p>
+                    During the developing period of traditional manufacturingindustry generating into modern automation industry, we built rich talent resources, covering various areas, including: R&D, production, procurement, sales & marketing, technical support, etc. We provide comprehensive talent management consulting services.
+<br />More Info, please contact – Zane Gong：<a href="mailto:zane_gong@sagepowerhr.com">zane_gong@sagepowerhr.com</a></p>
                     </div>
                     <div class="col-md-6">
 
-                    <p style="color:#333;text-align:right">汽车及配件</p><hr />
+                    <p style="color:#333;text-align:right">Auto & Components</p><hr />
                     <p style="margin-left:20px">
-                    汽车及配件的市场在全球经久不衰，得益于在美国、日本和中国的该行业人才市场的持续积累，我们能提供从研发制造到销售市场的全套人才解决方案，为我们的客户赢得全球化的人才竞争优势。
-<br />更多信息，请咨询我们的顾问 – Robin Wu: <a href="mailto:robin.wu@sagepowerhr.com">robin.wu@sagepowerhr.com</a></p>
+                    The sustainable growth is obvious in global auto and components market. With our years of continuallyaccumulate talent resources in this area, we are capable to provide total human resource solution including R&D, manufacture, sales and marketing, to help clients to win on the talent market.
+<br />More Info, please contact – Robin Wu: <a href="mailto:robin.wu@sagepowerhr.com">robin.wu@sagepowerhr.com</a></p>
 </div></div>
 <div class="row">
 <div class="col-md-6">
-                    <p style="color:#333">能源及化工</p><hr />
+                    <p style="color:#333">Energy & Chemical</p><hr />
                     <p style="margin-left:20px">
-                    得益于美国能源与化工市场的持续成功，在中国市场，我们将自始至终维持先行者的优势。您在该领域组织发展所需的人才管理方案，我们将会是最优的顾问之一。
-<br />更多信息，请咨询我们的顾问 – Dennis Zhang: <a href="mailto:dennis.zhang@sagepowerhr.com">dennis.zhang@sagepowerhr.com</a></p>
+                    With continues success on energy & chemical market in US, we are aimed to end up with first-mover advantage in China. We are one of the best talent management advisors for your organization development in this area.
+<br />More Info, please contact – Dennis Zhang: <a href="mailto:dennis.zhang@sagepowerhr.com">dennis.zhang@sagepowerhr.com</a></p>
 </div>
 <div class="col-md-6">
-                    <p style="color:#333;text-align:right">酒店地产</p><hr />
+                    <p style="color:#333;text-align:right">Hotel & Real Estate</p><hr />
                     <p style="margin-left:20px">
-                    我们致力于帮助国际知名地产商和国际型酒店获得长期稳健的人力资源咨询服务。我们的候选人皆为来自住宅地产、购物中心及城市综合体、旅游地产的专业技术人才及中高级管理人才。
-<br />更多信息，请咨询我们的顾问 – Roger Wang：<a href="mailto:Roger@leadvilles.com">Roger@leadvilles.com</a></p>
+                    We are devoted to long term cooperation with top real estates, international hotels. Our candidates are mid-high level executives and experts from housing and tourism real estate, shopping mall and business center, urban complex, etc.
+<br />More Info, please contact – Roger Wang：<a href="mailto:Roger@leadvilles.com">Roger@leadvilles.com</a></p>
                     </div>
                     </div>
                     </div>

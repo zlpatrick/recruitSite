@@ -30,17 +30,17 @@ namespace RecruitWeb
                 else if (type.Equals("en"))
                     companyType = "欧美公司";
             }
-            string sql = "select * from Positions order by submitDateTime desc";
+            string sql = "select * from Positions where languageText='中文' order by submitDateTime desc";
             if (!companyType.Equals(""))
             {
-                sql = "select * from Positions where companyType='"+companyType+"'order by submitDateTime desc";
+                sql = "select * from Positions where companyType='" + companyType + "' and languageText='中文' order by submitDateTime desc";
             }
 
             string searchKey = "";
             if (Request.QueryString["search"] != null)
             {
                 searchKey = Request.QueryString["search"];
-                sql = "select * from Positions where titleText like '%" + searchKey + "%'order by submitDateTime desc";
+                sql = "select * from Positions where titleText like '%" + searchKey + "%' and languageText='中文' order by submitDateTime desc";
             }
             this.positionList.DataSource = DBUtil.executeQuery(sql);
             this.positionList.DataBind();

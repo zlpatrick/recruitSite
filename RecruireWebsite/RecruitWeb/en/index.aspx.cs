@@ -22,10 +22,10 @@ namespace RecruitWeb
 
         private void loadContent()
         {
-            string sql = "select top 10 * from Insights where languageText='中文' order by submitDateTime desc";
+            string sql = "select top 10 * from Insights where languageText='英文' order by submitDateTime desc";
             insights = DBUtil.executeQuery(sql);
 
-            sql = "select top 10 * from Positions where languageText='中文' order by submitDateTime desc";
+            sql = "select top 10 * from Positions where languageText='英文' order by submitDateTime desc";
             positions = DBUtil.executeQuery(sql);
         }
     }

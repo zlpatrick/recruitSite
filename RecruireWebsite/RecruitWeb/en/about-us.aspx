@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>
-    关于我们 | 赛启咨询
+    About Us | SagePower
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -44,31 +44,31 @@
 <div class="container">
             <ul class="breadcrumb" style="background-color: white">
 			    <li><a
-				    href="index.aspx">首页</a><span class="divider"></span></li>
-			    <li class="active">关于我们</li>
+				    href="index.aspx">Home Page</a><span class="divider"></span></li>
+			    <li class="active">About Us</li>
 		    </ul>
 
-            <img src="img/aboutus.jpg" class="img-responsive" style="width:100%;opacity:0.8">
+            <img src="/img/aboutus.jpg" class="img-responsive" style="width:100%;opacity:0.8">
            
                 <div class="row">
                 <div class="col-md-6">
                     <div class="solution-section-header">
-                     概况
+                     Overview
                     </div>
                     <div class="solution-section-body">
-                        <p>赛启咨询将持续专注于擅长的领域，凭借多年的行业深耕经验，深入理解各个国家地区的文化差异和市场特征，为全球合作伙伴和本土重点客户提供专业的人力资源咨询服务。</p>
-<p>我们的重点客户基本来自欧美、日本、大中国地区，他们都专注于各自细分的行业领域，他们带领我们的业务遍布全球。鉴于东南亚地区已逐渐成为世界经济新的增长极，公司于2013年设立机构于亚太区的东方之珠——中国上海。</p>
+                        <p>SAGEPOWER Consulting will keep focus on our adept area of expertise. With our Deep understanding of cultural differences and market characteristics of various countries and regions, we are committed to provide professional human resources management consulting services to the global business partners and local-market key clients, helping them attract and retain the most qualified professionals.</p>
+<p>Our key clients come from Europe, America, Japan, and Great China region. With their expertise in various industries, they help our business growing all over the world. Since East Asia region is becoming the new growth pole of the world economy, we set up the new office located in Pearl of the Orient: Shanghai, China in 2013.</p>
 
                     </div>
                 </div>
                 <div  class="col-md-6">
                     <div class="solution-section-header" style="text-align:right;padding-right:10px">
-                    价值
+                    Value
                     </div>
                     <div class="solution-section-body">
-                   <p>美国西部拓荒年代是一部记录人类坚韧不拔的先驱精神的纪录片，先驱者如何实现梦想：那些为之战斗至死却依然遍寻未得，那些已然拥有却再次遗失。</p>
-<p>赛启咨询将继承并发扬为梦想拼搏的先驱精神，创造将来的辉煌。2013年，赛启咨询进入中国，我们从中国传统文化中汲取精华。</p>
-<p>格物、致知、诚意、正心，如是之于人才，方谓贤者。我们扶助贤者，意在汇聚贤者之力。组织的发展亦需要凝聚贤者之力。我们提供契合组织文化的贤者，帮助组织健康持续的发展。</p>
+                   <p>The early development of America’s west is one of the most amazing documentaries of man’s tenacity and pioneer spirit, of how so many achieved their dreams of fabulous wealth and power. And it’s also about those who fought for it, died for it, but never found it, or lost it if they did.</p>
+<p>SAGEPOWER Consulting will inherit Leadville’s spirits; aim to create a glorious future. Since we started our business in mainland China in 2013, we also absorb the essence from China traditional culture.</p>
+<p>We admire people to acquire knowledge by studying the phenomena of nature, also straighten their attitude with sincerity mindset. We also believe organization development need talents’ sage power, which is our commitment to clients.</p>
 
                     </div>
                 </div>
@@ -77,14 +77,14 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="solution-section-header">
-                    联系方式
+                    Contact
                     </div>
                     <div class="solution-section-body">
-                        <p>欧美地区</p>
+                        <p>Europe & America Region</p>
                         <p style="margin-left:20px">Add: No.537 Country Road 5C, Leadville, CO80463, Colorado, America
                         <br />Fax: (719) 486 8401</p>
 
-                        <p>亚太地区</p>
+                        <p>Asia Pacific Region</p>
                         <p style="margin-left:20px">Add: R516, ZhaoCheng Tower, No.120 TianShan West Rd., ChangNing District, Shanghai, China
                         <br />Fax: +86 21 5976 0392
                         </p>
@@ -93,11 +93,11 @@
        
                 <div class="col-md-6">
                     <div class="solution-section-header"  style="text-align:right;padding-right:10px">
-                    加入我们
+                    Join Us
                     </div>
                     <div class="solution-section-body">
-                        <p>感谢您有兴趣了解赛启咨询的工作机会！我们能为您提供的有：和谐的工作氛围，有竞争力的薪酬，优秀的学历和职业发展机会。</p>
-<p>请将您的个人简历发送至：<a href="mailto:job@sagepowerhr.com">job@sagepowerhr.com</a></p>
+                        <p>Thanks for your interest in knowing more about the career opportunities within SAGEPOWER! What we can offer to you are: comfortable working atmosphere, competitive compensation and benefits, excellent learning and development opportunity.</p>
+<p>Please send your update resume to：<a href="mailto:job@sagepowerhr.com">job@sagepowerhr.com</a></p>
 
                     </div>
                 </div>

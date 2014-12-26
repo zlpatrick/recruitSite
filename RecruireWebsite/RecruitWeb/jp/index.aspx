@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-    首页 | 赛启咨询
+    Home Page | SagePower
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -54,7 +54,7 @@
 
     <div class="row">
         <div class="col-md-6">
-            <div class="home-section-header" style="text-align:left"><a href="/insights.aspx"><span>行业视角</span></a></div>
+            <div class="home-section-header" style="text-align:left"><a href="/jp/insights.aspx"><span>業界視点</span></a></div>
             <hr style="border-color:lightgrey"/>
             <div class="home-section-body">
             <%
@@ -75,7 +75,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="home-section-header" style="text-align:right"><a href="/job-center.aspx"><span>工作机会</span></a></div>
+            <div class="home-section-header" style="text-align:right"><a href="/jp/job-center.aspx"><span>ジョブセンター</span></a></div>
             <hr style="border-color:lightgrey"/>
             <div class="home-section-body" style="text-align:right">
 
@@ -87,7 +87,7 @@
                          string title = positions.Tables[0].Rows[i]["titleText"].ToString();
                          string id = positions.Tables[0].Rows[i]["ID"].ToString();
                  %>
-                 <p><a href="/job-detail.aspx?id=<%=id %>"><%=title %></a></p>
+                 <p><a href="/jp/job-detail.aspx?id=<%=id %>"><%=title %></a></p>
             <%
                      }
                  }

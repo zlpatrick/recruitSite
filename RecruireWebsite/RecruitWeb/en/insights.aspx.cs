@@ -43,7 +43,7 @@ namespace RecruitWeb
 
         private void loadInfo()
         {
-            string sql = "select top 1 titleText,contentText,thumbnailText from Insights where languageText='中文' and areaText='金融服务' order by submitDateTime desc";
+            string sql = "select top 1 titleText,contentText,thumbnailText from Insights where languageText='英文' and areaText='金融服务' order by submitDateTime desc";
             DataSet ds = DBUtil.executeQuery(sql);
             if( ds.Tables[0].Rows.Count>0)
             {
@@ -52,7 +52,7 @@ namespace RecruitWeb
                 financeContent = ds.Tables[0].Rows[0][1].ToString();
             }
 
-            sql = "select top 1 titleText,contentText,thumbnailText from Insights where languageText='中文' and areaText='生命科学' order by submitDateTime desc";
+            sql = "select top 1 titleText,contentText,thumbnailText from Insights where languageText='英文' and areaText='生命科学' order by submitDateTime desc";
             ds = DBUtil.executeQuery(sql);
             if (ds.Tables[0].Rows.Count > 0)
             {
@@ -61,7 +61,7 @@ namespace RecruitWeb
                 lifeContent = ds.Tables[0].Rows[0][1].ToString();
             }
 
-            sql = "select top 1 titleText,contentText,thumbnailText from Insights where languageText='中文' and areaText='制造工业' order by submitDateTime desc";
+            sql = "select top 1 titleText,contentText,thumbnailText from Insights where languageText='英文' and areaText='制造工业' order by submitDateTime desc";
             ds = DBUtil.executeQuery(sql);
             if (ds.Tables[0].Rows.Count > 0)
             {
@@ -70,7 +70,7 @@ namespace RecruitWeb
                 manufContent = ds.Tables[0].Rows[0][1].ToString();
             }
 
-            sql = "select top 1 titleText,contentText,thumbnailText from Insights where languageText='中文' and areaText='酒店地产' order by submitDateTime desc";
+            sql = "select top 1 titleText,contentText,thumbnailText from Insights where languageText='英文' and areaText='酒店地产' order by submitDateTime desc";
             ds = DBUtil.executeQuery(sql);
             if (ds.Tables[0].Rows.Count > 0)
             {
@@ -79,7 +79,7 @@ namespace RecruitWeb
                 hotelContent = ds.Tables[0].Rows[0][1].ToString();
             }
 
-            sql = "select top 1 titleText,contentText,thumbnailText from Insights where languageText='中文' and areaText='能源及化工' order by submitDateTime desc";
+            sql = "select top 1 titleText,contentText,thumbnailText from Insights where languageText='英文' and areaText='能源及化工' order by submitDateTime desc";
             ds = DBUtil.executeQuery(sql);
             if (ds.Tables[0].Rows.Count > 0)
             {
@@ -88,7 +88,7 @@ namespace RecruitWeb
                 powerContent = ds.Tables[0].Rows[0][1].ToString();
             }
 
-            sql = "select top 1 titleText,contentText,thumbnailText from Insights where languageText='中文' and areaText='汽车及配件' order by submitDateTime desc";
+            sql = "select top 1 titleText,contentText,thumbnailText from Insights where languageText='英文' and areaText='汽车及配件' order by submitDateTime desc";
             ds = DBUtil.executeQuery(sql);
             if (ds.Tables[0].Rows.Count > 0)
             {

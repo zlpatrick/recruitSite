@@ -1,8 +1,8 @@
 ﻿<div class="container" style="margin-bottom:30px">
 <hr />
 <div class="row">
-<div class="col-md-3">Copyright 2014 &nbsp;&nbsp;&nbsp; 沪ICP备xxxx号</div>
-<div class="col-md-6">Add: R516, ZhaoCheng Tower, No.120 TianShan West Rd., ChangNing District, Shanghai, China</div>
-<div class="col-md-3" style="text-align:right">Fax: +86 21 5976 0392</div>
+<div class="col-md-3">Copyright 2014 赛启咨询 </div>
+<div class="col-md-6">地址: 上海市长宁区天山西路120号兆城大厦516室</div>
+<div class="col-md-3" style="text-align:right">传真: +86 21 5976 0392</div>
 </div>
 </div>

@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>
-    工作机会 | 赛启咨询
+    Job Center | SagePower
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -56,20 +56,19 @@
 <div class="container">
        <ul class="breadcrumb" style="background-color: white">
 			    <li><a href="index.aspx">首页</a><span class="divider"></span></li>
-			    <li class="active">工作机会</li>
+			    <li class="active">ジョブセンター</li>
 		    </ul>
     <div class="row">
     <div class="col-md-3 leftText">
-        <p>感谢您选择赛启咨询作为职业生涯的伙伴。因为，我们关心我们的候选人！</p>
-<p>除了优秀的工作机会之外，您还可以获得：人力资源的市场报告，目标雇主分析，职业发展规划，薪资报酬建议，面试技巧培训等。</p>
-<p>请将您的个人简历发送至：<a href="mailto:job@sagepowerhr.com">job@sagepowerhr.com</a></p>
-<p>或直接<a href="#" data-toggle="modal" data-target="#UploadCV"> 上传 </a>简历给我们</p></div>
+        <p>我が社（セジパワー）を選択してありがとうございます。わが社の主旨は、により専門的な意見を提供し、より顧客側の視点に考え、よりキャリア生涯にふさわしい仕事とアドバイスを提供することであります。</p>
+<p>我が社は、適切な仕事チャンスを提供する以外に、あなたは獲得できるのは：①ヒュマンリーソスの市場報告書，②雇主分析，③キャリアプランのアドバイス，④給料報酬のアドバイス，⑤面接テクニクのトレーニングなど。</p>
+</div>
     <div class="col-md-9" style="border-left:1px solid lightgrey">
-    <div style="width:95%;margin:auto;color:Grey">职位列表</div>
+    <div style="width:95%;margin:auto;color:Grey">オフィス</div>
     <hr />
 
-    <asp:DataGrid runat="server" ID="positionList" PagerStyle-PrevPageText="上一页" 
-        PagerStyle-NextPageText="下一页" AllowPaging="true"  AutoGenerateColumns="false" 
+    <asp:DataGrid runat="server" ID="positionList" PagerStyle-PrevPageText="前" 
+        PagerStyle-NextPageText="次" AllowPaging="true"  AutoGenerateColumns="false" 
         PageSize="20" style="width:95%;margin:auto;border:none" 
             onpageindexchanged="positionList_PageIndexChanged">
    <HeaderStyle CssClass="jobitemHeader" />

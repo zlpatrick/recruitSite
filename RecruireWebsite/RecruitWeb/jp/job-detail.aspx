@@ -2,7 +2,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>职位详情 | 赛启咨询</title>
+    <title>Opening Detail | SagePower</title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
     <!-- #include file="/common.aspx" -->

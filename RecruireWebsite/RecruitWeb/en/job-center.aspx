@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>
-    工作机会 | 赛启咨询
+    Job Center | SagePower
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -55,27 +55,30 @@
 <!-- #include file="nav.aspx"-->
 <div class="container">
        <ul class="breadcrumb" style="background-color: white">
-			    <li><a href="index.aspx">首页</a><span class="divider"></span></li>
-			    <li class="active">工作机会</li>
+			    <li><a href="index.aspx">Home Page</a><span class="divider"></span></li>
+			    <li class="active">Job Center</li>
 		    </ul>
     <div class="row">
     <div class="col-md-3 leftText">
-        <p>感谢您选择赛启咨询作为职业生涯的伙伴。因为，我们关心我们的候选人！</p>
-<p>除了优秀的工作机会之外，您还可以获得：人力资源的市场报告，目标雇主分析，职业发展规划，薪资报酬建议，面试技巧培训等。</p>
-<p>请将您的个人简历发送至：<a href="mailto:job@sagepowerhr.com">job@sagepowerhr.com</a></p>
-<p>或直接<a href="#" data-toggle="modal" data-target="#UploadCV"> 上传 </a>简历给我们</p></div>
+    <p>Thanks for your choosing SAGEPOWER Consulting to be the associates on your career path, because we care about our candidates!</p>
+<p>Besides excellent job opportunities, as a candidate, you can also acquire: HR market survey, target employer analysis, career development planning, remuneration proposal, interview skills training, etc.</p>
+<p>Please send your resume to <a href="mailto:job@sagepowerhr.com">job@sagepowerhr.com</a></p>
+<p>Or directly <a href="#" data-toggle="modal" data-target="#UploadCV"> Upload </a> your resume to us</p>
+</div>
+
+        
     <div class="col-md-9" style="border-left:1px solid lightgrey">
-    <div style="width:95%;margin:auto;color:Grey">职位列表</div>
+    <div style="width:95%;margin:auto;color:Grey">All Openings</div>
     <hr />
 
-    <asp:DataGrid runat="server" ID="positionList" PagerStyle-PrevPageText="上一页" 
-        PagerStyle-NextPageText="下一页" AllowPaging="true"  AutoGenerateColumns="false" 
+    <asp:DataGrid runat="server" ID="positionList" PagerStyle-PrevPageText="Previous Page" 
+        PagerStyle-NextPageText="Next Page" AllowPaging="true"  AutoGenerateColumns="false" 
         PageSize="20" style="width:95%;margin:auto;border:none" 
             onpageindexchanged="positionList_PageIndexChanged">
    <HeaderStyle CssClass="jobitemHeader" />
     <Columns>
    
-    <asp:HyperLinkColumn HeaderText="职位列表" DataTextField="titleText" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/job-detail.aspx?id={0}"></asp:HyperLinkColumn>
+    <asp:HyperLinkColumn HeaderText="职位列表" DataTextField="titleText" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/en/job-detail.aspx?id={0}"></asp:HyperLinkColumn>
    
    </Columns>
     </asp:DataGrid>
@@ -97,15 +100,15 @@
 			<div class="modal-content">
 				<div class="modal-header feedbackHeader">
 							<button type="button" class="close feedbackClose" data-dismiss="modal" aria-hidden="true">×</button>
-							<div class="modal-title" style="font-size:12px">上传简历</div>
+							<div class="modal-title" style="font-size:12px">Upload Resume</div>
 				</div>
                 <div style="padding-top:20px;padding-bottom:20px">
                     <table style="font-size:12px;">
-                        <tr><td>您的姓名</td><td><asp:TextBox ID="yourName" runat="server" style="width:85%"></asp:TextBox></td></tr>
-                        <tr><td>您的邮箱</td><td><asp:TextBox ID="yourEmail" runat="server" style="width:85%"></asp:TextBox></td></tr>
-                        <tr><td>选择文件：</td><td><asp:FileUpload ID="yourCV" runat="server" /></td></tr>
+                        <tr><td>Your Name</td><td><asp:TextBox ID="yourName" runat="server" style="width:85%"></asp:TextBox></td></tr>
+                        <tr><td>Your Email</td><td><asp:TextBox ID="yourEmail" runat="server" style="width:85%"></asp:TextBox></td></tr>
+                        <tr><td>Select File：</td><td><asp:FileUpload ID="yourCV" runat="server" /></td></tr>
                         <tr><td colspan="2">&nbsp;</td></tr>
-                        <tr><td colspan="2" style="text-align:center"><asp:Button Text="提交" runat="server" ID="submitYourCV" 
+                        <tr><td colspan="2" style="text-align:center"><asp:Button Text="Submit" runat="server" ID="submitYourCV" 
                 
                                 style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" onclick="submitYourCV_Click" 
                 /></td></tr>

@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>
-    关于我们 | 赛启咨询
+    About Us | SagePower
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -44,31 +44,31 @@
 <div class="container">
             <ul class="breadcrumb" style="background-color: white">
 			    <li><a
-				    href="index.aspx">首页</a><span class="divider"></span></li>
-			    <li class="active">关于我们</li>
+				    href="index.aspx">ホーム</a><span class="divider"></span></li>
+			    <li class="active">我々</li>
 		    </ul>
 
-            <img src="img/aboutus.jpg" class="img-responsive" style="width:100%;opacity:0.8">
+            <img src="/img/aboutus.jpg" class="img-responsive" style="width:100%;opacity:0.8">
            
                 <div class="row">
                 <div class="col-md-6">
                     <div class="solution-section-header">
-                     概况
+                     概要
                     </div>
                     <div class="solution-section-body">
-                        <p>赛启咨询将持续专注于擅长的领域，凭借多年的行业深耕经验，深入理解各个国家地区的文化差异和市场特征，为全球合作伙伴和本土重点客户提供专业的人力资源咨询服务。</p>
-<p>我们的重点客户基本来自欧美、日本、大中国地区，他们都专注于各自细分的行业领域，他们带领我们的业务遍布全球。鉴于东南亚地区已逐渐成为世界经济新的增长极，公司于2013年设立机构于亚太区的东方之珠——中国上海。</p>
+                        <p>Sageはコンサルティング専門分野に専心をしています。Sageはコンサルティング業界の長年の経験を持って、多国の地域や文化の異なるところと市場の特徴を深く理解して、グロバールのパートナや地元の主要顧客にプロの人事コンサルティングサービスを提供しています。</p>
+<p>私たちの重要の顧客は主に欧米、日本、中国になり、彼らはそれぞれの業界領域のセグメントを専心し、我々をリードしながら、業務を世界中に展開している。東南アジア地域は世界経済の新たな成長の極となっているので、会社は2013年をもって、アジア太平洋地域の東の真珠――中国の上海に会社を設立しました。</p>
 
                     </div>
                 </div>
                 <div  class="col-md-6">
                     <div class="solution-section-header" style="text-align:right;padding-right:10px">
-                    价值
+                    価値
                     </div>
                     <div class="solution-section-body">
-                   <p>美国西部拓荒年代是一部记录人类坚韧不拔的先驱精神的纪录片，先驱者如何实现梦想：那些为之战斗至死却依然遍寻未得，那些已然拥有却再次遗失。</p>
-<p>赛启咨询将继承并发扬为梦想拼搏的先驱精神，创造将来的辉煌。2013年，赛启咨询进入中国，我们从中国传统文化中汲取精华。</p>
-<p>格物、致知、诚意、正心，如是之于人才，方谓贤者。我们扶助贤者，意在汇聚贤者之力。组织的发展亦需要凝聚贤者之力。我们提供契合组织文化的贤者，帮助组织健康持续的发展。</p>
+                   <p>アメリカ西部の先駆的な時代は人類一つの不屈の開拓者精神の記録ドキュメンタリーです。開拓者はどのように夢を実現している：死のために戦ったものは、まだ見つけられなく、すでに持っているものは再び失っている。</p>
+<p>Sageは夢のためにファティングの先駆の精神を継続また繰越して、将来の輝かしいを作りします。2013年、sageは中国に入り、中国の伝統文化の最高の本質を学びます。</p>
+<p>サイエン、誠意、誠心、静かな心を保つ人は人材になる。我々は人材の力になりたいので、人材を集まるのためです。また、組織の発展は人材の力も必要となります。我々は組織に噛み合っているの人材を提供して、組織を健康と継続の発展を最善を尽くします。</p>
 
                     </div>
                 </div>
@@ -77,15 +77,15 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="solution-section-header">
-                    联系方式
+                    連絡
                     </div>
                     <div class="solution-section-body">
-                        <p>欧美地区</p>
-                        <p style="margin-left:20px">Add: No.537 Country Road 5C, Leadville, CO80463, Colorado, America
+                        <p>欧米地域</p>
+                        <p style="margin-left:20px">アメリカのコロラド州Leadville （CO80463）国道5cの537号
                         <br />Fax: (719) 486 8401</p>
 
-                        <p>亚太地区</p>
-                        <p style="margin-left:20px">Add: R516, ZhaoCheng Tower, No.120 TianShan West Rd., ChangNing District, Shanghai, China
+                        <p>アジア太平洋地域</p>
+                        <p style="margin-left:20px">アジア太平洋地域：中国上海長寧区天山西路120号兆城ビール516
                         <br />Fax: +86 21 5976 0392
                         </p>
                     </div>
@@ -93,11 +93,12 @@
        
                 <div class="col-md-6">
                     <div class="solution-section-header"  style="text-align:right;padding-right:10px">
-                    加入我们
+                    採用
                     </div>
                     <div class="solution-section-body">
-                        <p>感谢您有兴趣了解赛启咨询的工作机会！我们能为您提供的有：和谐的工作氛围，有竞争力的薪酬，优秀的学历和职业发展机会。</p>
-<p>请将您的个人简历发送至：<a href="mailto:job@sagepowerhr.com">job@sagepowerhr.com</a></p>
+                        <p>弊社にご関心を持ちまして、誠にありがとうございます！我が社はあなたに提供できるのは：調和のとれた作業環境、競争力に耐えるの給与、優れた学術やキャリア開発の機会など。
+</p>
+<p>履歴書はここに送ってください：<a href="mailto:job@sagepowerhr.com">job@sagepowerhr.com</a></p>
 
                     </div>
                 </div>
