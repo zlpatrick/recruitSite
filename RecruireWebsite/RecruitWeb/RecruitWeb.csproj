@@ -429,6 +429,15 @@
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="en\about-us.aspx" />
+    <Content Include="en\bottom.aspx" />
+    <Content Include="en\index.aspx" />
+    <Content Include="en\insights-area.aspx" />
+    <Content Include="en\insights.aspx" />
+    <Content Include="en\job-center.aspx" />
+    <Content Include="en\job-detail.aspx" />
+    <Content Include="en\nav.aspx" />
+    <Content Include="en\solution.aspx" />
     <Content Include="img\aboutus.jpg" />
     <Content Include="img\banner.gif" />
     <Content Include="img\insights1.png" />
@@ -439,6 +448,15 @@
     <Content Include="insights.aspx" />
     <Content Include="job-center.aspx" />
     <Content Include="job-detail.aspx" />
+    <Content Include="jp\about-us.aspx" />
+    <Content Include="jp\bottom.aspx" />
+    <Content Include="jp\index.aspx" />
+    <Content Include="jp\insights-area.aspx" />
+    <Content Include="jp\insights.aspx" />
+    <Content Include="jp\job-center.aspx" />
+    <Content Include="jp\job-detail.aspx" />
+    <Content Include="jp\nav.aspx" />
+    <Content Include="jp\solution.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.js" />
@@ -555,6 +573,69 @@
       <DependentUpon>common.aspx</DependentUpon>
     </Compile>
     <Compile Include="DBUtil.cs" />
+    <Compile Include="en\about-us.aspx.cs">
+      <DependentUpon>about-us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\about-us.aspx.designer.cs">
+      <DependentUpon>about-us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\bottom.aspx.cs">
+      <DependentUpon>bottom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\bottom.aspx.designer.cs">
+      <DependentUpon>bottom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\insights-area.aspx.cs">
+      <DependentUpon>insights-area.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\insights-area.aspx.designer.cs">
+      <DependentUpon>insights-area.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\insights.aspx.cs">
+      <DependentUpon>insights.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\insights.aspx.designer.cs">
+      <DependentUpon>insights.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\job-center.aspx.cs">
+      <DependentUpon>job-center.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\job-center.aspx.designer.cs">
+      <DependentUpon>job-center.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\job-detail.aspx.cs">
+      <DependentUpon>job-detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\job-detail.aspx.designer.cs">
+      <DependentUpon>job-detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\nav.aspx.cs">
+      <DependentUpon>nav.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\nav.aspx.designer.cs">
+      <DependentUpon>nav.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\solution.aspx.cs">
+      <DependentUpon>solution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\solution.aspx.designer.cs">
+      <DependentUpon>solution.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -592,6 +673,69 @@
     </Compile>
     <Compile Include="job-detail.aspx.designer.cs">
       <DependentUpon>job-detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jp\about-us.aspx.cs">
+      <DependentUpon>about-us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jp\about-us.aspx.designer.cs">
+      <DependentUpon>about-us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jp\bottom.aspx.cs">
+      <DependentUpon>bottom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jp\bottom.aspx.designer.cs">
+      <DependentUpon>bottom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jp\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jp\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jp\insights-area.aspx.cs">
+      <DependentUpon>insights-area.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jp\insights-area.aspx.designer.cs">
+      <DependentUpon>insights-area.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jp\insights.aspx.cs">
+      <DependentUpon>insights.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jp\insights.aspx.designer.cs">
+      <DependentUpon>insights.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jp\job-center.aspx.cs">
+      <DependentUpon>job-center.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jp\job-center.aspx.designer.cs">
+      <DependentUpon>job-center.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jp\job-detail.aspx.cs">
+      <DependentUpon>job-detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jp\job-detail.aspx.designer.cs">
+      <DependentUpon>job-detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jp\nav.aspx.cs">
+      <DependentUpon>nav.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jp\nav.aspx.designer.cs">
+      <DependentUpon>nav.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jp\solution.aspx.cs">
+      <DependentUpon>solution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jp\solution.aspx.designer.cs">
+      <DependentUpon>solution.aspx</DependentUpon>
     </Compile>
     <Compile Include="nav.aspx.cs">
       <DependentUpon>nav.aspx</DependentUpon>

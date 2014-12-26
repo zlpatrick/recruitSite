@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#"  AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="RecruitWeb._Default" %>
+﻿<%@ Page Language="C#"  AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="RecruitWeb.jp_Default" %>
 <html>
 <head>
     <title>
@@ -6,7 +6,7 @@
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
-    <!-- #include file="common.aspx" -->
+    <!-- #include file="/common.aspx" -->
 
     <style>
     .home-section-header
@@ -47,7 +47,7 @@
 <!-- #include file="nav.aspx"-->
 <div class="container">
     <div class="jumbotron" style="border-radius:0px;padding:0;background-color:White;position:relative">
-    <img src="img/home.jpg" class="img-responsive" />
+    <img src="/img/home.jpg" class="img-responsive" />
     </div>
     
     
