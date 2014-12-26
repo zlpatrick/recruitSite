@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
+using System.Security.Cryptography;
 
 namespace RecruitWeb.admin
 {
@@ -18,10 +19,22 @@ namespace RecruitWeb.admin
             }
         }
 
+        public static string MD5(string str)
+        {
+            MD5 md5 = new MD5CryptoServiceProvider();
+            byte[] result = md5.ComputeHash(System.Text.Encoding.Default.GetBytes(str));
+            string str2 = "";
+            for (int i = 0; i < result.Length; i++)
+            {
+                str2 += string.Format("{0:x}", result[i]);
+            }
+            return str2;
+        }
+
         protected void submitButton_Click(object sender, EventArgs e)
         {
             string userid = this.loginName.Text.Trim();
-            string pass = this.loginPass.Text.Trim();
+            string pass = MD5(this.loginPass.Text.Trim());
 
             string sql = "select * from Users where userid='" + userid + "'";
             DataSet ds = DBUtil.executeQuery(sql);

@@ -81,7 +81,7 @@
 
     <tr>
     <td style="text-align:right;padding-right:10px">密码</td>
-    <td><asp:TextBox ID="loginPass" runat="server" style="width:90%"></asp:TextBox></td>
+    <td><asp:TextBox ID="loginPass" TextMode="Password" runat="server" style="width:90%"></asp:TextBox></td>
     </tr>
     <tr><td colspan="2" style="text-align:center"><hr /></td></tr>
 
