@@ -103,7 +103,6 @@ PagerStyle-PrevPageText="上一页" PagerStyle-NextPageText="下一页"
     <asp:BoundColumn DataField="username" HeaderText="姓名"></asp:BoundColumn>
     <asp:BoundColumn DataField="useremail" HeaderText="电子邮箱"></asp:BoundColumn>
     <asp:BoundColumn DataField="submitDateTime" HeaderText="提交时间"></asp:BoundColumn>
-    <asp:HyperLinkColumn HeaderText="相关职位" Text="查看" NavigateUrl="/job-detail.aspx?id="></asp:HyperLinkColumn>
     <asp:HyperLinkColumn  HeaderText="操作" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/admin/resume-download.aspx?id={0}" Text="下载"></asp:HyperLinkColumn>
     </Columns>
     </asp:DataGrid>

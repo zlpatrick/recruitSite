@@ -49,7 +49,7 @@
                   string imgUrl = "/InsightFiles/thumbnail/"+ ds.Tables[0].Rows[i]["thumbnailText"].ToString();
                   string titleTxt = ds.Tables[0].Rows[i]["titleText"].ToString();
                   string contentTxt = ds.Tables[0].Rows[i]["contentText"].ToString();
-                  string docLink = "/InsightFiles/thumbnail/" + ds.Tables[0].Rows[i]["documentLoc"].ToString();
+                  string docLink = "/InsightFiles/document/" + ds.Tables[0].Rows[i]["documentLoc"].ToString();
                   if (i % 2 == 0)
                   {
            %>
@@ -77,7 +77,7 @@
                 <div class="col-md-10">
                 <p  style="text-align:right"><%=titleTxt%></p>
                 <p><%=contentTxt%></p>
-                
+                <p style="text-align:right"><a href="<%=docLink %>">Download</a></p>
                 </div>
                  <div class="col-md-2"><img src="<%=imgUrl %>" class="img-responsive" /></div>
             </div>

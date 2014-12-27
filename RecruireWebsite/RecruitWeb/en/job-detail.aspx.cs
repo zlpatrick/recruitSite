@@ -14,10 +14,7 @@ namespace RecruitWeb
         public string jobContent;
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                loadJob();
-            }
+            loadJob();
         }
 
         private void loadJob()

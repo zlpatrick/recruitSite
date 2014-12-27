@@ -47,7 +47,7 @@
 <!-- #include file="nav.aspx"-->
 <div class="container">
     <div class="jumbotron" style="border-radius:0px;padding:0;background-color:White;position:relative">
-    <img src="img/home.jpg" class="img-responsive" />
+    <img src="/img/home.jpg" class="img-responsive" />
     </div>
     
     

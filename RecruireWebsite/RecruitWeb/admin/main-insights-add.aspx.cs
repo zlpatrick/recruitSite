@@ -47,6 +47,7 @@ namespace RecruitWeb.admin
             if (ds.Tables[0].Rows.Count > 0)
             {
                 maxid = Convert.ToInt32(ds.Tables[0].Rows[0][0]);
+                maxid++;
             }
 
             

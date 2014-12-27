@@ -74,7 +74,7 @@
    <HeaderStyle CssClass="jobitemHeader" />
     <Columns>
    
-    <asp:HyperLinkColumn HeaderText="职位列表" DataTextField="titleText" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/job-detail.aspx?id={0}"></asp:HyperLinkColumn>
+    <asp:HyperLinkColumn HeaderText="职位列表" DataTextField="titleText" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/jp/job-detail.aspx?id={0}"></asp:HyperLinkColumn>
    
    </Columns>
     </asp:DataGrid>
