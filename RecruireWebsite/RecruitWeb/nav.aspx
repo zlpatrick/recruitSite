@@ -117,21 +117,13 @@ a:hover
     <div class="navbar-collapse collapse">
     <div class="container" style="margin-top:10px">
         <ul class="home-banner" >
-            <li class="home-banner-column">
-                    <ul>
-                        <li class="home-banner-column-title"><a href="/solution.aspx">解决方案</a></li>
-                        <li>高端人才寻访</li>
-                        <li>员工心理咨询</li>
-                    </ul>
-
-
-            </li>
+            
             <li class="home-banner-column">
                     <ul>
                         <li class="home-banner-column-title"><a href="/job-center.aspx">工作机会</a></li>
-                        <li>欧美公司职位</li>
-                        <li>日本公司职位</li>
-                        <li>中国公司职位</li>
+                        <li>个人中心</li>
+                        <li>职位搜索</li>
+                        <li>推荐职位</li>
                     </ul>
             </li>
             <li class="home-banner-column">
@@ -139,9 +131,15 @@ a:hover
                         <ul>
                             <li class="home-banner-column-title"><a href="/insights.aspx">行业视角</a></li>
                             <li>人事法规</li>
-                            <li>职业规划</li>
-                            <li>猎头知识</li>
+                            <li>行业报告</li>
                         </ul>
+            </li>
+            <li class="home-banner-column">
+                    <ul>
+                        <li class="home-banner-column-title"><a href="/solution.aspx">解决方案</a></li>
+                        <li>服务领域</li>
+                        <li>行业专长</li>
+                    </ul>
             </li>
             <li class="home-banner-column">
                         <ul>

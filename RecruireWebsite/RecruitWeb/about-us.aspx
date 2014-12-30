@@ -80,12 +80,12 @@
                     联系方式
                     </div>
                     <div class="solution-section-body">
-                        <p>欧美地区</p>
-                        <p style="margin-left:20px">Add: No.537 Country Road 5C, Leadville, CO80463, Colorado, America
+                        <p>欧洲办公室</p>
+                        <p style="margin-left:20px">1st Floor Holborn Gate, 330 High Holborn, London, WC1V 7QT
                         <br />Fax: (719) 486 8401</p>
 
-                        <p>亚太地区</p>
-                        <p style="margin-left:20px">Add: R516, ZhaoCheng Tower, No.120 TianShan West Rd., ChangNing District, Shanghai, China
+                        <p>美国办公室</p>
+                        <p style="margin-left:20px">One Gateway Center, Suite 2600, Newark, New Jersey, 07102
                         <br />Fax: +86 21 5976 0392
                         </p>
                     </div>
@@ -93,12 +93,17 @@
        
                 <div class="col-md-6">
                     <div class="solution-section-header"  style="text-align:right;padding-right:10px">
-                    加入我们
+                    联系方式
                     </div>
-                    <div class="solution-section-body">
-                        <p>感谢您有兴趣了解赛启咨询的工作机会！我们能为您提供的有：和谐的工作氛围，有竞争力的薪酬，优秀的学历和职业发展机会。</p>
-<p>请将您的个人简历发送至：<a href="mailto:job@sagepowerhr.com">job@sagepowerhr.com</a></p>
+                   <div class="solution-section-body" style="text-align:right;">
+                        <p>日本办公室</p>
+                        <p style="margin-left:20px">〒171-0022 ,東京,都豊島区南池袋1-16-20 ぬかりやビル6F
+                        <br />ファックス： 03-6436-9058</p>
 
+                        <p>上海办公室</p>
+                        <p style="margin-left:20px">上海市长宁区天山西路120号兆城大厦516室
+                        <br />传真：86 21 5976 0392
+                        </p>
                     </div>
                 </div>
              </div>

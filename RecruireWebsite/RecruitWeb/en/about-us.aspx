@@ -80,12 +80,12 @@
                     Contact
                     </div>
                     <div class="solution-section-body">
-                        <p>Europe & America Region</p>
-                        <p style="margin-left:20px">Add: No.537 Country Road 5C, Leadville, CO80463, Colorado, America
+                        <p>Europe Office</p>
+                        <p style="margin-left:20px">1st Floor Holborn Gate, 330 High Holborn, London, WC1V 7QT
                         <br />Fax: (719) 486 8401</p>
 
-                        <p>Asia Pacific Region</p>
-                        <p style="margin-left:20px">Add: R516, ZhaoCheng Tower, No.120 TianShan West Rd., ChangNing District, Shanghai, China
+                        <p>America Office</p>
+                        <p style="margin-left:20px">One Gateway Center, Suite 2600, Newark, New Jersey, 07102
                         <br />Fax: +86 21 5976 0392
                         </p>
                     </div>
@@ -93,16 +93,20 @@
        
                 <div class="col-md-6">
                     <div class="solution-section-header"  style="text-align:right;padding-right:10px">
-                    Join Us
+                    Contact
                     </div>
-                    <div class="solution-section-body">
-                        <p>Thanks for your interest in knowing more about the career opportunities within SAGEPOWER! What we can offer to you are: comfortable working atmosphere, competitive compensation and benefits, excellent learning and development opportunity.</p>
-<p>Please send your update resume to：<a href="mailto:job@sagepowerhr.com">job@sagepowerhr.com</a></p>
+                   <div class="solution-section-body" style="text-align:right;">
+                        <p>Japan Office</p>
+                        <p style="margin-left:20px">〒171-0022 ,東京,都豊島区南池袋1-16-20 ぬかりやビル6F
+                        <br />ファックス： 03-6436-9058</p>
 
+                        <p>Shanghai Office</p>
+                        <p style="margin-left:20px">上海市长宁区天山西路120号兆城大厦516室
+                        <br />传真：86 21 5976 0392
+                        </p>
                     </div>
                 </div>
              </div>
-             
                  
                 
        

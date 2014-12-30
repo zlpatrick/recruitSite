@@ -117,44 +117,45 @@ a:hover
     <div class="navbar-collapse collapse">
     <div class="container" style="margin-top:10px">
         <ul class="home-banner" >
+            
             <li class="home-banner-column">
                     <ul>
-                        <li class="home-banner-column-title"><a href="/jp/solution.aspx">ソリューション</a></li>
-                        <li>高端人才寻访</li>
-                        <li>员工心理咨询</li>
-                    </ul>
-
-
-            </li>
-            <li class="home-banner-column">
-                    <ul>
-                        <li class="home-banner-column-title"><a href="/jp/job-center.aspx">ジョブセンター</a></li>
-                        <li>欧美公司职位</li>
-                        <li>日本公司职位</li>
-                        <li>中国公司职位</li>
+                        <li class="home-banner-column-title"><a href="/jp/job-center.aspx">仕事のチャンス</a></li>
+                        <li>個人センター</li>
+                        <li>職位探し</li>
+                        <li>推薦職位</li>
                     </ul>
             </li>
             <li class="home-banner-column">
                 
                         <ul>
                             <li class="home-banner-column-title"><a href="/jp/insights.aspx">業界視点</a></li>
-                            <li>人事法规</li>
-                            <li>职业规划</li>
-                            <li>猎头知识</li>
+                            <li>人事規制</li>
+                            <li>業界報告</li>
+                            
                         </ul>
             </li>
             <li class="home-banner-column">
+                    <ul>
+                        <li class="home-banner-column-title"><a href="/jp/solution.aspx">解決ソリューション</a></li>
+                        <li>サービス業界</li>
+                        <li>業界専門特長</li>
+                    </ul>
+
+
+            </li>
+            <li class="home-banner-column">
                         <ul>
-                            <li class="home-banner-column-title"><a href="/jp/about-us.aspx">关于我们</a></li>
-                            <li>联系我们</li>
+                            <li class="home-banner-column-title"><a href="/jp/about-us.aspx">我が社について</a></li>
+                            <li>連絡先</li>
                         </ul>           
             </li>
             <li class="home-banner-column">
                         <ul>
-                            <li class="home-banner-column-title">网站语言</li>
-                            <li><a href="/index.aspx">中文</a></li>
-                            <li><a href="/en/index.aspx">英文</a></li>
-                            <li><a href="/jp/index.aspx">日文</a></li>
+                            <li class="home-banner-column-title">サイトの言語</li>
+                            <li><a href="/index.aspx">中国語</a></li>
+                            <li><a href="/en/index.aspx">英語</a></li>
+                            <li><a href="/jp/index.aspx">日本語</a></li>
                         </ul>           
             </li>
         </ul>

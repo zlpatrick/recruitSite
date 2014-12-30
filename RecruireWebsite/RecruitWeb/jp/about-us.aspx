@@ -77,15 +77,15 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="solution-section-header">
-                    連絡
+                    联系方式
                     </div>
                     <div class="solution-section-body">
-                        <p>欧米地域</p>
-                        <p style="margin-left:20px">アメリカのコロラド州Leadville （CO80463）国道5cの537号
+                        <p>欧洲办公室</p>
+                        <p style="margin-left:20px">1st Floor Holborn Gate, 330 High Holborn, London, WC1V 7QT
                         <br />Fax: (719) 486 8401</p>
 
-                        <p>アジア太平洋地域</p>
-                        <p style="margin-left:20px">アジア太平洋地域：中国上海長寧区天山西路120号兆城ビール516
+                        <p>美国办公室</p>
+                        <p style="margin-left:20px">One Gateway Center, Suite 2600, Newark, New Jersey, 07102
                         <br />Fax: +86 21 5976 0392
                         </p>
                     </div>
@@ -93,13 +93,17 @@
        
                 <div class="col-md-6">
                     <div class="solution-section-header"  style="text-align:right;padding-right:10px">
-                    採用
+                    联系方式
                     </div>
-                    <div class="solution-section-body">
-                        <p>弊社にご関心を持ちまして、誠にありがとうございます！我が社はあなたに提供できるのは：調和のとれた作業環境、競争力に耐えるの給与、優れた学術やキャリア開発の機会など。
-</p>
-<p>履歴書はここに送ってください：<a href="mailto:job@sagepowerhr.com">job@sagepowerhr.com</a></p>
+                   <div class="solution-section-body" style="text-align:right;">
+                        <p>日本办公室</p>
+                        <p style="margin-left:20px">〒171-0022 ,東京,都豊島区南池袋1-16-20 ぬかりやビル6F
+                        <br />ファックス： 03-6436-9058</p>
 
+                        <p>上海办公室</p>
+                        <p style="margin-left:20px">上海市长宁区天山西路120号兆城大厦516室
+                        <br />传真：86 21 5976 0392
+                        </p>
                     </div>
                 </div>
              </div>

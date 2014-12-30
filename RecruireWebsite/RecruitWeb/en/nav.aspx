@@ -117,41 +117,39 @@ a:hover
     <div class="navbar-collapse collapse">
     <div class="container" style="margin-top:10px">
         <ul class="home-banner" >
+            
             <li class="home-banner-column">
                     <ul>
-                        <li class="home-banner-column-title"><a href="/en/solution.aspx">Solutions</a></li>
-                        <li>Talent Visit</li>
-                        <li>Psychological counseling</li>
-                    </ul>
-
-
-            </li>
-            <li class="home-banner-column">
-                    <ul>
-                        <li class="home-banner-column-title"><a href="/en/job-center.aspx">Job Center</a></li>
-                        <li>Europe & America Openings</li>
-                        <li>Japan Openings</li>
-                        <li>China Openings</li>
+                        <li class="home-banner-column-title"><a href="/en/job-center.aspx">OPPORTUNITY</a></li>
+                        <li>My Page</li>
+                        <li>Job Center</li>
+                        <li>Hot Job</li>
                     </ul>
             </li>
             <li class="home-banner-column">
                 
                         <ul>
-                            <li class="home-banner-column-title"><a href="/en/insights.aspx">Insights</a></li>
-                            <li>Human Resource Law</li>
-                            <li>Career Plan</li>
-                            <li>Headhunter Knowledge</li>
+                            <li class="home-banner-column-title"><a href="/en/insights.aspx">INSIGHTS</a></li>
+                            <li>HR Regulation</li>
+                            <li>Industry Reports</li>
                         </ul>
             </li>
             <li class="home-banner-column">
+                    <ul>
+                        <li class="home-banner-column-title"><a href="/en/solution.aspx">SOLUTION</a></li>
+                        <li>Service</li>
+                        <li>Expertise</li>
+                    </ul>
+            </li>
+            <li class="home-banner-column">
                         <ul>
-                            <li class="home-banner-column-title"><a href="/en/about-us.aspx">About Us</a></li>
+                            <li class="home-banner-column-title"><a href="/en/about-us.aspx">ABOUT US</a></li>
                             <li>Contact Us</li>
                         </ul>           
             </li>
             <li class="home-banner-column">
                         <ul>
-                            <li class="home-banner-column-title">Language</li>
+                            <li class="home-banner-column-title">LANGUAGE</li>
                             <li><a href="/index.aspx">Chinese</a></li>
                             <li><a href="/en/index.aspx">English</a></li>
                             <li><a href="/jp/index.aspx">Japanese</a></li>
