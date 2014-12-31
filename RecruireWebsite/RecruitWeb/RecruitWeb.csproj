@@ -465,6 +465,7 @@
     <Content Include="index.aspx" />
     <Content Include="Global.asax" />
     <Content Include="nav.aspx" />
+    <Content Include="register.aspx" />
     <Content Include="solution.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -746,6 +747,13 @@
       <DependentUpon>nav.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="solution.aspx.cs">
       <DependentUpon>solution.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
