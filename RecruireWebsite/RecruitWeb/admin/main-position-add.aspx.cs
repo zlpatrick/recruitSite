@@ -21,6 +21,7 @@ namespace RecruitWeb.admin
         {
             string title = this.title.Text.Trim();
             string positionDetail = this.positionContent.Text;
+            string areaText = this.area.SelectedValue;
             if (title.Equals("") || positionDetail.Equals(""))
             {
                 ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>showError();</script>");
@@ -29,7 +30,7 @@ namespace RecruitWeb.admin
 
             string companyType = this.companyType.SelectedValue;
             string language = this.language.SelectedValue;
-            string sql = string.Format("insert into Positions(titleText,contentText,submitDateTime,companyType,languageText) values('{0}','{1}','{2}','{3}','{4}')", title, positionDetail, DateTime.Now.ToString(),companyType,language);
+            string sql = string.Format("insert into Positions(titleText,contentText,submitDateTime,companyType,languageText,areaText) values('{0}','{1}','{2}','{3}','{4}')", title, positionDetail, DateTime.Now.ToString(),companyType,language,areaText);
             DBUtil.executeNonQuery(sql);
             Response.Redirect("/admin/main-position-list.aspx");
         }

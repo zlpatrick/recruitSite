@@ -71,8 +71,9 @@
 </head>
 
 <body>
-<form id="Form1" runat="server">
+
 <!-- #include file="../nav.aspx"-->
+<form id="Form1" runat="server">
 <div class="container">
  <ul class="breadcrumb" style="background-color: white">
 			    <li><a
@@ -91,6 +92,7 @@
   <a href="/admin/main-position-add.aspx" class="list-group-item">添加新职位</a>
   <a href="/admin/main-position-list.aspx" class="list-group-item">职位信息列表</a>
   <a href="/admin/main-resume-list.aspx" class="list-group-item">简历信息列表</a>
+  <a href="/admin/main-user-list.aspx" class="list-group-item">注册会员列表</a>
 </div>
 </div>
 <div class="col-md-9">

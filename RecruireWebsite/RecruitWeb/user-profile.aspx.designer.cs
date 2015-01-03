@@ -10,7 +10,7 @@
 namespace RecruitWeb {
     
     
-    public partial class register {
+    public partial class user_profile {
         
         /// <summary>
         /// Form1 控件。
@@ -29,24 +29,6 @@ namespace RecruitWeb {
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox memberID;
-        
-        /// <summary>
-        /// ps 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ps;
-        
-        /// <summary>
-        /// repass 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox repass;
         
         /// <summary>
         /// name 控件。
@@ -166,12 +148,12 @@ namespace RecruitWeb {
         protected global::System.Web.UI.WebControls.CheckBox hotelCheckBox;
         
         /// <summary>
-        /// regButton 控件。
+        /// editButton 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button regButton;
+        protected global::System.Web.UI.WebControls.Button editButton;
     }
 }

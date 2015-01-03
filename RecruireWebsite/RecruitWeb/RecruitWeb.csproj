@@ -64,6 +64,7 @@
     <Content Include="admin\main-position-edit.aspx" />
     <Content Include="admin\main-position-list.aspx" />
     <Content Include="admin\main-resume-list.aspx" />
+    <Content Include="admin\main-user-list.aspx" />
     <Content Include="admin\resume-download.aspx" />
     <Content Include="App_Data\data.mdb" />
     <Content Include="bottom.aspx" />
@@ -430,6 +431,7 @@
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="delete-application.aspx" />
     <Content Include="en\about-us.aspx" />
     <Content Include="en\bottom.aspx" />
     <Content Include="en\index.aspx" />
@@ -464,9 +466,15 @@
     <Content Include="js\npm.js" />
     <Content Include="index.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="login.aspx" />
+    <Content Include="logout.aspx" />
     <Content Include="nav.aspx" />
     <Content Include="register.aspx" />
     <Content Include="solution.aspx" />
+    <Content Include="user-application.aspx" />
+    <Content Include="user-password.aspx" />
+    <Content Include="user-profile.aspx" />
+    <Content Include="user-resume.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -553,6 +561,13 @@
     <Compile Include="admin\main-resume-list.aspx.designer.cs">
       <DependentUpon>main-resume-list.aspx</DependentUpon>
     </Compile>
+    <Compile Include="admin\main-user-list.aspx.cs">
+      <DependentUpon>main-user-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\main-user-list.aspx.designer.cs">
+      <DependentUpon>main-user-list.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin\resume-download.aspx.cs">
       <DependentUpon>resume-download.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -575,6 +590,13 @@
       <DependentUpon>common.aspx</DependentUpon>
     </Compile>
     <Compile Include="DBUtil.cs" />
+    <Compile Include="delete-application.aspx.cs">
+      <DependentUpon>delete-application.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="delete-application.aspx.designer.cs">
+      <DependentUpon>delete-application.aspx</DependentUpon>
+    </Compile>
     <Compile Include="en\about-us.aspx.cs">
       <DependentUpon>about-us.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -739,6 +761,20 @@
     <Compile Include="jp\solution.aspx.designer.cs">
       <DependentUpon>solution.aspx</DependentUpon>
     </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
     <Compile Include="nav.aspx.cs">
       <DependentUpon>nav.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -760,6 +796,34 @@
     </Compile>
     <Compile Include="solution.aspx.designer.cs">
       <DependentUpon>solution.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user-application.aspx.cs">
+      <DependentUpon>user-application.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user-application.aspx.designer.cs">
+      <DependentUpon>user-application.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user-password.aspx.cs">
+      <DependentUpon>user-password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user-password.aspx.designer.cs">
+      <DependentUpon>user-password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user-profile.aspx.cs">
+      <DependentUpon>user-profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user-profile.aspx.designer.cs">
+      <DependentUpon>user-profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user-resume.aspx.cs">
+      <DependentUpon>user-resume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user-resume.aspx.designer.cs">
+      <DependentUpon>user-resume.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

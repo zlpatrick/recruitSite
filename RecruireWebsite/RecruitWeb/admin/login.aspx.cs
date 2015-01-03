@@ -36,7 +36,7 @@ namespace RecruitWeb.admin
             string userid = this.loginName.Text.Trim();
             string pass = MD5(this.loginPass.Text.Trim());
 
-            string sql = "select * from Users where userid='" + userid + "'";
+            string sql = "select * from Admins where userid='" + userid + "'";
             DataSet ds = DBUtil.executeQuery(sql);
             int count = ds.Tables[0].Rows.Count;
             if (count > 0)

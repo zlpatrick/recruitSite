@@ -32,18 +32,20 @@ namespace RecruitWeb
             return file.Substring(index);
         }
 
-        protected void submitYourCV_Click(object sender, EventArgs e)
+        protected void applyPosition_Click(object sender, EventArgs e)
         {
-            string id = Request.QueryString["id"];
-            string name = this.yourName.Text.Trim();
-            string email = this.yourEmail.Text.Trim();
-            string filename = this.yourCV.FileName;
-            string timestamp = DateTime.Now.Ticks.ToString();
-            string serverFile = Server.MapPath("\\ResumeFiles\\" + timestamp + getExtention(filename));
-            this.yourCV.SaveAs(serverFile);
-            string sql = string.Format("insert into Resumes(positionId,resumeLoc,username,useremail,submitDateTime) values({0},'{1}','{2}','{3}','{4}')"
-                , id, timestamp + getExtention(filename), name, email, DateTime.Now.ToString());
-            DBUtil.executeNonQuery(sql);
+            if (Session["loginID"] == null)
+            {
+            }
+            else
+            {
+                string userid = Session["loginID"].ToString();
+                string positionId = Request.QueryString["id"];
+                string sql = string.Format("insert into UserApplication(userid,positionId,applyDateTime) values('{0}','{1}','{2}')",
+                    userid, positionId, DateTime.Now.ToString());
+                DBUtil.executeNonQuery(sql);
+            }
+
         }
     }
 }

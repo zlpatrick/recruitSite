@@ -18,12 +18,12 @@ namespace RecruitWeb.admin
             }
 
             string id = Request.QueryString["id"];
-            string sql = "select resumeLoc,username from Resumes where ID=" + id;
+            string sql = "select resumeLoc from Resumes where ID=" + id;
             DataSet ds = DBUtil.executeQuery(sql);
             string loc = ds.Tables[0].Rows[0][0].ToString();
-            string name = ds.Tables[0].Rows[0][1].ToString();
+            
             Response.ContentEncoding = System.Text.Encoding.UTF8;
-            Response.AppendHeader("Content-Disposition","attachment;filename=CV-"+name+getExtention(loc)); 
+            Response.AppendHeader("Content-Disposition","attachment;filename=CV"+getExtention(loc)); 
             Response.ContentType="application/unknown";
             Response.WriteFile(Server.MapPath("\\ResumeFiles\\"+loc)); 
             Response.Flush();

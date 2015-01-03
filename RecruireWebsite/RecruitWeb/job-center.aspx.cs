@@ -52,22 +52,7 @@ namespace RecruitWeb
             return file.Substring(index);
         }
 
-        protected void submitYourCV_Click(object sender, EventArgs e)
-        {
-            string name = this.yourName.Text.Trim();
-            string email = this.yourEmail.Text.Trim();
-            string filename = this.yourCV.FileName;
-            if (name.Equals("") || email.Equals("") || filename.Equals(""))
-            {
-                return;
-            }
-            string timestamp = DateTime.Now.Ticks.ToString();
-            string serverFile = Server.MapPath("\\ResumeFiles\\" + timestamp + getExtention(filename));
-            this.yourCV.SaveAs(serverFile);
-            string sql = string.Format("insert into Resumes(positionId,resumeLoc,username,useremail,submitDateTime) values({0},'{1}','{2}','{3}','{4}')"
-                , -1, timestamp + getExtention(filename), name, email, DateTime.Now.ToString());
-            DBUtil.executeNonQuery(sql);
-        }
+       
 
         protected void positionList_PageIndexChanged(object source, DataGridPageChangedEventArgs e)
         {

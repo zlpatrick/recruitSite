@@ -1,9 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="RecruitWeb.register" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="user-profile.aspx.cs" Inherits="RecruitWeb.user_profile" %>
 
 <html>
 <head>
     <title>
-    创建账号 | 赛启咨询
+    个人档案 | 赛启咨询
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -76,21 +76,29 @@
      <ul class="breadcrumb" style="background-color: white">
 			    <li><a
 				    href="index.aspx">首页</a><span class="divider"></span></li>
-			    <li class="active">创建账号</li>
+			    <li class="active">个人档案</li>
 		    </ul>
-            <hr />
-      <div style="padding-left:20px;color:grey;padding-top:10px;padding-bottom:5px;">
-      <p><span class="glyphicon glyphicon-star"></span> 注册成为会员以后，如果有合适的职位，我们的专业职业顾问将通过您注册的手机/邮箱为您介绍最适合您的职位信息
-      </p>
-      <p><span class="glyphicon glyphicon-star"></span> 即使您现在身在海外，我们也十分欢迎您的注册</p>
-      <p><span class="glyphicon glyphicon-star"></span> 所有服务均为免费</p>
-      </div>
-      <hr />
+<div class="row">
+    <div class="col-md-3">
+        <div class="list-group">
+          <a href="user-profile.aspx" class="list-group-item active">
+            个人基本信息
+          </a>
+          <a href="user-password.aspx" class="list-group-item">
+            修改密码
+          </a>
+          <a href="user-application.aspx" class="list-group-item">已申请职位</a>
+          <a href="user-resume.aspx" class="list-group-item">简历管理</a>
+        
+        </div>
+    </div>
+<div class="col-md-9">
+
+
+           
       <table style="width:600px;margin:30px auto;font-size:12px;color:Grey;">
-      <tr><td>会员ID：</td><td><asp:TextBox ID="memberID" runat="server"></asp:TextBox></td><td></td></tr>
-      <tr><td>密码：</td><td><asp:TextBox ID="ps" TextMode="Password" runat="server"></asp:TextBox></td><td></td></tr>
-      <tr><td>确认密码：</td><td><asp:TextBox ID="repass"  TextMode="Password"  runat="server"></asp:TextBox></td><td></td></tr>
-      <tr><td>姓名：</td><td><asp:TextBox ID="name" runat="server"></asp:TextBox></td><td></td></tr>
+      <tr><td>会员ID：</td><td><asp:TextBox ID="memberID" runat="server" Enabled="false"></asp:TextBox></td><td></td></tr>
+            <tr><td>姓名：</td><td><asp:TextBox ID="name" runat="server"></asp:TextBox></td><td></td></tr>
        <tr><td>性别：</td><td><asp:DropDownList ID="sex" runat="server">
       <asp:ListItem Value="男">男</asp:ListItem>
       <asp:ListItem Value="女">女</asp:ListItem>
@@ -112,16 +120,18 @@
       <asp:CheckBox id="hotelCheckBox" runat="server" Text="酒店地产"></asp:CheckBox>
       </td><td></td></tr>
       <tr><td colspan="3">&nbsp;</td></tr>
-      <tr><td colspan="3" style="text-align:center"><asp:Button ID="regButton" 
-              runat="server" Text="创建账号" 
-              style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" 
-              onclick="regButton_Click"/></td></tr>
+      <tr><td colspan="3" style="text-align:center"><asp:Button ID="editButton" 
+              runat="server" Text="更新账号信息"
+              
+              style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" onclick="editButton_Click" 
+             /></td></tr>
       </table>
 </div>
 
-
+</div></div>
         
 <!-- #include file="bottom.aspx"-->
 </form>
 </body>
 </html>
+

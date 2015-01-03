@@ -28,5 +28,10 @@ namespace RecruitWeb
             sql = "select top 10 * from Positions where languageText='中文' order by submitDateTime desc";
             positions = DBUtil.executeQuery(sql);
         }
+
+        //protected void loginNavButton_Click(object sender, EventArgs e)
+        //{
+        //    int a = 10;
+        //}
     }
 }

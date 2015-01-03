@@ -69,8 +69,9 @@
 </head>
 
 <body>
-<form id="Form1" runat="server">
+
 <!-- #include file="../nav.aspx"-->
+<form id="Form1" runat="server">
 <div class="container">
  <ul class="breadcrumb" style="background-color: white">
 			    <li><a
@@ -89,6 +90,7 @@
   <a href="/admin/main-position-add.aspx" class="list-group-item">添加新职位</a>
   <a href="/admin/main-position-list.aspx" class="list-group-item">职位信息列表</a>
   <a href="/admin/main-resume-list.aspx" class="list-group-item active">简历信息列表</a>
+  <a href="/admin/main-user-list.aspx" class="list-group-item">注册会员列表</a>
 </div>
 </div>
 <div class="col-md-9">
@@ -101,7 +103,8 @@ PagerStyle-PrevPageText="上一页" PagerStyle-NextPageText="下一页"
     <ItemStyle CssClass="resumeRow" />
     <Columns>
     <asp:BoundColumn DataField="username" HeaderText="姓名"></asp:BoundColumn>
-    <asp:BoundColumn DataField="useremail" HeaderText="电子邮箱"></asp:BoundColumn>
+    <asp:BoundColumn DataField="userid" HeaderText="电子邮箱"></asp:BoundColumn>
+    <asp:BoundColumn DataField="mobilePhone" HeaderText="手机号码"></asp:BoundColumn>
     <asp:BoundColumn DataField="submitDateTime" HeaderText="提交时间"></asp:BoundColumn>
     <asp:HyperLinkColumn  HeaderText="操作" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/admin/resume-download.aspx?id={0}" Text="下载"></asp:HyperLinkColumn>
     </Columns>

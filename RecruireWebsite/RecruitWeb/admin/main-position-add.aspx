@@ -74,8 +74,9 @@
 </head>
 
 <body>
-<form id="Form2" runat="server">
+
 <!-- #include file="../nav.aspx"-->
+<form id="Form2" runat="server">
 <div class="container">
  <ul class="breadcrumb" style="background-color: white">
 			    <li><a
@@ -94,6 +95,7 @@
   <a href="/admin/main-position-add.aspx" class="list-group-item active">添加新职位</a>
   <a href="/admin/main-position-list.aspx" class="list-group-item">职位信息列表</a>
   <a href="/admin/main-resume-list.aspx" class="list-group-item">简历信息列表</a>
+  <a href="/admin/main-user-list.aspx" class="list-group-item">注册会员列表</a>
 </div>
 </div>
 <div class="col-md-9">
@@ -114,6 +116,16 @@
             <asp:ListItem Value="中文">中文</asp:ListItem>
             <asp:ListItem Value="日文">日文</asp:ListItem>
             <asp:ListItem Value="英文">英文</asp:ListItem>
+        </asp:DropDownList>
+
+        <span>&nbsp;&nbsp;领域&nbsp;&nbsp;</span>
+        <asp:DropDownList ID="area" runat="server">
+        <asp:ListItem Value="金融服务">金融服务</asp:ListItem>
+        <asp:ListItem Value="制造工业">制造工业</asp:ListItem>
+        <asp:ListItem Value="能源及化工">能源及化工</asp:ListItem>
+        <asp:ListItem Value="汽车及配件">汽车及配件</asp:ListItem>
+        <asp:ListItem Value="生命科学">生命科学</asp:ListItem>
+        <asp:ListItem Value="酒店地产">酒店地产</asp:ListItem>
         </asp:DropDownList>
         </div>
         <div style="height:30px"><span>内容&nbsp;&nbsp;</span><br /></div> 

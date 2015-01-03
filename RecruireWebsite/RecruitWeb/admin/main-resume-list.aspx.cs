@@ -24,7 +24,7 @@ namespace RecruitWeb.admin
 
         private void loadResumeList()
         {
-            string sql = "select * from Resumes order by submitDateTime desc";
+            string sql = "select Resumes.ID,Resumes.userid,username,mobilePhone,submitDateTime from Resumes inner join Users on Resumes.userid = Users.userid order by submitDateTime desc";
             DataSet ds = DBUtil.executeQuery(sql);
             this.resumeList.DataSource = ds;
             this.resumeList.DataBind();

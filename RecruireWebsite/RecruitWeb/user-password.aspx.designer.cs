@@ -7,72 +7,54 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace RecruitWeb.admin {
+namespace RecruitWeb {
     
     
-    public partial class main_position_add {
+    public partial class user_password {
         
         /// <summary>
-        /// Form2 控件。
+        /// Form1 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm Form2;
+        protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
         
         /// <summary>
-        /// title 控件。
+        /// originalPS  控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox title;
+        protected global::System.Web.UI.WebControls.TextBox originalPS ;
         
         /// <summary>
-        /// companyType 控件。
+        /// newPS 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList companyType;
+        protected global::System.Web.UI.WebControls.TextBox newPS;
         
         /// <summary>
-        /// language 控件。
+        /// newPSRe 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList language;
+        protected global::System.Web.UI.WebControls.TextBox newPSRe;
         
         /// <summary>
-        /// area 控件。
+        /// editButton 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList area;
-        
-        /// <summary>
-        /// positionContent 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::CKEditor.NET.CKEditorControl positionContent;
-        
-        /// <summary>
-        /// submitPosition 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button submitPosition;
+        protected global::System.Web.UI.WebControls.Button editButton;
     }
 }

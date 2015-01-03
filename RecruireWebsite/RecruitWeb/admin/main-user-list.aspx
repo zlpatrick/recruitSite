@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="main-position-list.aspx.cs" Inherits="RecruitWeb.admin.main_position_list" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="main-user-list.aspx.cs" Inherits="RecruitWeb.admin.main_user_list" %>
 
 <html>
 <head>
@@ -36,33 +36,32 @@
        height:25px;
     }
     
-    #positionList
+    #userList
     {   
-        width:80%;
+        width:100%;
         margin:auto;
         border-color:lightgrey;
     }
     
-    #positionList tr
+    #userList tr
     {
         height:30px;
         font-size:12px;
     }
     
-    #positionList tr td
+    #userList tr td
     {
         padding-left:10px;
         padding-right:10px;
     }
-    .positionListHeader
+    
+    .userListHeader
     {
         background-color:grey;
         color:White;
     }
     
-    .positionRow
-    {
-    }
+   
     
     </style>
 </head>
@@ -87,27 +86,31 @@
   </a>
   <a href="/admin/main-insights-list.aspx" class="list-group-item">行业视角列表</a>
   <a href="/admin/main-position-add.aspx" class="list-group-item">添加新职位</a>
-  <a href="/admin/main-position-list.aspx" class="list-group-item active">职位信息列表</a>
+  <a href="/admin/main-position-list.aspx" class="list-group-item">职位信息列表</a>
   <a href="/admin/main-resume-list.aspx" class="list-group-item">简历信息列表</a>
-  <a href="/admin/main-user-list.aspx" class="list-group-item">注册会员列表</a>
+  <a href="/admin/main-user-list.aspx" class="list-group-item active">注册会员列表</a>
 </div>
 </div>
 <div class="col-md-9">
 
-<asp:DataGrid runat="server" ID="positionList" AllowPaging="true" 
-        PagerStyle-PrevPageText="上一页" PagerStyle-NextPageText="下一页" 
-        AutoGenerateColumns="false" PageSize="10" 
-        onpageindexchanged="positionList_PageIndexChanged">
-    <HeaderStyle CssClass="positionListHeader" />
-    <ItemStyle CssClass="positionRow" />
+<asp:DataGrid runat="server" ID="userList" AllowPaging="true" 
+PagerStyle-PrevPageText="上一页" PagerStyle-NextPageText="下一页" 
+        AutoGenerateColumns="false" PageSize="10" onpageindexchanged="userList_PageIndexChanged" 
+        >
+    <HeaderStyle CssClass="userListHeader" />
+    <ItemStyle CssClass="userRow" />
     <Columns>
-    <asp:BoundColumn DataField="titleText" HeaderText="职位名称"></asp:BoundColumn>
-    <asp:BoundColumn DataField="companyType" HeaderText="公司类别"></asp:BoundColumn>
-    <asp:BoundColumn DataField="submitDateTime" HeaderText="提交时间"></asp:BoundColumn>
-    <asp:HyperLinkColumn HeaderText="编辑" Text="编辑" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/admin/main-position-edit.aspx?id={0}"></asp:HyperLinkColumn>
-    <asp:HyperLinkColumn  HeaderText="删除" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/admin/main-position-delete.aspx?id={0}" Text="删除"></asp:HyperLinkColumn>
+    <asp:BoundColumn DataField="username" HeaderText="姓名"></asp:BoundColumn>
+    <asp:BoundColumn DataField="sex" HeaderText="性别"></asp:BoundColumn>
+    <asp:BoundColumn DataField="userid" HeaderText="邮箱"></asp:BoundColumn>
+    <asp:BoundColumn DataField="mobilePhone" HeaderText="手机"></asp:BoundColumn>
+    <asp:BoundColumn DataField="currentCompany" HeaderText="当前公司"></asp:BoundColumn>
+    <asp:BoundColumn DataField="interestArea" HeaderText="兴趣领域"></asp:BoundColumn>
+    <asp:BoundColumn DataField="regDateTime" HeaderText="注册时间"></asp:BoundColumn>
+    
     </Columns>
     </asp:DataGrid>
+
 
 
 </div>
