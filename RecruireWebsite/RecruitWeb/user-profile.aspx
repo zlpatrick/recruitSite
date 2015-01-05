@@ -55,7 +55,7 @@
     
     table tr td input[type="text"],table tr td input[type="password"], table tr td select
     {
-        width:300px;
+        width:100%;
         height:25px;
     }
     
@@ -78,7 +78,7 @@
 				    href="index.aspx">首页</a><span class="divider"></span></li>
 			    <li class="active">个人档案</li>
 		    </ul>
-<div class="row">
+<div class="row" style="margin-bottom:20px">
     <div class="col-md-3">
         <div class="list-group">
           <a href="user-profile.aspx" class="list-group-item active">
@@ -96,14 +96,14 @@
 
 
            
-      <table style="width:600px;margin:30px auto;font-size:12px;color:Grey;">
+      <table style="width:600px;margin: auto auto 30px auto;font-size:12px;color:Grey;">
       <tr><td>会员ID：</td><td><asp:TextBox ID="memberID" runat="server" Enabled="false"></asp:TextBox></td><td></td></tr>
             <tr><td>姓名：</td><td><asp:TextBox ID="name" runat="server"></asp:TextBox></td><td></td></tr>
        <tr><td>性别：</td><td><asp:DropDownList ID="sex" runat="server">
       <asp:ListItem Value="男">男</asp:ListItem>
       <asp:ListItem Value="女">女</asp:ListItem>
       </asp:DropDownList></td><td></td></tr>
-        <tr><td>出生年月：</td><td><asp:TextBox ID="dateOfBirth" runat="server"></asp:TextBox></td><td></td></tr>
+        <tr><td>出生年月：</td><td><asp:TextBox ID="dateOfBirth" runat="server"></asp:TextBox></td><td>&nbsp;YYYY-MM-DD</td></tr>
       <tr><td>手机：</td><td><asp:TextBox ID="mobile" runat="server"></asp:TextBox></td><td></td></tr>
       <tr><td>当前公司：</td><td><asp:TextBox ID="currentCompany" runat="server"></asp:TextBox></td><td></td></tr>
       <tr><td>现任职务：</td><td><asp:TextBox ID="currentPosition" runat="server"></asp:TextBox></td><td></td></tr>
@@ -119,12 +119,12 @@
       <asp:CheckBox id="manufCheckBox" runat="server" Text="制造业"></asp:CheckBox>
       <asp:CheckBox id="hotelCheckBox" runat="server" Text="酒店地产"></asp:CheckBox>
       </td><td></td></tr>
-      <tr><td colspan="3">&nbsp;</td></tr>
-      <tr><td colspan="3" style="text-align:center"><asp:Button ID="editButton" 
+      <tr><td colspan="3"><hr /></td></tr>
+      <tr><td></td><td style="text-align:center"><asp:Button ID="editButton" 
               runat="server" Text="更新账号信息"
               
               style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" onclick="editButton_Click" 
-             /></td></tr>
+             /></td><td></td></tr>
       </table>
 </div>
 

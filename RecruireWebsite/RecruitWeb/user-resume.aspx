@@ -97,11 +97,11 @@
         if (this.resumeID == null)
         {
          %>
-                <table style="font-size:12px;">
+                <table style="font-size:12px;width:300px;margin:auto">
                         
                         <tr><td>选择文件：</td><td><asp:FileUpload ID="yourCV" runat="server" /></td></tr>
-                        <tr><td colspan="2">&nbsp;</td></tr>
-                        <tr><td colspan="2" style="text-align:center"><asp:Button Text="提交" runat="server" ID="submitYourCV" 
+                        
+                        <tr><td colspan="2" style="text-align:left"><asp:Button Text="提交" runat="server" ID="submitYourCV" 
                 
                                 
                                 style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" onclick="submitYourCV_Click"
@@ -112,14 +112,14 @@
         }
         else
         { %>
-       <table style="font-size:12px;">
+       <table style="font-size:12px;width:300px;margin:auto">
                         <tr><td colspan="2">感谢您已经上传简历 <asp:Button Text="查看" runat="server" ID="Button1" 
                                 
-                                style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" 
+                                style="border: none;height: 30px;line-height: 30px;outline:none;padding-left: 20px;padding-right: 10px; color:grey;background-color:white;margin-left:20px" 
                                 onclick="Button1_Click" />
                                 <asp:Button Text="删除" runat="server" ID="Button2" 
                                 
-                                style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" 
+                                style="border: none;height: 30px;line-height: 30px;outline:none;padding-left: 10px;padding-right: 20px; color:grey;background-color:white" 
                                 onclick="Button2_Click" /></td></tr>
                         
                        

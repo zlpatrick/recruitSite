@@ -55,7 +55,7 @@
     
     table tr td input[type="text"],table tr td input[type="password"], table tr td select
     {
-        width:300px;
+        width:100%;
         height:25px;
     }
     
@@ -96,17 +96,17 @@
 
 
            
-      <table style="width:600px;margin:30px auto;font-size:12px;color:Grey;">
+      <table style="width:400px;margin:auto;font-size:12px;color:Grey;">
       <tr><td>原密码：</td><td><asp:TextBox ID="originalPS" runat="server" TextMode="Password" ></asp:TextBox></td><td></td></tr>
      <tr><td>新密码：</td><td><asp:TextBox ID="newPS" runat="server" TextMode="Password" ></asp:TextBox></td><td></td></tr>
      <tr><td>确认新密码：</td><td><asp:TextBox ID="newPSRe" runat="server" TextMode="Password" ></asp:TextBox></td><td></td></tr>
 
-      <tr><td colspan="3">&nbsp;</td></tr>
-      <tr><td colspan="3" style="text-align:center"><asp:Button ID="editButton" 
+     
+      <tr><td></td><td style="text-align:center"><asp:Button ID="editButton" 
               runat="server" Text="更新密码"
               
               style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" onclick="editButton_Click" 
-             /></td></tr>
+             /></td><td></td></tr>
       </table>
 </div>
 

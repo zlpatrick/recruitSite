@@ -81,10 +81,12 @@ a:hover
     display:none;
     position:absolute;
     right:0;
+    
     border:1px solid #f1f1f1;
     padding:5px;
     background-color:white;
     width:300px;
+    
 }
 </style>
 <script>
@@ -108,7 +110,7 @@ a:hover
 				src="/img/logo.jpg" class="img-responsive" style="height:45px;margin-left:20px;"/></a>
 		</div>
 		<div class="navbar-collapse collapse">
-			<div style="float:right;position:relative" onmouseover="$('#loginMenu').css('display','block')" onmouseout="$('#loginMenu').css('display','none')"><a href="#">个人中心</a>
+			<div style="float:right;position:relative;padding-right:10px;margin-top:15px" onmouseover="$('#loginMenu').css('display','block')" onmouseout="$('#loginMenu').css('display','none')"><span style="cursor:pointer;color:Grey"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;个人中心</span>
             <div id="loginMenu">
                <div style="background-color:#fafafa;padding:20px;color:grey">
                <% if(Session["loginID"]==null) {
@@ -150,7 +152,7 @@ a:hover
             {
                 result = result.Substring(0, result.Length - 1);
             }
-            sql = "select top 3 * from Positions where languageText='中文' and areaText in (" + result + ") order by submitDateTime desc";
+            sql = "select top 5 * from Positions where languageText='中文' and areaText in (" + result + ") order by submitDateTime desc";
             ds = RecruitWeb.DBUtil.executeQuery(sql);
             if (ds.Tables[0].Rows.Count > 0)
             {

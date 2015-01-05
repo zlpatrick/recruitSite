@@ -14,6 +14,7 @@ namespace RecruitWeb
         {
             if (Session["loginID"] == null)
             {
+                Response.Redirect("index.aspx");
             }
             if (!IsPostBack)
             {

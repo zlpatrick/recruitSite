@@ -68,7 +68,7 @@
     
     #applyList
     {   
-        width:80%;
+        width:90%;
         margin:auto;
         border-color:lightgrey;
     }
@@ -88,8 +88,8 @@
     
     .applyListHeader
     {
-        background-color:grey;
-        color:White;
+        background-color:#eee;
+        color:grey;
     }
     </style>
 </head>
