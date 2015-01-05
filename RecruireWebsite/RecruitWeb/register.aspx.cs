@@ -41,9 +41,9 @@ namespace RecruitWeb
                 interestArea += "酒店地产,";
 
             string sql = string.Format("insert into Users(userid,userpass,username,mobilePhone,sex,placeOfNow,currentCompany,currentPosition,interestArea,regDateTime,dateOfBirth) values('{0}'"+
-                ",'{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}')", userid, MD5(ps), username, mobilePhone, sex, placeOfNow, currentCompany, currentPosition, interestArea, DateTime.Now.ToString(),dateOfBirth);
+                ",'{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}')", userid, MD5(ps), username, mobilePhone, sex, placeOfNow, currentCompany, currentPosition, interestArea, DateTime.Now.ToString(),dateOfBirth);
             DBUtil.executeNonQuery(sql);
-            Response.Redirect("index.aspx");
+            ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>successReg();</script>");
         }
 
         public static string MD5(string str)

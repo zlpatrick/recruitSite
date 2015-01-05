@@ -39,6 +39,11 @@ namespace RecruitWeb
                 {
                     sql = "update Users set userpass='" + MD5(newPS) + "' where userid='" + userid + "'";
                     DBUtil.executeNonQuery(sql);
+                    ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>successEdit();</script>");
+                }
+                else
+                {
+                    ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>failEdit();</script>");
                 }
             }
         }

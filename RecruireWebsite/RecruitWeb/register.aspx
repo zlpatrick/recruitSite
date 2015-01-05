@@ -66,6 +66,11 @@
         margin-left:5px;
         margin-right:20px;
     }
+    
+    #thanksTable
+    {
+        display:none;
+    }
     </style>
     <script language="javascript">
         function checkReg() {
@@ -101,9 +106,14 @@
                 $("#ps").css("border", "1px solid red");
                 result = false;
             }
-            else {
+            else if (ps != '') {
                 $("#repass").css("border", "1px solid lightgrey");
                 $("#ps").css("border", "1px solid lightgrey");
+            }
+            else {
+                $("#repass").css("border", "1px solid red");
+                $("#ps").css("border", "1px solid red");
+                result = false;
             }
 
             var name = $("#name")[0].value;
@@ -136,6 +146,11 @@
             
             return result;
         }
+
+        function successReg() {
+            $("#regTable").css("display", "none");
+            $("#thanksTable").css("display", "block");
+        }
     </script>
 </head>
 
@@ -157,17 +172,17 @@
       <p><span class="glyphicon glyphicon-star"></span> 所有服务均为免费</p>
       </div>
       <hr />
-      <table style="width:600px;margin:30px auto;font-size:12px;color:Grey;">
-      <tr><td>会员ID：</td><td><asp:TextBox ID="memberID" runat="server"></asp:TextBox></td><td style="text-align:left">&nbsp;请用邮箱作为ID</td></tr>
-      <tr><td>密码：</td><td><asp:TextBox ID="ps" TextMode="Password" runat="server"></asp:TextBox></td><td>&nbsp;长度至少为6</td></tr>
-      <tr><td>确认密码：</td><td><asp:TextBox ID="repass"  TextMode="Password"  runat="server"></asp:TextBox></td><td></td></tr>
-      <tr><td>姓名：</td><td><asp:TextBox ID="name" runat="server"></asp:TextBox></td><td></td></tr>
+      <table style="width:600px;margin:30px auto;font-size:12px;color:Grey;" id="regTable">
+      <tr><td>会员ID：</td><td><asp:TextBox ID="memberID" runat="server"></asp:TextBox></td><td style="text-align:left">&nbsp;* 请用邮箱作为ID</td></tr>
+      <tr><td>密码：</td><td><asp:TextBox ID="ps" TextMode="Password" runat="server"></asp:TextBox></td><td>&nbsp;* 长度至少为6</td></tr>
+      <tr><td>确认密码：</td><td><asp:TextBox ID="repass"  TextMode="Password"  runat="server"></asp:TextBox></td><td>&nbsp;*</td></tr>
+      <tr><td>姓名：</td><td><asp:TextBox ID="name" runat="server"></asp:TextBox></td><td>&nbsp;*</td></tr>
        <tr><td>性别：</td><td><asp:DropDownList ID="sex" runat="server">
       <asp:ListItem Value="男">男</asp:ListItem>
       <asp:ListItem Value="女">女</asp:ListItem>
       </asp:DropDownList></td><td></td></tr>
-        <tr><td>出生年月：</td><td><asp:TextBox ID="dateOfBirth" runat="server"></asp:TextBox></td><td>&nbsp;YYYY-MM-DD</td></tr>
-      <tr><td>手机：</td><td><asp:TextBox ID="mobile" runat="server"></asp:TextBox></td><td></td></tr>
+        <tr><td>出生年月：</td><td><asp:TextBox ID="dateOfBirth" runat="server"></asp:TextBox></td><td>&nbsp;* YYYY-MM-DD</td></tr>
+      <tr><td>手机：</td><td><asp:TextBox ID="mobile" runat="server"></asp:TextBox></td><td>&nbsp;*</td></tr>
       <tr><td>当前公司：</td><td><asp:TextBox ID="currentCompany" runat="server"></asp:TextBox></td><td></td></tr>
       <tr><td>现任职务：</td><td><asp:TextBox ID="currentPosition" runat="server"></asp:TextBox></td><td></td></tr>
       <tr><td>现居地：</td><td><asp:DropDownList ID="location" runat="server">
@@ -190,6 +205,10 @@
               runat="server" Text="创建账号" 
               style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" 
               onclick="regButton_Click"/></td><td></td></tr>
+      </table>
+
+      <table style="width:600px;margin:30px auto;font-size:12px;color:Grey;" id="thanksTable">
+      <tr><td style="text-align:center">感谢您的注册,请返回<a href="index.aspx">首页</a>登录</td></tr>
       </table>
 </div>
 
