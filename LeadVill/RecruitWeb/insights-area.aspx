@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>
-    行业视角 | 赛启咨询
+    行业视角 | 里德咨询
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -41,12 +41,13 @@
 				    href="index.aspx">首页</a><span class="divider"></span></li>
 			    <li class="active">行业视角</li>
 		    </ul>
+            <hr />
       <%
           if (ds != null && ds.Tables[0].Rows.Count > 0)
           {
               for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
               {
-                  string imgUrl = "/InsightFiles/thumbnail/"+ ds.Tables[0].Rows[i]["thumbnailText"].ToString();
+                  
                   string titleTxt = ds.Tables[0].Rows[i]["titleText"].ToString();
                   string contentTxt = ds.Tables[0].Rows[i]["contentText"].ToString();
                   string docLink = "/InsightFiles/document/" + ds.Tables[0].Rows[i]["documentLoc"].ToString();
@@ -58,8 +59,8 @@
          <div class="col-md-6">
             
             <div class="row insights-section-body">
-                <div class="col-md-2"><img src="<%=imgUrl %>" class="img-responsive" /></div>
-                <div class="col-md-10">
+                
+                <div class="col-md-12">
                 <p><%=titleTxt%></p>
                 <p><%=contentTxt %></p>
                 <p><a href="<%=docLink %>" target="new">下载文档</a></p>
@@ -74,12 +75,12 @@
            
             <div class="row insights-section-body">
                
-                <div class="col-md-10">
+                <div class="col-md-12">
                 <p  style="text-align:right"><%=titleTxt%></p>
                 <p><%=contentTxt%></p>
                  <p style="text-align:right"><a href="<%=docLink %>" target="new">下载文档</a></p>
                 </div>
-                 <div class="col-md-2"><img src="<%=imgUrl %>" class="img-responsive" /></div>
+                 
             </div>
         </div>
      </div>

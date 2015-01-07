@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-    Solutions | SagePower
+    Solutions | LeadVill
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -51,7 +51,7 @@
 				    href="index.aspx">Home Page</a><span class="divider"></span></li>
 			    <li class="active">Solutions</li>
 		    </ul>
-            <img src="/img/solution.jpg" class="img-responsive" style="width:100%;opacity:0.8" />
+            <img src="/img/solution.jpg" class="img-responsive" style="width:100%;" />
                 <div>
                     <div class="solution-section-header">
                     Our services</span>
@@ -70,53 +70,53 @@
                 </div>
                 <div>
                     <div class="solution-section-header">
-                    Industrial Expertise
+                    Insights
                     </div>
                     <div class="solution-section-body">
                     <div class="row">
                     
                     <div class="col-md-6">
                     
-                    <p style="color:#333">Financial Services</p>
+                    <p style="color:#333"><a href="insights-area.aspx?area=finance">Financial Services</a></p>
                     <hr/>
                     <p style="margin-left:20px">
 We maintain good relationships with top talents in this industry around the world. Spanning from Banking, Securities to Insurance, Fund, we are equipped with consultants with excellent professional background, rich financial literacy and experience. We will exceed your expectation on the critical business talentsneeds.
-<br />More Info, please contact – Daniels.Zhang：<a href="mailto:daniels.zhang@sagepowerhr.com">daniels.zhang@sagepowerhr.com</a></p>
+</p>
                     </div>
                     <div class="col-md-6" >
-                    <p style="color:#333;text-align:right">Life Science</p>
+                    <p style="color:#333;text-align:right"><a href="insights-area.aspx?area=life">Life Science</a></p>
                     <hr/>
                     <p style="margin-left:20px">
                     We are continuously keeping focus on this hot industry, for both pharmaceutical and medical treatments are all about life. Based on years of industrial experience in R&D, procurement& production, sales &marketing, technical supporting, we are committed to provide our clients with the best HR solution on their business.
-<br />More Info, please contact – Johnny Jiang：<a href="mailto:johnny.jiang@sagepowerhr.com">johnny.jiang@sagepowerhr.com</a></p>
+</p>
 </div></div>
 
 <div class="row"><div class="col-md-6">
-                    <p style="color:#333">Manufacturing Industry</p>
+                    <p style="color:#333"><a href="insights-area.aspx?area=manuf">Manufacturing Industry</a></p>
                     <hr/>
                     <p style="margin-left:20px">
                     During the developing period of traditional manufacturingindustry generating into modern automation industry, we built rich talent resources, covering various areas, including: R&D, production, procurement, sales & marketing, technical support, etc. We provide comprehensive talent management consulting services.
-<br />More Info, please contact – Zane Gong：<a href="mailto:zane_gong@sagepowerhr.com">zane_gong@sagepowerhr.com</a></p>
+</p>
                     </div>
                     <div class="col-md-6">
 
-                    <p style="color:#333;text-align:right">Auto & Components</p><hr />
+                    <p style="color:#333;text-align:right"><a href="insights-area.aspx?area=auto">Auto & Components</a></p><hr />
                     <p style="margin-left:20px">
                     The sustainable growth is obvious in global auto and components market. With our years of continuallyaccumulate talent resources in this area, we are capable to provide total human resource solution including R&D, manufacture, sales and marketing, to help clients to win on the talent market.
-<br />More Info, please contact – Robin Wu: <a href="mailto:robin.wu@sagepowerhr.com">robin.wu@sagepowerhr.com</a></p>
+</p>
 </div></div>
 <div class="row">
 <div class="col-md-6">
-                    <p style="color:#333">Energy & Chemical</p><hr />
+                    <p style="color:#333"><a href="insights-area.aspx?area=power">Energy & Chemical</a></p><hr />
                     <p style="margin-left:20px">
                     With continues success on energy & chemical market in US, we are aimed to end up with first-mover advantage in China. We are one of the best talent management advisors for your organization development in this area.
-<br />More Info, please contact – Dennis Zhang: <a href="mailto:dennis.zhang@sagepowerhr.com">dennis.zhang@sagepowerhr.com</a></p>
+</p>
 </div>
 <div class="col-md-6">
-                    <p style="color:#333;text-align:right">Hotel & Real Estate</p><hr />
+                    <p style="color:#333;text-align:right"><a href="insights-area.aspx?area=power">Hotel & Real Estate</a></p><hr />
                     <p style="margin-left:20px">
                     We are devoted to long term cooperation with top real estates, international hotels. Our candidates are mid-high level executives and experts from housing and tourism real estate, shopping mall and business center, urban complex, etc.
-<br />More Info, please contact – Roger Wang：<a href="mailto:Roger@leadvilles.com">Roger@leadvilles.com</a></p>
+</p>
                     </div>
                     </div>
                     </div>

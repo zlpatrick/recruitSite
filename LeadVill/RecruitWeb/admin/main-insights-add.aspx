@@ -91,9 +91,6 @@
     <tr><td style="padding-right:20px;text-align:right">标题</td><td>
           <asp:TextBox ID="titleText" runat="server" style="width:100%"></asp:TextBox></td>
     </tr>
-    <tr><td style="padding-right:20px;text-align:right">图片</td><td>
-        <asp:FileUpload  id="imgUpload" runat="server"/></td>
-    </tr>
 
     <tr><td style="padding-right:20px;text-align:right">内容</td><td>
         <asp:TextBox TextMode="MultiLine" Rows="10" Columns="60"   id="contentText" runat="server"/></td>

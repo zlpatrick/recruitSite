@@ -2,7 +2,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>职位详情 | 赛启咨询</title>
+    <title>职位详情 | 里德咨询</title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
     <!-- #include file="common.aspx" -->
@@ -41,8 +41,9 @@
 			    <li class="active">职位详情</li>
 		    </ul>
 
-        <div class="jobitem-title"><%=jobTitle %> <asp:Button runat="server" 
-                ID="applyPosition" text="申请该职位" onclick="applyPosition_Click"/></div>
+        <div class="jobitem-title"><%=jobTitle %> <%if (Session["loginID"] != null)
+                                                    { %><asp:Button runat="server" 
+                ID="applyPosition" text="申请该职位" onclick="applyPosition_Click" style="background-color:White;color:grey;border:none"/><%} %></div>
         <hr />
         <div>
         <%=jobContent %>

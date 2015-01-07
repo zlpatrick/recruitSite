@@ -2,6 +2,6 @@
 
 <div class="container" style="text-align:center;color:grey;border-top:1px solid #eee;padding-top:5px;background-color:White">
 
-Copyright 2015 赛启咨询
+Copyright 2015 里德咨询
 </div>
 </div>

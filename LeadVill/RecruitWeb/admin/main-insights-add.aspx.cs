@@ -36,7 +36,7 @@ namespace RecruitWeb.admin
                 ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>showError();</script>");
                 return;
             }
-            if (this.imgUpload.FileName.Equals("") || this.docUpload.FileName.Equals(""))
+            if (this.docUpload.FileName.Equals(""))
             {
                 ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>showError();</script>");
                 return;
@@ -50,15 +50,11 @@ namespace RecruitWeb.admin
                 maxid++;
             }
 
-            
-            string imgFile = maxid + getExtention(this.imgUpload.FileName);
-            this.imgUpload.SaveAs(Server.MapPath("\\InsightFiles\\thumbnail\\" + maxid + getExtention(this.imgUpload.FileName)));
-
             string docFile = maxid + getExtention(this.docUpload.FileName);
             this.docUpload.SaveAs(Server.MapPath("\\InsightFiles\\document\\" + maxid + getExtention(this.docUpload.FileName)));
 
-            sql = string.Format("insert into Insights(titleText,contentText,thumbnailText,documentLoc,areaText,languageText,submitDateTime) values('{0}','{1}','{2}','{3}','{4}','{5}','{6}')",
-                titleText,contentText, imgFile, docFile, area, language, DateTime.Now.ToString());
+            sql = string.Format("insert into Insights(titleText,contentText,documentLoc,areaText,languageText,submitDateTime) values('{0}','{1}','{2}','{3}','{4}','{5}','{6}')",
+                titleText,contentText, docFile, area, language, DateTime.Now.ToString());
             DBUtil.executeNonQuery(sql);
             Response.Redirect("main-insights-list.aspx");
         }

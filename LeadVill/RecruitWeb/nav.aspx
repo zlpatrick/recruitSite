@@ -76,18 +76,7 @@ a:hover
     text-decoration:none;
 }
 
-#loginMenu
-{
-    display:none;
-    position:absolute;
-    right:0;
-    
-    border:1px solid #f1f1f1;
-    padding:5px;
-    background-color:white;
-    width:300px;
-    
-}
+
 </style>
 <script>
     function doSearch() {
@@ -107,78 +96,24 @@ a:hover
 					class="icon-bar"></span>
 			</button>
 			<a class="navbar-brand" href="/index.aspx" title="Home" style="padding: 0"><img
-				src="/img/logo.jpg" class="img-responsive" style="height:45px;margin-left:20px;"/></a>
+				src="/img/logo.png" class="img-responsive" style="height:45px;margin-left:20px;"/></a>
 		</div>
 		<div class="navbar-collapse collapse">
-			<div style="float:right;position:relative;padding-right:10px;margin-top:15px" onmouseover="$('#loginMenu').css('display','block')" onmouseout="$('#loginMenu').css('display','none')"><span style="cursor:pointer;color:Grey"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;个人中心</span>
-            <div id="loginMenu">
-               <div style="background-color:#fafafa;padding:20px;color:grey">
-               <% if(Session["loginID"]==null) {
+			<div style="float:right;position:relative;padding-right:10px;margin-top:15px;color:grey"><form method="post" action="login.aspx">
+            <a href="/index.aspx">中文</a>&nbsp;&nbsp;<a href="/en/index.aspx" style="margin-right:20px">英文</a>
+            <% if(Session["loginID"]==null) {
                       %>
-               <form action="/login.aspx" method="post">
-                  <p>欢迎您登录系统</p>
-                  <p><input placeholder="请输入您的会员ID" type="text" id="loginMemberID" style="width:100%" name="loginMemberID"></p>
-                  <p><input placeholder="请输入您的密码" type="password" id="loginPassWord" style="width:100%" name="loginPassWord"/></p>
-                  <p><a href="register.aspx" style="float:left">创建账号</a><input style="border: none;float:right;height: 25px;line-height: 25px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" id="loginNavButton" type="submit" value="登录"/></p> 
-                  <p>&nbsp;</p> 
-                  </form>
-                  <%}
-                  else
+<input placeholder="您的会员ID" type="text" id="loginMemberID" style="margin-left:15px;border:1px solid #ddd"  name="loginMemberID"><input placeholder="您的密码"  style="margin-left:5px;border:1px solid #ddd" type="password" id="loginPassWord" name="loginPassWord"/><input style="border: none;height: 25px;line-height: 25px;padding-left: 5px;padding-right: 5px;border:none; color:grey;background-color:white" id="Submit1" type="submit" value="登录"/><a href="register.aspx" style="color:Grey">注册</a>
+            <%}
+            else
                       {%>
-                      <p>欢迎您：<%=Session["loginID"] %>  &nbsp;&nbsp;<a href="logout.aspx">注销登录</a></p>
-                      <hr />
-                      <p><a href="user-profile.aspx">个人档案</a></p>
-                      <p><a href="user-password.aspx">修改密码</a></p>
-                      <p><a href="user-application.aspx">已申请职位</a></p>
-                      <p><a href="user-resume.aspx">简历管理</a></p>
-
-                      <p>&nbsp;</p>
-                      <p>推荐职位</p>
-                      <hr />
-                      <%
-                          string sql = "select interestArea from Users where userid='" + Session["loginID"] + "'";
-
-            System.Data.DataSet ds = RecruitWeb.DBUtil.executeQuery(sql);
-            string[] interestArea = ds.Tables[0].Rows[0]["interestArea"].ToString().Split(',') ;
-            string result = "";
-            foreach (string str in interestArea)
-            {
-                if(!str.Equals(""))
-                {
-                    result += "'" + str + "',";
-                }
-            }
-            if (!result.Equals(""))
-            {
-                result = result.Substring(0, result.Length - 1);
-            }
-            sql = "select top 5 * from Positions where languageText='中文' and areaText in (" + result + ") order by submitDateTime desc";
-            ds = RecruitWeb.DBUtil.executeQuery(sql);
-            if (ds.Tables[0].Rows.Count > 0)
-            {
-                for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
-                {
-                    string id = ds.Tables[0].Rows[i]["ID"].ToString();
-                    string titleText = ds.Tables[0].Rows[i]["titleText"].ToString();
-                                          %>
-                                          
-                                          <p><a href="/job-detail.aspx?id=<%=id %>"><%= titleText%></a></p>
-                                          <%
-                }
-            }
-                          
-
-                          
-                           
-                         
-                          
-                      
-                      
-                      } %>
+                      欢迎您：<%=Session["loginID"] %>  &nbsp;&nbsp;<a href="user-profile.aspx" style="margin-right:5px">个人档案</a><a href="logout.aspx">注销</a>
+                     <%} %>
+                     </form>
                </div>
                
-            </div>
-             </div>
+       
+             
        </div>
         
         

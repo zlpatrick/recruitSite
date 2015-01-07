@@ -7,14 +7,14 @@
 .home-banner>li
 {
     float:left;
-    width:20%;
+    width:33.3%;
     
 } 
     
 .home-banner-column
 {
     border-left:1px solid lightgrey;
-    height:90px;
+ 
     padding-left:10px;
     color:grey;
 }
@@ -94,23 +94,25 @@ a:hover
 					class="icon-bar"></span>
 			</button>
 			<a class="navbar-brand" href="/en/index.aspx" title="Home" style="padding: 0"><img
-				src="/img/logo.jpg" class="img-responsive" style="height:45px;margin-left:20px;"/></a>
+				src="/img/logo.png" class="img-responsive" style="height:45px;margin-left:20px;"/></a>
 		</div>
 		<div class="navbar-collapse collapse">
-			<!--<ul class="nav navbar-nav" style="margin-left:50px;margin-top:5px">
-				<li><a href="index.aspx">首页</a></li>
-				<li><a href="solution.aspx">解决方案</a></li>
-				<li><a href="job-center.aspx">工作机会</a></li>
-                <li><a href="job-list.aspx">职位列表</a></li>
-				<li><a href="insights.aspx">行业视角</a></li>
-                <li><a href="about-us.aspx">关于我们</a></li>
-			</ul>-->
-            <div class="main-form">
-        <div>
-        <input type="text" placeholder="Input to search positions" ID="positionName"/> <a href="#" id="searchButton" onclick="doSearch()"><span class="glyphicon glyphicon-search"></span></a></div>
-        
-        
-    </div>
+			<div style="float:right;position:relative;padding-right:10px;margin-top:15px;color:grey"><form method="post" action="login.aspx">
+            <a href="/index.aspx">Chinese</a>&nbsp;&nbsp;<a href="/en/index.aspx" style="margin-right:20px">English</a>
+            <% 
+            if(Session["loginID"]==null) 
+            {
+                      %>
+<input placeholder="Your Member ID" type="text" id="loginMemberID" style="margin-left:15px;border:1px solid #ddd"  name="loginMemberID"><input placeholder="Your Password"  style="margin-left:5px;border:1px solid #ddd" type="password" id="loginPassWord" name="loginPassWord"/><input style="border: none;height: 25px;line-height: 25px;padding-left: 5px;padding-right: 5px;border:none; color:grey;background-color:white" id="Submit1" type="submit" value="Sign In"/><a href="register.aspx" style="color:Grey">Sign Up</a>
+            <%
+            }
+            else
+                {%>
+                 Welcome: <%=Session["loginID"] %> <a href="/user-profile.aspx" style="margin-right:5px">Profile</a><a href="logout.aspx">Log out</a>
+                 <% }%>  
+                 </form>
+               </div>
+           
 		</div>
 
 	</div>
@@ -121,42 +123,23 @@ a:hover
             <li class="home-banner-column">
                     <ul>
                         <li class="home-banner-column-title"><a href="/en/job-center.aspx">OPPORTUNITY</a></li>
-                        <li>My Page</li>
-                        <li>Job Center</li>
-                        <li>Hot Job</li>
+                   
                     </ul>
-            </li>
-            <li class="home-banner-column">
-                
-                        <ul>
-                            <li class="home-banner-column-title"><a href="/en/insights.aspx">INSIGHTS</a></li>
-                            <li>HR Regulation</li>
-                            <li>Industry Reports</li>
-                        </ul>
             </li>
             <li class="home-banner-column">
                     <ul>
                         <li class="home-banner-column-title"><a href="/en/solution.aspx">SOLUTION</a></li>
-                        <li>Service</li>
-                        <li>Expertise</li>
+                   
                     </ul>
             </li>
             <li class="home-banner-column">
                         <ul>
                             <li class="home-banner-column-title"><a href="/en/about-us.aspx">ABOUT US</a></li>
-                            <li>Contact Us</li>
                         </ul>           
             </li>
-            <li class="home-banner-column">
-                        <ul>
-                            <li class="home-banner-column-title">LANGUAGE</li>
-                            <li><a href="/index.aspx">Chinese</a></li>
-                            <li><a href="/en/index.aspx">English</a></li>
-                            <li><a href="/jp/index.aspx">Japanese</a></li>
-                        </ul>           
-            </li>
+
         </ul>
     </div>
     </div>
 </div>
-<div style="height:180px">&nbsp;</div>
+<div style="height:120px">&nbsp;</div>

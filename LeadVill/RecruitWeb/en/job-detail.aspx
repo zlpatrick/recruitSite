@@ -2,7 +2,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Opening Detail | SagePower</title>
+    <title>Opening Detail | LeadVill</title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
     <!-- #include file="/common.aspx" -->
