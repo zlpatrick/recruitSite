@@ -1,13 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="user-password.aspx.cs" Inherits="RecruitWeb.user_password" %>
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="user-password.aspx.cs" Inherits="RecruitWeb.en.user_password" %>
 <html>
 <head>
     <title>
-    修改密码 | 里德咨询
+    Edit Password | LeadVill
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
-    <!-- #include file="common.aspx" -->
+    <!-- #include file="/common.aspx" -->
     <style>
     .solution-section-header
     {
@@ -119,7 +118,7 @@
                 $("#newPS").css("border", "1px solid red");
                 result = false;
             }
-            else if(newPS != ''){
+            else if (newPS != '') {
                 $("#newPS").css("border", "1px solid lightgrey");
                 $("#newPSRe").css("border", "1px solid lightgrey");
             }
@@ -136,20 +135,20 @@
 <div class="container">
      <ul class="breadcrumb" style="background-color: white">
 			    <li><a
-				    href="index.aspx">首页</a><span class="divider"></span></li>
-			    <li class="active">修改密码</li>
+				    href="index.aspx">Home Page</a><span class="divider"></span></li>
+			    <li class="active">Edit Password</li>
 		    </ul>
 <div class="row">
     <div class="col-md-3">
         <div class="list-group">
-          <a href="user-profile.aspx" class="list-group-item">
-            个人基本信息
+         <a href="user-profile.aspx" class="list-group-item">
+            Basic Profile
           </a>
           <a href="user-password.aspx" class="list-group-item active">
-            修改密码
+            Edit Password
           </a>
-          <a href="user-application.aspx" class="list-group-item">已申请职位</a>
-          <a href="user-resume.aspx" class="list-group-item">简历管理</a>
+          <a href="user-application.aspx" class="list-group-item">Applied Openings</a>
+          <a href="user-resume.aspx" class="list-group-item">Resume Management</a>
         
         </div>
     </div>
@@ -158,21 +157,21 @@
 
            
       <table style="width:400px;margin:auto;font-size:12px;color:Grey;" id="updateTable">
-      <tr><td>原密码：</td><td><asp:TextBox ID="originalPS" runat="server" TextMode="Password" ></asp:TextBox></td><td></td></tr>
-     <tr><td>新密码：</td><td><asp:TextBox ID="newPS" runat="server" TextMode="Password" ></asp:TextBox></td><td></td></tr>
-     <tr><td>确认新密码：</td><td><asp:TextBox ID="newPSRe" runat="server" TextMode="Password" ></asp:TextBox></td><td></td></tr>
+      <tr><td>Old Password：</td><td><asp:TextBox ID="originalPS" runat="server" TextMode="Password" ></asp:TextBox></td><td></td></tr>
+     <tr><td>New Password：</td><td><asp:TextBox ID="newPS" runat="server" TextMode="Password" ></asp:TextBox></td><td></td></tr>
+     <tr><td>Confirm New Password：</td><td><asp:TextBox ID="newPSRe" runat="server" TextMode="Password" ></asp:TextBox></td><td></td></tr>
 
      
       <tr><td></td><td style="text-align:center"><asp:Button ID="editButton" 
-              runat="server" Text="更新密码"
+              runat="server" Text="Update Password"
               
               style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" onclick="editButton_Click" 
              /></td><td></td></tr>
-             <tr><td colspan="3" style="text-align:center"><span style="color:Red" id="failWord">原密码不正确，请重试</span></td></tr>
+             <tr><td colspan="3" style="text-align:center"><span style="color:Red" id="failWord">Old Password is incorrect, please retry</span></td></tr>
       </table>
 
       <table style="width:400px;margin:auto;font-size:12px;color:Grey;" id="thanksTable">
-      <tr><td style="text-align:center">感谢您的操作，您的密码已经更新</td></tr>
+      <tr><td style="text-align:center">Thanks, your password has been updated.</td></tr>
       </table>
 </div>
 

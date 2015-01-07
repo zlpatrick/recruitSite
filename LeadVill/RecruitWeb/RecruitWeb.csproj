@@ -443,6 +443,10 @@
     <Content Include="en\nav.aspx" />
     <Content Include="en\register.aspx" />
     <Content Include="en\solution.aspx" />
+    <Content Include="en\user-application.aspx" />
+    <Content Include="en\user-password.aspx" />
+    <Content Include="en\user-profile.aspx" />
+    <Content Include="en\user-resume.aspx" />
     <Content Include="img\aboutus.jpg" />
     <Content Include="img\banner.gif" />
     <Content Include="img\home-1.jpg" />
@@ -669,6 +673,34 @@
     </Compile>
     <Compile Include="en\solution.aspx.designer.cs">
       <DependentUpon>solution.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\user-application.aspx.cs">
+      <DependentUpon>user-application.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\user-application.aspx.designer.cs">
+      <DependentUpon>user-application.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\user-password.aspx.cs">
+      <DependentUpon>user-password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\user-password.aspx.designer.cs">
+      <DependentUpon>user-password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\user-profile.aspx.cs">
+      <DependentUpon>user-profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\user-profile.aspx.designer.cs">
+      <DependentUpon>user-profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\user-resume.aspx.cs">
+      <DependentUpon>user-resume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\user-resume.aspx.designer.cs">
+      <DependentUpon>user-resume.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>
-    管理 | 赛启咨询
+    管理 | 里德咨询
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -114,7 +114,7 @@
         <asp:DropDownList ID="language" runat="server">
         <asp:ListItem Value="中文">中文</asp:ListItem>
         <asp:ListItem Value="英文">英文</asp:ListItem>
-        <asp:ListItem Value="日文">日文</asp:ListItem>
+        
         </asp:DropDownList>
     </td>
     </tr>

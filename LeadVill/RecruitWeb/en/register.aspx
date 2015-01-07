@@ -125,14 +125,7 @@
                 $("#name").css("border", "1px solid lightgrey");
             }
 
-            var dateOfBirth = $("#dateOfBirth")[0].value;
-            if (dateOfBirth.length <= 0) {
-                $("#dateOfBirth").css("border", "1px solid red");
-                result = false;
-            }
-            else {
-                $("#dateOfBirth").css("border", "1px solid lightgrey");
-            }
+           
 
             var mobile = $("#mobile")[0].value;
             if (mobile.length <= 0) {

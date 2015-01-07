@@ -106,6 +106,10 @@
       <tr><td>现任职务：</td><td><asp:TextBox ID="currentPosition" runat="server"></asp:TextBox></td><td></td></tr>
       <tr><td>现居地：</td><td><asp:DropDownList ID="location" runat="server">
       <asp:ListItem Value="上海">上海</asp:ListItem>
+      <asp:ListItem Value="北京">北京</asp:ListItem>
+      <asp:ListItem Value="广州">广州</asp:ListItem>
+      <asp:ListItem Value="深圳">深圳</asp:ListItem>
+      <asp:ListItem Value="其他">其他</asp:ListItem>
       </asp:DropDownList></td><td></td></tr>
      
       <tr><td>感兴趣的行业：</td><td>

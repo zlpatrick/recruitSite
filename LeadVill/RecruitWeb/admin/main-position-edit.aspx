@@ -6,7 +6,7 @@
 <html>
 <head>
     <title>
-    管理 | 赛启咨询
+    管理 | 里德咨询
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -107,14 +107,14 @@
         <div style="height:30px"><span>公司类型&nbsp;&nbsp;</span>
         <asp:DropDownList ID="companyType" runat="server">
             <asp:ListItem Value="中国公司">中国公司</asp:ListItem>
-            <asp:ListItem Value="日本公司">日本公司</asp:ListItem>
+            
             <asp:ListItem Value="欧美公司">欧美公司</asp:ListItem>
         </asp:DropDownList>
 
         <span>&nbsp;&nbsp;语言&nbsp;&nbsp;</span>
         <asp:DropDownList ID="language" runat="server">
             <asp:ListItem Value="中文">中文</asp:ListItem>
-            <asp:ListItem Value="日文">日文</asp:ListItem>
+           
             <asp:ListItem Value="英文">英文</asp:ListItem>
         </asp:DropDownList>
         </div>

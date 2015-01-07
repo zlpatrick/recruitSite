@@ -1,13 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="user-resume.aspx.cs" Inherits="RecruitWeb.user_resume" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="user-resume.aspx.cs" Inherits="RecruitWeb.en.user_resume" %>
 
 <html>
 <head>
     <title>
-    修改密码 | 里德咨询
+    Resume Management | LeadVill
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
-    <!-- #include file="common.aspx" -->
+    <!-- #include file="/common.aspx" -->
     <style>
     .solution-section-header
     {
@@ -75,20 +75,20 @@
 <div class="container">
      <ul class="breadcrumb" style="background-color: white">
 			    <li><a
-				    href="index.aspx">首页</a><span class="divider"></span></li>
-			    <li class="active">简历管理</li>
+				    href="index.aspx">Home Page</a><span class="divider"></span></li>
+			    <li class="active">Resume Management</li>
 		    </ul>
 <div class="row">
     <div class="col-md-3">
         <div class="list-group">
           <a href="user-profile.aspx" class="list-group-item">
-            个人基本信息
+            Basic Profile
           </a>
           <a href="user-password.aspx" class="list-group-item">
-            修改密码
+            Edit Password
           </a>
-          <a href="user-application.aspx" class="list-group-item">已申请职位</a>
-          <a href="user-resume.aspx" class="list-group-item active">简历管理</a>
+          <a href="user-application.aspx" class="list-group-item">Applied Openings</a>
+          <a href="user-resume.aspx" class="list-group-item active">Resume Management</a>
         
         </div>
     </div>
@@ -99,9 +99,9 @@
          %>
                 <table style="font-size:12px;width:300px;margin:auto">
                         
-                        <tr><td>选择文件：</td><td><asp:FileUpload ID="yourCV" runat="server" /></td></tr>
+                        <tr><td>Select File：</td><td><asp:FileUpload ID="yourCV" runat="server" /></td></tr>
                         
-                        <tr><td colspan="2" style="text-align:left"><asp:Button Text="提交" runat="server" ID="submitYourCV" 
+                        <tr><td colspan="2" style="text-align:left"><asp:Button Text="Submit" runat="server" ID="submitYourCV" 
                 
                                 
                                 style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" onclick="submitYourCV_Click"
@@ -112,12 +112,12 @@
         }
         else
         { %>
-       <table style="font-size:12px;width:300px;margin:auto">
-                        <tr><td colspan="2">感谢您已经上传简历 <asp:Button Text="查看" runat="server" ID="Button1" 
+       <table style="font-size:12px;width:400px;margin:auto">
+                        <tr><td colspan="2">Thanks for submitting your resume <asp:Button Text="View" runat="server" ID="Button1" 
                                 
                                 style="border: none;height: 30px;line-height: 30px;outline:none;padding-left: 20px;padding-right: 10px; color:grey;background-color:white;margin-left:20px" 
                                 onclick="Button1_Click" />
-                                <asp:Button Text="删除" runat="server" ID="Button2" 
+                                <asp:Button Text="Delete" runat="server" ID="Button2" 
                                 
                                 style="border: none;height: 30px;line-height: 30px;outline:none;padding-left: 10px;padding-right: 20px; color:grey;background-color:white" 
                                 onclick="Button2_Click" /></td></tr>

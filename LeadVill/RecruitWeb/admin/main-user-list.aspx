@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>
-    管理 | 赛启咨询
+    管理 | 里德咨询
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -101,7 +101,6 @@ PagerStyle-PrevPageText="上一页" PagerStyle-NextPageText="下一页"
     <ItemStyle CssClass="userRow" />
     <Columns>
     <asp:BoundColumn DataField="username" HeaderText="姓名"></asp:BoundColumn>
-    <asp:BoundColumn DataField="sex" HeaderText="性别"></asp:BoundColumn>
     <asp:BoundColumn DataField="userid" HeaderText="邮箱"></asp:BoundColumn>
     <asp:BoundColumn DataField="mobilePhone" HeaderText="手机"></asp:BoundColumn>
     <asp:BoundColumn DataField="currentCompany" HeaderText="当前公司"></asp:BoundColumn>

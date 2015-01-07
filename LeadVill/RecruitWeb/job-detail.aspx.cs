@@ -41,9 +41,17 @@ namespace RecruitWeb
             {
                 string userid = Session["loginID"].ToString();
                 string positionId = Request.QueryString["id"];
-                string sql = string.Format("insert into UserApplication(userid,positionId,applyDateTime) values('{0}','{1}','{2}')",
+                string sql = "select * from UserApplication where userid='"+userid+"' and positionId="+positionId;
+                if(DBUtil.executeQuery(sql).Tables[0].Rows.Count>0)
+                {
+                }
+                else
+                {
+                sql = string.Format("insert into UserApplication(userid,positionId,applyDateTime) values('{0}','{1}','{2}')",
                     userid, positionId, DateTime.Now.ToString());
                 DBUtil.executeNonQuery(sql);
+                }
+                ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>alert('申请成功');</script>");
             }
 
         }

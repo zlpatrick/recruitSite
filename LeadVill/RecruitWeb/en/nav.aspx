@@ -72,7 +72,7 @@ a
 
 a:hover
 {
-    color:grey;
+    color:darkblue;
     text-decoration:none;
 }
 </style>
@@ -108,7 +108,7 @@ a:hover
             }
             else
                 {%>
-                 Welcome: <%=Session["loginID"] %> <a href="/user-profile.aspx" style="margin-right:5px;margin-left:10px">Profile</a><a href="logout.aspx">Log out</a>
+                 Welcome: <%=Session["loginID"] %> <a href="user-profile.aspx" style="margin-right:5px;margin-left:10px">Profile</a><a href="logout.aspx">Log out</a>
                  <% }%>  
                  </form>
                </div>

@@ -72,7 +72,7 @@ a
 
 a:hover
 {
-    color:grey;
+    color:darkblue;
     text-decoration:none;
 }
 
