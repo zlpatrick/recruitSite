@@ -97,7 +97,7 @@
         if (this.resumeID == null)
         {
          %>
-                <table style="font-size:12px;width:300px;margin:auto">
+                <table style="font-size:12px;width:400px;margin:auto">
                         
                         <tr><td>Select File：</td><td><asp:FileUpload ID="yourCV" runat="server" /></td></tr>
                         
