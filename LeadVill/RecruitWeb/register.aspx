@@ -125,15 +125,7 @@
                 $("#name").css("border", "1px solid lightgrey");
             }
 
-            var dateOfBirth = $("#dateOfBirth")[0].value;
-            if (dateOfBirth.length <= 0) {
-                $("#dateOfBirth").css("border", "1px solid red");
-                result = false;
-            }
-            else {
-                $("#dateOfBirth").css("border", "1px solid lightgrey");
-            }
-
+           
             var mobile = $("#mobile")[0].value;
             if (mobile.length <= 0) {
                 $("#mobile").css("border", "1px solid red");
@@ -177,29 +169,9 @@
       <tr><td>密码：</td><td><asp:TextBox ID="ps" TextMode="Password" runat="server"></asp:TextBox></td><td>&nbsp;* 长度至少为6</td></tr>
       <tr><td>确认密码：</td><td><asp:TextBox ID="repass"  TextMode="Password"  runat="server"></asp:TextBox></td><td>&nbsp;*</td></tr>
       <tr><td>姓名：</td><td><asp:TextBox ID="name" runat="server"></asp:TextBox></td><td>&nbsp;*</td></tr>
-       <tr><td>性别：</td><td><asp:DropDownList ID="sex" runat="server">
-      <asp:ListItem Value="男">男</asp:ListItem>
-      <asp:ListItem Value="女">女</asp:ListItem>
-      </asp:DropDownList></td><td></td></tr>
-        <tr><td>出生年月：</td><td><asp:TextBox ID="dateOfBirth" runat="server"></asp:TextBox></td><td>&nbsp;* YYYY-MM-DD</td></tr>
+       
       <tr><td>手机：</td><td><asp:TextBox ID="mobile" runat="server"></asp:TextBox></td><td>&nbsp;*</td></tr>
-      <tr><td>当前公司：</td><td><asp:TextBox ID="currentCompany" runat="server"></asp:TextBox></td><td></td></tr>
-      <tr><td>现任职务：</td><td><asp:TextBox ID="currentPosition" runat="server"></asp:TextBox></td><td></td></tr>
-      <tr><td>现居地：</td><td><asp:DropDownList ID="location" runat="server">
-      <asp:ListItem Value="上海">上海</asp:ListItem>
-      <asp:ListItem Value="北京">北京</asp:ListItem>
-      <asp:ListItem Value="广州">广州</asp:ListItem>
-      <asp:ListItem Value="深圳">深圳</asp:ListItem>
-      </asp:DropDownList></td><td></td></tr>
      
-      <tr><td>感兴趣的行业：</td><td>
-      <asp:CheckBox id="financeCheckBox" runat="server" Text="金融"></asp:CheckBox>
-      <asp:CheckBox id="autoCheckBox" runat="server" Text="汽车及配件"></asp:CheckBox>
-      <asp:CheckBox id="lifeCheckBox" runat="server" Text="生命科学"></asp:CheckBox><br />
-      <asp:CheckBox id="powerCheckBox" runat="server" Text="能源及化工"></asp:CheckBox>
-      <asp:CheckBox id="manufCheckBox" runat="server" Text="制造业"></asp:CheckBox>
-      <asp:CheckBox id="hotelCheckBox" runat="server" Text="酒店地产"></asp:CheckBox>
-      </td><td></td></tr>
        <tr><td colspan="3"><hr /></td></tr>
       <tr><td></td><td style="text-align:center"><asp:Button ID="regButton" 
               runat="server" Text="创建账号" 

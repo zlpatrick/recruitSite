@@ -441,6 +441,7 @@
     <Content Include="en\login.aspx" />
     <Content Include="en\logout.aspx" />
     <Content Include="en\nav.aspx" />
+    <Content Include="en\register.aspx" />
     <Content Include="en\solution.aspx" />
     <Content Include="img\aboutus.jpg" />
     <Content Include="img\banner.gif" />
@@ -654,6 +655,13 @@
     </Compile>
     <Compile Include="en\nav.aspx.designer.cs">
       <DependentUpon>nav.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
     </Compile>
     <Compile Include="en\solution.aspx.cs">
       <DependentUpon>solution.aspx</DependentUpon>

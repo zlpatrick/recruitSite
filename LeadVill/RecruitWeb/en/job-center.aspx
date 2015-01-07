@@ -60,10 +60,10 @@
 		    </ul>
     <div class="row">
     <div class="col-md-3 leftText">
-    <p>Thanks for your choosing SAGEPOWER Consulting to be the associates on your career path, because we care about our candidates!</p>
+      <p><input type="text" placeholder="please input to search" ID="positionName" style="width:88%"/> <a href="#" id="searchButton" onclick="doSearch()"><span class="glyphicon glyphicon-search" style="font-size:15px;;margin-left:4px;position:relative;top:4px"></span></a></p>
+    <p>Thanks for your choosing LEADVILL Consulting to be the associates on your career path, because we care about our candidates!</p>
 <p>Besides excellent job opportunities, as a candidate, you can also acquire: HR market survey, target employer analysis, career development planning, remuneration proposal, interview skills training, etc.</p>
-<p>Please send your resume to <a href="mailto:job@sagepowerhr.com">job@sagepowerhr.com</a></p>
-<p>Or directly <a href="#" data-toggle="modal" data-target="#UploadCV"> Upload </a> your resume to us</p>
+
 </div>
 
         
@@ -93,34 +93,6 @@
       
 </div>
 
-<div id="UploadCV" class="modal fade in" tabindex="-1" aria-labelledby="seekFeedbackTitle" role="dialog" aria-hidden="false">
-        <table height="100%" width="100%">
-        <tbody><tr><td valign="middle">
-		<div class="modal-dialog feedbackDialogWidth">
-			<div class="modal-content">
-				<div class="modal-header feedbackHeader">
-							<button type="button" class="close feedbackClose" data-dismiss="modal" aria-hidden="true">×</button>
-							<div class="modal-title" style="font-size:12px">Upload Resume</div>
-				</div>
-                <div style="padding-top:20px;padding-bottom:20px">
-                    <table style="font-size:12px;">
-                        <tr><td>Your Name</td><td><asp:TextBox ID="yourName" runat="server" style="width:85%"></asp:TextBox></td></tr>
-                        <tr><td>Your Email</td><td><asp:TextBox ID="yourEmail" runat="server" style="width:85%"></asp:TextBox></td></tr>
-                        <tr><td>Select File：</td><td><asp:FileUpload ID="yourCV" runat="server" /></td></tr>
-                        <tr><td colspan="2">&nbsp;</td></tr>
-                        <tr><td colspan="2" style="text-align:center"><asp:Button Text="Submit" runat="server" ID="submitYourCV" 
-                
-                                style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" onclick="submitYourCV_Click" 
-                /></td></tr>
-                    
-                    </table>
-                </div>
-                
-			</div>
-		</div>
-		</td></tr>
-		</tbody></table>
-</div>
 <!-- #include file="bottom.aspx"-->
 </form>
 </body>

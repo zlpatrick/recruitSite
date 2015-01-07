@@ -33,7 +33,7 @@ namespace RecruitWeb
                 this.memberID.Text = userid;
                 this.name.Text = ds.Tables[0].Rows[0]["username"].ToString();
                 this.mobile.Text = ds.Tables[0].Rows[0]["mobilePhone"].ToString();
-                this.sex.SelectedValue = ds.Tables[0].Rows[0]["sex"].ToString();
+               
                 this.currentCompany.Text = ds.Tables[0].Rows[0]["currentCompany"].ToString();
                 this.currentPosition.Text = ds.Tables[0].Rows[0]["currentPosition"].ToString();
                 this.dateOfBirth.Text = ds.Tables[0].Rows[0]["dateOfBirth"].ToString();
@@ -75,7 +75,7 @@ namespace RecruitWeb
             string currentPosition = this.currentPosition.Text.Trim();
             string dateOfBirth = this.dateOfBirth.Text.Trim();
             string placeOfNow = this.location.SelectedValue;
-            string sex = this.sex.SelectedValue;
+            string sex = "";
 
             string interestArea = "";
             if (this.financeCheckBox.Checked)

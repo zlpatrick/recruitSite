@@ -21,25 +21,13 @@ namespace RecruitWeb
             string ps = this.ps.Text.Trim();
             string username = this.name.Text.Trim();
             string mobilePhone = this.mobile.Text.Trim();
-            string currentCompany = this.currentCompany.Text.Trim();
-            string placeOfNow = this.location.SelectedValue;
-            string currentPosition = this.currentPosition.Text.Trim();
-            string sex = this.sex.SelectedValue;
-            string dateOfBirth = this.dateOfBirth.Text.Trim();
+            string currentCompany = "";
+            string placeOfNow = "";
+            string currentPosition = "";
+            string sex = "";
+            string dateOfBirth = "";
             string interestArea = "";
-            if (this.financeCheckBox.Checked)
-                interestArea += "金融服务,";
-            if (this.autoCheckBox.Checked)
-                interestArea += "汽车及配件,";
-            if (this.lifeCheckBox.Checked)
-                interestArea += "生命科学,";
-            if (this.manufCheckBox.Checked)
-                interestArea += "制造工业,";
-            if (this.powerCheckBox.Checked)
-                interestArea += "能源及化工,";
-            if (this.hotelCheckBox.Checked)
-                interestArea += "酒店地产,";
-
+        
             string sql = string.Format("insert into Users(userid,userpass,username,mobilePhone,sex,placeOfNow,currentCompany,currentPosition,interestArea,regDateTime,dateOfBirth) values('{0}'"+
                 ",'{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}')", userid, MD5(ps), username, mobilePhone, sex, placeOfNow, currentCompany, currentPosition, interestArea, DateTime.Now.ToString(),dateOfBirth);
             DBUtil.executeNonQuery(sql);

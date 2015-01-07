@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>
-    修改密码 | 赛启咨询
+    修改密码 | 里德咨询
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>

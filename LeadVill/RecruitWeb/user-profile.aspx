@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>
-    个人档案 | 赛启咨询
+    个人档案 | 里德咨询
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -99,10 +99,7 @@
       <table style="width:600px;margin: auto auto 30px auto;font-size:12px;color:Grey;">
       <tr><td>会员ID：</td><td><asp:TextBox ID="memberID" runat="server" Enabled="false"></asp:TextBox></td><td></td></tr>
             <tr><td>姓名：</td><td><asp:TextBox ID="name" runat="server"></asp:TextBox></td><td></td></tr>
-       <tr><td>性别：</td><td><asp:DropDownList ID="sex" runat="server">
-      <asp:ListItem Value="男">男</asp:ListItem>
-      <asp:ListItem Value="女">女</asp:ListItem>
-      </asp:DropDownList></td><td></td></tr>
+      
         <tr><td>出生年月：</td><td><asp:TextBox ID="dateOfBirth" runat="server"></asp:TextBox></td><td>&nbsp;YYYY-MM-DD</td></tr>
       <tr><td>手机：</td><td><asp:TextBox ID="mobile" runat="server"></asp:TextBox></td><td></td></tr>
       <tr><td>当前公司：</td><td><asp:TextBox ID="currentCompany" runat="server"></asp:TextBox></td><td></td></tr>

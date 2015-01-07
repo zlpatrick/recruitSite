@@ -41,44 +41,18 @@
 			    <li class="active">Opening Detail</li>
 		    </ul>
 
-        <div class="jobitem-title"><%=jobTitle %> <a href="#" data-toggle="modal" data-target="#UploadCV" style="margin-left:20px"> Upload Resume </a></div>
+        <div class="jobitem-title"><%=jobTitle %> <%if (Session["loginID"] != null)
+                                                    { %><asp:Button runat="server" 
+                ID="applyPosition" text="Apply for this position" onclick="applyPosition_Click" style="background-color:White;color:grey;border:none"/><%} %></div>
         <hr />
         <div>
         <%=jobContent %>
         </div>
        
-
+       
         
     </div>
 
-<div id="UploadCV" class="modal fade in" tabindex="-1" aria-labelledby="seekFeedbackTitle" role="dialog" aria-hidden="false">
-        <table height="100%" width="100%">
-        <tbody><tr><td valign="middle">
-		<div class="modal-dialog feedbackDialogWidth">
-			<div class="modal-content">
-				<div class="modal-header feedbackHeader">
-							<button type="button" class="close feedbackClose" data-dismiss="modal" aria-hidden="true">×</button>
-							<div class="modal-title" style="font-size:12px">Upload Resume</div>
-				</div>
-                <div style="padding-top:20px;padding-bottom:20px">
-                    <table style="font-size:12px;">
-                        <tr><td>Your Name</td><td><asp:TextBox ID="yourName" runat="server" style="width:85%"></asp:TextBox></td></tr>
-                        <tr><td>Your Email</td><td><asp:TextBox ID="yourEmail" runat="server" style="width:85%"></asp:TextBox></td></tr>
-                        <tr><td>Select File：</td><td><asp:FileUpload ID="yourCV" runat="server" /></td></tr>
-                        <tr><td colspan="2">&nbsp;</td></tr>
-                        <tr><td colspan="2" style="text-align:center"><asp:Button Text="Submit" runat="server" ID="submitYourCV" 
-                
-                                style="border: none;height: 30px;line-height: 30px;padding-left: 20px;padding-right: 20px; color:White;background-color:grey" onclick="submitYourCV_Click" 
-                /></td></tr>
-                    
-                    </table>
-                </div>
-                
-			</div>
-		</div>
-		</td></tr>
-		</tbody></table>
-</div>
 
 
     </form>

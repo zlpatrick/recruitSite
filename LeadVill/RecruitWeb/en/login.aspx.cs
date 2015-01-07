@@ -25,6 +25,14 @@ namespace RecruitWeb.en
                     Session["loginID"] = loginid;
                     Response.Redirect("index.aspx");
                 }
+                else
+                {
+                    Response.Redirect("index.aspx");
+                }
+            }
+            else
+            {
+                Response.Redirect("index.aspx");
             }
         }
 
