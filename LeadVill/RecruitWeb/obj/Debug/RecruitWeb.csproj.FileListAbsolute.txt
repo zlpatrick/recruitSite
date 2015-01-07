@@ -9,3 +9,9 @@ C:\Users\Patrick\git\recruitSite\RecruireWebsite\RecruitWeb\bin\CKEditor.NET.dll
 C:\Users\Patrick\git\recruitSite\RecruireWebsite\RecruitWeb\obj\Debug\RecruitWeb.dll
 C:\Users\Patrick\git\recruitSite\RecruireWebsite\RecruitWeb\obj\Debug\RecruitWeb.pdb
 C:\Users\Patrick\git\recruitSite\RecruireWebsite\RecruitWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Patrick\git\recruitSite\LeadVill\RecruitWeb\bin\RecruitWeb.dll
+C:\Users\Patrick\git\recruitSite\LeadVill\RecruitWeb\bin\RecruitWeb.pdb
+C:\Users\Patrick\git\recruitSite\LeadVill\RecruitWeb\bin\CKEditor.NET.dll
+C:\Users\Patrick\git\recruitSite\LeadVill\RecruitWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Patrick\git\recruitSite\LeadVill\RecruitWeb\obj\Debug\RecruitWeb.dll
+C:\Users\Patrick\git\recruitSite\LeadVill\RecruitWeb\obj\Debug\RecruitWeb.pdb
