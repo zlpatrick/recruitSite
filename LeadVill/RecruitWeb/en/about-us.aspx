@@ -70,7 +70,7 @@ Fax: 973-622-8160
 Globe Tower A, No.168 YuYuan Rd. Shanghai
 
 </p>
- <p>Thanks for your interest in knowing more information about LEADVILL. Any questions, you can send mail to: <a href="mailto:info@leadvill.com">info@leadvill.com</a></p>
+
                     </div>
                 </div>
                 <div class="col-md-9">
@@ -81,7 +81,7 @@ Globe Tower A, No.168 YuYuan Rd. Shanghai
                         <p>LEADVILL will keep focus on our adept area of expertise. With our Deep understanding of cultural differences and market characteristics of various countries and regions, we are committed to provide professional human resources management consulting services to the global business partners and local-market key clients, helping them attract and retain the most qualified professionals.</p>
 <p>Our key clients come from Europe, America, and Asia Pacific region. With their expertise in various industries, they help our business growing all over the world. Since East Asia region is becoming the new growth pole of the world economy, we set up the new office located in Shanghai, China in 2013.</p>
 <p>Leadville’s past is absolutely one of the most amazing documentaries of man’s tenacity and pioneer spirit, of how so many achieved their dreams of fabulous wealth and power in the early development of America’s west. And it’s also about those who fought for it, died for it, but never found it, or lost it if they did. Leadville today is a peaceful and friendly community which is different from its past days of the boom era. But we never forget our roots, and the very essence of what made Leadville an icon of the American dream. Leadville’s pioneer spirit will drive us to a glory future, and last forever. LEADVILL will inherit Leadville’s spirits; aim to create a glorious future.</p>
-                    </div>
+                    <p>Thanks for your interest in knowing more information about LEADVILL. Any questions, you can send mail to: <a href="mailto:info@leadvill.com">info@leadvill.com</a></p></div>
                 </div>
                
                 </div>

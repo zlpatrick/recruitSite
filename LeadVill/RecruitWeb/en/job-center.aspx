@@ -83,7 +83,7 @@
     <option value="sales">Sales / Marketing</option>
     <option value="rd">R&D / Technical</option>
     <option value="supply">Operation / Supply Chain</option>
-    <option value="legal">Finance / League</option>
+    <option value="legal">Finance / Legal</option>
     <option value="it">IT</option>
     <option value="hr">HR</option>
     </select>
