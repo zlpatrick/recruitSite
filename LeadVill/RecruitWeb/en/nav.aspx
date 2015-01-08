@@ -94,7 +94,7 @@ a:hover
 					class="icon-bar"></span>
 			</button>
 			<a class="navbar-brand" href="/en/index.aspx" title="Home" style="padding: 0"><img
-				src="/img/logo.png" class="img-responsive" style="height:45px;margin-left:20px;"/></a>
+				src="/img/logo.png" class="img-responsive" style="height:55px;margin-left:20px;"/></a>
 		</div>
 		<div class="navbar-collapse collapse">
 			<div style="float:right;position:relative;padding-right:10px;margin-top:15px;color:grey"><form method="post" action="login.aspx">
@@ -122,7 +122,7 @@ a:hover
             
             <li class="home-banner-column">
                     <ul>
-                        <li class="home-banner-column-title"><a href="/en/job-center.aspx">OPPORTUNITY</a></li>
+                        <li class="home-banner-column-title"><a href="/en/job-center.aspx">JOB CENTER</a></li>
                    
                     </ul>
             </li>
@@ -142,4 +142,4 @@ a:hover
     </div>
     </div>
 </div>
-<div style="height:120px">&nbsp;</div>
+<div style="height:110px">&nbsp;</div>

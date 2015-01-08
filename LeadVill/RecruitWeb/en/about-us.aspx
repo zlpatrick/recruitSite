@@ -21,8 +21,8 @@
     
      .solution-section-body
     {
-        line-height:25px;
-        padding:25px 10px;
+        line-height:22px;
+        padding:10px 10px;
         color:#666;
     }
     
@@ -51,8 +51,29 @@
             <img src="/img/aboutus.jpg" class="img-responsive" style="width:100%;">
            
                 <div class="row">
-                <div class="col-md-6">
+                 <div  class="col-md-3">
                     <div class="solution-section-header">
+                    Contact Us
+                    </div>
+                    <div class="solution-section-body">
+                   <p>Thanks for your interest in knowing more information about LEADVILL. Any questions, you can send mail to: <a href="mailto:info@leadvill.com">info@leadvill.com</a></p>
+                 
+<p>Europe Office：<br />
+1st Floor Holborn Gate, 330 High Holborn, London, WC1V 7QT
+Fax: +44 (0) 20 7203 6701
+</p>
+<p>America Office：<br />
+One Gateway Center, Suite 2600, Newark, New Jersey, 07102
+Fax: 973-622-8160
+</p>
+<p>China Office：<br />
+Globe Tower A, No.168 YuYuan Rd. Shanghai
+
+</p>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="solution-section-header" style="text-align:right;padding-right:10px">
                      About Us
                     </div>
                     <div class="solution-section-body">
@@ -61,27 +82,7 @@
 <p>Leadville’s past is absolutely one of the most amazing documentaries of man’s tenacity and pioneer spirit, of how so many achieved their dreams of fabulous wealth and power in the early development of America’s west. And it’s also about those who fought for it, died for it, but never found it, or lost it if they did. Leadville today is a peaceful and friendly community which is different from its past days of the boom era. But we never forget our roots, and the very essence of what made Leadville an icon of the American dream. Leadville’s pioneer spirit will drive us to a glory future, and last forever. LEADVILL will inherit Leadville’s spirits; aim to create a glorious future.</p>
                     </div>
                 </div>
-                <div  class="col-md-6">
-                    <div class="solution-section-header" style="text-align:right;padding-right:10px">
-                    Contact Us
-                    </div>
-                    <div class="solution-section-body">
-                   <p>Thanks for your interest in knowing more information about LEADVILL. Any questions, you can send mail to: <a href="mailto:info@leadvill.com">info@leadvill.com</a></p>
-                   <br />
-<p>Europe Office：<br />
-1st Floor Holborn Gate, 330 High Holborn, London, WC1V 7QT
-Fax: +44 (0) 20 7203 6701
-</p><br />
-<p>America Office：<br />
-One Gateway Center, Suite 2600, Newark, New Jersey, 07102
-Fax: 973-622-8160
-</p><br />
-<p>China Office：<br />
-Globe Tower A, No.168 YuYuan Rd. Shanghai
-
-</p>
-                    </div>
-                </div>
+               
                 </div>
           
 

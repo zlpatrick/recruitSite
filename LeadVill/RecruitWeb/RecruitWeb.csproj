@@ -807,6 +807,7 @@
     <None Include="ckeditor\.htaccess" />
     <None Include="css\bootstrap-theme.css.map" />
     <None Include="css\bootstrap.css.map" />
+    <None Include="css\regular.woff" />
     <None Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="fonts\glyphicons-halflings-regular.svg" />
     <None Include="fonts\glyphicons-halflings-regular.ttf" />

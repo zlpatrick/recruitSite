@@ -21,8 +21,8 @@
     
      .solution-section-body
     {
-        line-height:25px;
-        padding:25px 10px;
+        line-height:22px;
+        padding:10px;
         color:#666;
     }
     
@@ -51,8 +51,31 @@
             <img src="img/aboutus.jpg" class="img-responsive" style="width:100%;">
            
                 <div class="row">
-                <div class="col-md-6">
-                    <div class="solution-section-header">
+                 <div  class="col-md-3">
+                    <div class="solution-section-header" >
+                    联系我们
+                    </div>
+                    <div class="solution-section-body">
+                   <p>非常感谢您有兴趣了解里德。<br />有任何问题，欢迎您发送邮件至：<a href="mailto:info@leadvill.com">info@leadvill.com</a></p>
+<p>欧洲办公室：<br />
+1st Floor Holborn Gate, 330 High Holborn, London, WC1V 7QT
+Fax: +44 (0) 20 7203 6701
+</p>
+<p>美国办公室：<br />
+One Gateway Center, Suite 2600, Newark, New Jersey, 07102
+Fax: 973-622-8160
+</p>
+<p>中国办公室：<br />
+长宁区愚园路168号 环球世界大厦A座
+
+</p>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-9">
+                    <div class="solution-section-header" style="text-align:right;padding-right:10px">
                      关于我们
                     </div>
                     <div class="solution-section-body">
@@ -63,27 +86,7 @@
 <p>莱德维尔的历史是一部记录人类坚韧不拔的先驱精神的纪录片，反映了美国西部拓荒年代，先驱者如何实现梦想：那些为之战斗至死却依然遍寻未得，那些已然拥有却再次遗失。昨日已铅华洗尽，作为美国梦的精神代表，今日的莱德维尔依然心存坚毅。它的先驱精神将伴随我们赢得荣耀，并将一直延续和传承。里德咨询将继承并发扬莱德维尔的精神，创造将来的辉煌。</p>
                     </div>
                 </div>
-                <div  class="col-md-6">
-                    <div class="solution-section-header" style="text-align:right;padding-right:10px">
-                    联系我们
-                    </div>
-                    <div class="solution-section-body">
-                   <p>非常感谢您有兴趣了解里德。<br />有任何问题，欢迎您发送邮件至：<a href="mailto:info@leadvill.com">info@leadvill.com</a></p><br />
-<p>欧洲办公室：<br />
-1st Floor Holborn Gate, 330 High Holborn, London, WC1V 7QT
-Fax: +44 (0) 20 7203 6701
-</p><br />
-<p>美国办公室：<br />
-One Gateway Center, Suite 2600, Newark, New Jersey, 07102
-Fax: 973-622-8160
-</p><br />
-<p>中国办公室：<br />
-长宁区愚园路168号 环球世界大厦A座
-
-</p>
-
-                    </div>
-                </div>
+               
                 </div>
             
             

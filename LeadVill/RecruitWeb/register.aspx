@@ -156,14 +156,16 @@
 				    href="index.aspx">首页</a><span class="divider"></span></li>
 			    <li class="active">创建账号</li>
 		    </ul>
-            <hr />
-      <div style="padding-left:20px;color:grey;padding-top:10px;padding-bottom:5px;">
-      <p><span class="glyphicon glyphicon-star"></span> 注册成为会员以后，如果有合适的职位，我们的专业职业顾问将通过您注册的手机/邮箱为您介绍最适合您的职位信息
+           
+    <div class="row">
+     
+      <div class="col-md-3" style="padding:25px;color:grey;line-height:28px">
+      <p><span class="glyphicon glyphicon-star"></span> 注册成为会员以后，您将进入我们的人才数据库
       </p>
-      <p><span class="glyphicon glyphicon-star"></span> 即使您现在身在海外，我们也十分欢迎您的注册</p>
-      <p><span class="glyphicon glyphicon-star"></span> 所有服务均为免费</p>
+      <p><span class="glyphicon glyphicon-star"></span> 只有当合适您的工作机会出现时，我们的专业职业顾问才会直接与您沟通。</p>
+      
       </div>
-      <hr />
+      <div class="col-md-9" style="border-left:1px solid lightgrey">
       <table style="width:600px;margin:30px auto;font-size:12px;color:Grey;" id="regTable">
       <tr><td>会员ID：</td><td><asp:TextBox ID="memberID" runat="server"></asp:TextBox></td><td style="text-align:left">&nbsp;* 请用邮箱作为ID</td></tr>
       <tr><td>密码：</td><td><asp:TextBox ID="ps" TextMode="Password" runat="server"></asp:TextBox></td><td>&nbsp;* 长度至少为6</td></tr>
@@ -182,6 +184,8 @@
       <table style="width:600px;margin:30px auto;font-size:12px;color:Grey;" id="thanksTable">
       <tr><td style="text-align:center">感谢您的注册,请返回<a href="index.aspx">首页</a>登录</td></tr>
       </table>
+      </div>
+    </div>
 </div>
 
 

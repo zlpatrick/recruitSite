@@ -21,8 +21,8 @@
     
      .solution-section-body
     {
-        line-height:25px;
-        padding:25px;
+        line-height:22px;
+        padding:10px;
         color:#666;
     }
     .solution-section-body ul
@@ -30,11 +30,7 @@
         padding:0;
         overflow:hidden;
     }
-    .solution-section-body ul li
-    {
-        float:left;
-        margin-right:20px;
-    }
+   
     hr
     {
         margin-top:10px;
@@ -52,24 +48,25 @@
 			    <li class="active">Solutions</li>
 		    </ul>
             <img src="/img/solution.jpg" class="img-responsive" style="width:100%;" />
-                <div>
+            <div class="row">
+                <div class="col-md-3">
                     <div class="solution-section-header">
-                    Our services</span>
+                    Our services
                     </div>
                     <div class="solution-section-body">
                         <p>With in-depth study and research in our adept area of expertise,Sagepower assists our clients with managing talent, providing strategic organizational HR consulting services to help our clients on talent acquisition, candidate assessment and evaluation.Our professional services include:</p>
-                        <ul><li>Executive Search</li>
-                        <li>Organization Talent Mapping</li>
-                        <li>Talent Assessment Center</li>
-                        <li>Reference Check</li>
-                        <li>Salary Survey</li>
+                        <ul><li>- Executive Search</li>
+                        <li>- Organization Talent Mapping</li>
+                        <li>- Talent Assessment Center</li>
+                        <li>- Reference Check</li>
+                        <li>- Salary Survey</li>
                         </ul>
                        
                        
                     </div>
                 </div>
-                <div>
-                    <div class="solution-section-header">
+                <div class="col-md-9">
+                    <div class="solution-section-header" style="text-align:right;padding-right:10px">
                     Insights
                     </div>
                     <div class="solution-section-body">
@@ -121,7 +118,7 @@ We maintain good relationships with top talents in this industry around the worl
                     </div>
                     </div>
                 </div>
-            
+            </div>
             
        
         

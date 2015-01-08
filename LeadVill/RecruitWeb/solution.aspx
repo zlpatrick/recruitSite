@@ -21,8 +21,8 @@
     
      .solution-section-body
     {
-        line-height:25px;
-        padding:25px;
+        line-height:22px;
+        padding:10px;
         color:#666;
     }
     .solution-section-body ul
@@ -32,7 +32,7 @@
     }
     .solution-section-body ul li
     {
-        float:left;
+        
         margin-right:20px;
     }
     hr
@@ -52,24 +52,25 @@
 			    <li class="active">解决方案</li>
 		    </ul>
             <img src="img/solution.jpg" class="img-responsive" style="width:100%;" />
-                <div>
+            <div class="row">
+                <div  class="col-md-3">
                     <div class="solution-section-header">
                     服务领域</span>
                     </div>
                     <div class="solution-section-body">
                         <p>里德对所专注的行业领域进行深入的分析和研究，协助我们的客户进行人力资源管理。在人才获取，候选人测评等方面，提供战略性的组织人力资源咨询服务。我们的专业服务包括：</p>
-                        <ul><li>高级管理层寻访</li>
-                        <li>组织架构映射</li>
-                        <li>人才评估中心</li>
-                        <li>背景调研</li>
-                        <li>市场薪资调查</li>
+                        <ul><li>- 高级管理层寻访</li>
+                        <li>- 组织架构映射</li>
+                        <li>- 人才评估中心</li>
+                        <li>- 背景调研</li>
+                        <li>- 市场薪资调查</li>
                         </ul>
                        
                        
                     </div>
                 </div>
-                <div>
-                    <div class="solution-section-header">
+                <div class="col-md-9">
+                    <div class="solution-section-header" style="text-align:right;padding-right:10px">
                     行业视角
                     </div>
                     <div class="solution-section-body">
@@ -121,7 +122,7 @@
                     </div>
                     </div>
                 </div>
-            
+            </div>
             
        
         
