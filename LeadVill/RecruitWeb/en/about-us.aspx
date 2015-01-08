@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>
-    About Us | LeadVill
+    About Us | Leadvill
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -56,7 +56,7 @@
                     Contact Us
                     </div>
                     <div class="solution-section-body">
-                   <p>Thanks for your interest in knowing more information about LEADVILL. Any questions, you can send mail to: <a href="mailto:info@leadvill.com">info@leadvill.com</a></p>
+                  
                  
 <p>Europe Office：<br />
 1st Floor Holborn Gate, 330 High Holborn, London, WC1V 7QT
@@ -70,6 +70,7 @@ Fax: 973-622-8160
 Globe Tower A, No.168 YuYuan Rd. Shanghai
 
 </p>
+ <p>Thanks for your interest in knowing more information about LEADVILL. Any questions, you can send mail to: <a href="mailto:info@leadvill.com">info@leadvill.com</a></p>
                     </div>
                 </div>
                 <div class="col-md-9">

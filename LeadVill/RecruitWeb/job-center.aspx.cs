@@ -19,29 +19,31 @@ namespace RecruitWeb
 
         private void loadPositions()
         {
-            string companyType = "";
-            if (Request.QueryString["type"] != null)
-            {
-                string type = Request.QueryString["type"];
-                if (type.Equals("zh"))
-                    companyType = "中国公司";
-                else if (type.Equals("jp"))
-                    companyType = "日本公司";
-                else if (type.Equals("en"))
-                    companyType = "欧美公司";
-            }
-            string sql = "select * from Positions where languageText='中文' order by submitDateTime desc";
-            if (!companyType.Equals(""))
-            {
-                sql = "select * from Positions where companyType='" + companyType + "' and languageText='中文' order by submitDateTime desc";
-            }
-
+            string sql = "select * from Positions where languageText='中文' ";
             string searchKey = "";
             if (Request.QueryString["search"] != null)
             {
                 searchKey = Request.QueryString["search"];
-                sql = "select * from Positions where titleText like '%" + searchKey + "%' and languageText='中文' order by submitDateTime desc";
+                sql = "select * from Positions where titleText like '%" + searchKey + "%' and languageText='中文' ";
             }
+            if (Request.QueryString["area"] != null)
+            {
+                string area = Request.QueryString["area"];
+                if (!area.Equals(""))
+                {
+                    sql += "and areaText='" + area + "' ";
+                }
+            }
+            if (Request.QueryString["depart"] != null)
+            {
+                string depart = Request.QueryString["depart"];
+                if (!depart.Equals(""))
+                {
+                    sql += "and departmentText='" + depart + "' ";
+                }
+            }
+
+            sql += "order by submitDateTime desc";
             this.positionList.DataSource = DBUtil.executeQuery(sql);
             this.positionList.DataBind();
         }

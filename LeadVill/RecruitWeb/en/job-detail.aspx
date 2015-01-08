@@ -2,7 +2,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Opening Detail | LeadVill</title>
+    <title>Opening Detail | Leadvill</title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
     <!-- #include file="/common.aspx" -->

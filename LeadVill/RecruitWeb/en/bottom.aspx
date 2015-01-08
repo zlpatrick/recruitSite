@@ -3,6 +3,6 @@
 
 <div class="container" style="text-align:center;color:grey;border-top:1px solid #eee;padding-top:5px;background-color:White">
 
-Copyright 2015 LeadVill
+Copyright 2015 Leadvill
 </div>
 </div>

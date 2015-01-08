@@ -27,10 +27,10 @@ namespace RecruitWeb.admin
                 ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>showError();</script>");
                 return;
             }
-
+            string depart = this.department.SelectedValue;
             string companyType = this.companyType.SelectedValue;
             string language = this.language.SelectedValue;
-            string sql = string.Format("insert into Positions(titleText,contentText,submitDateTime,companyType,languageText,areaText) values('{0}','{1}','{2}','{3}','{4}')", title, positionDetail, DateTime.Now.ToString(),companyType,language,areaText);
+            string sql = string.Format("insert into Positions(titleText,contentText,submitDateTime,companyType,languageText,areaText,departmentText) values('{0}','{1}','{2}','{3}','{4}','{5}','{6}')", title, positionDetail, DateTime.Now.ToString(), companyType, language, areaText, depart);
             DBUtil.executeNonQuery(sql);
             Response.Redirect("/admin/main-position-list.aspx");
         }

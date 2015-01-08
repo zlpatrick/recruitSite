@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-    Solutions | LeadVill
+    Solutions | Leadvill
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -45,7 +45,7 @@
        <ul class="breadcrumb" style="background-color: white">
 			    <li><a
 				    href="index.aspx">Home Page</a><span class="divider"></span></li>
-			    <li class="active">Solutions</li>
+			    <li class="active">Solution</li>
 		    </ul>
             <img src="/img/solution.jpg" class="img-responsive" style="width:100%;" />
             <div class="row">
@@ -54,7 +54,7 @@
                     Our services
                     </div>
                     <div class="solution-section-body">
-                        <p>With in-depth study and research in our adept area of expertise,Sagepower assists our clients with managing talent, providing strategic organizational HR consulting services to help our clients on talent acquisition, candidate assessment and evaluation.Our professional services include:</p>
+                        <p>With in-depth study and research in our adept area of expertise, LEADVILL assists our clients with managing talent, providing strategic organizational HR consulting services to help our clients on talent acquisition, candidate assessment and evaluation.Our professional services include:</p>
                         <ul><li>- Executive Search</li>
                         <li>- Organization Talent Mapping</li>
                         <li>- Talent Assessment Center</li>
@@ -112,7 +112,7 @@ We maintain good relationships with top talents in this industry around the worl
 <div class="col-md-6">
                     <p style="color:#333;text-align:right"><a href="insights-area.aspx?area=power">Hotel & Real Estate</a></p><hr />
                     <p style="margin-left:20px">
-                    We are devoted to long term cooperation with top real estates, international hotels. Our candidates are mid-high level executives and experts from housing and tourism real estate, shopping mall and business center, urban complex, etc.
+                    We are devoted to long term cooperation with top real estates, international hotels. Our candidates are mid-high level executives and experts from housing and tourism real estate, shopping mall and business center, urban complex.
 </p>
                     </div>
                     </div>

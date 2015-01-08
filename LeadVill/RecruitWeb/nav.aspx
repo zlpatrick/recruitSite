@@ -80,8 +80,10 @@ a:hover
 <script>
     function doSearch() {
         var searchKeyWord = $("#positionName")[0].value;
+        var area = $("#positionArea")[0].value;
+        var department = $("#positionDepartment")[0].value;
         if ((searchKeyWord != null) && (searchKeyWord != "")) {
-            location.href = "/job-center.aspx?search=" + searchKeyWord;
+            location.href = "/job-center.aspx?search=" + searchKeyWord +"&area="+area+"&depart="+department;
         }
     }
 </script>

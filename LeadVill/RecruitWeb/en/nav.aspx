@@ -78,8 +78,10 @@ a:hover
 <script>
     function doSearch() {
         var searchKeyWord = $("#positionName")[0].value;
+        var area = $("#positionArea")[0].value;
+        var department = $("#positionDepartment")[0].value;
         if ((searchKeyWord != null) && (searchKeyWord != "")) {
-            location.href = "/en/job-center.aspx?search=" + searchKeyWord;
+            location.href = "/en/job-center.aspx?search=" + searchKeyWord + "&area=" + area + "&depart=" + department;
         }
     }
 </script>
@@ -102,7 +104,7 @@ a:hover
             if(Session["loginID"]==null) 
             {
                       %>
-<input placeholder="Your Member ID" type="text" id="loginMemberID" style="margin-left:15px;border:1px solid #ddd"  name="loginMemberID"><input placeholder="Your Password"  style="margin-left:5px;border:1px solid #ddd" type="password" id="loginPassWord" name="loginPassWord"/><input style="border: none;height: 25px;line-height: 25px;padding-left: 5px;padding-right: 5px;border:none; color:grey;background-color:white" id="Submit1" type="submit" value="Sign In"/>&nbsp;|&nbsp;&nbsp;<a href="register.aspx" style="color:Grey">Sign Up</a>
+<input placeholder="Your Member ID" type="text" id="loginMemberID" style="margin-left:15px;border:1px solid #ddd"  name="loginMemberID"><input placeholder="Your Password"  style="margin-left:5px;border:1px solid #ddd" type="password" id="loginPassWord" name="loginPassWord"/><input style="border: none;height: 25px;line-height: 25px;padding-left: 5px;padding-right: 5px;border:none; color:grey;background-color:white" id="Submit1" type="submit" value="Log In"/>&nbsp;|&nbsp;&nbsp;<a href="register.aspx" style="color:Grey">Sign Up</a>
             <%
             }
             else

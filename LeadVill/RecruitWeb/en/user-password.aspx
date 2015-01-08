@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-    Edit Password | LeadVill
+    Edit Password | Leadvill
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>

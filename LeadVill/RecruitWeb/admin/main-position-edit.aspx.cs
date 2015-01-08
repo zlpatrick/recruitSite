@@ -31,11 +31,15 @@ namespace RecruitWeb.admin
             string detail = ds.Tables[0].Rows[0]["contentText"].ToString();
             string companyType = ds.Tables[0].Rows[0]["companyType"].ToString();
             string lang = ds.Tables[0].Rows[0]["languageText"].ToString();
+            string area = ds.Tables[0].Rows[0]["areaText"].ToString();
+            string departMent = ds.Tables[0].Rows[0]["departmentText"].ToString();
 
             this.title.Text = title;
             this.positionContent.Text = detail;
             this.companyType.SelectedValue = companyType;
             this.language.SelectedValue = lang;
+            this.area.SelectedValue = area;
+            this.department.SelectedValue = departMent;
         }
 
         protected void submitPosition_Click(object sender, EventArgs e)
@@ -50,7 +54,9 @@ namespace RecruitWeb.admin
             }
             string companyType = this.companyType.SelectedValue;
             string language = this.language.SelectedValue;
-            string sql = string.Format("update Positions set titleText='{0}',contentText='{1}',companyType='{2}',languageText='{3}' where ID={4}",title, positionDetail, companyType, language,id);
+            string area = this.area.SelectedValue;
+            string departments = this.department.SelectedValue;
+            string sql = string.Format("update Positions set titleText='{0}',contentText='{1}',companyType='{2}',languageText='{3}',areaText='{4}',departmentText='{5}' where ID={6}", title, positionDetail, companyType, language, area, departments, id);
             DBUtil.executeNonQuery(sql);
             Response.Redirect("main-position-list.aspx");
         }

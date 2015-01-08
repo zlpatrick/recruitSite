@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>
-    Job Center | LeadVill
+    Job Center | Leadvill
     </title>
     <meta name="Keywords" content=""/>
     <meta name="Description" content=""/>
@@ -47,6 +47,12 @@
     {
         font-size:12px;
     }
+    select
+    {
+        width:45%;
+        height:25px;
+        color:darkgrey;
+    }
     </style>
 </head>
 
@@ -60,8 +66,39 @@
 		    </ul>
     <div class="row">
     <div class="col-md-3 leftText">
+
+    <p><select id="positionArea">
+    <option value="">Industry...</option>
+    <option value="finance">Financial Services</option>
+    <option value="manuf">Manufacturing Industry</option>
+    <option value="power">Energy & Chemical</option>
+    <option value="auto">Auto & Components</option>
+    <option value="life">Life Science</option>
+    <option value="hotel">Hotel & Real Estate</option>
+    </select>
+    
+
+    <select id="positionDepartment">
+    <option value="">Function...</option>
+    <option value="sales">Sales / Marketing</option>
+    <option value="rd">R&D / Technical</option>
+    <option value="supply">Operation / Supply Chain</option>
+    <option value="legal">Finance / League</option>
+    <option value="it">IT</option>
+    <option value="hr">HR</option>
+    </select>
+
+
+
+
+
+    
+    </p>
+
+
+
       <p><input type="text" placeholder="please input to search" ID="positionName" style="width:88%"/> <a href="#" id="searchButton" onclick="doSearch()"><span class="glyphicon glyphicon-search" style="font-size:15px;;margin-left:4px;position:relative;top:4px"></span></a></p>
-    <p style="line-height:22px">Thanks for your choosing LEADVILL Consulting to be the associates on your career path, because we care about our candidates!</p>
+    <p style="line-height:22px">Thanks for choosing LEADVILL to be the associates on your career path, because we care about every candidates as well as our clients.</p>
 <p style="line-height:22px">Besides excellent job opportunities, as a candidate, you can also acquire: <br />
 -HR market survey<br />-target employer analysis<br />-career development planning<br />-remuneration proposal<br />-interview skills training</p>
 

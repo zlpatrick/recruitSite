@@ -56,7 +56,7 @@
                     联系我们
                     </div>
                     <div class="solution-section-body">
-                   <p>非常感谢您有兴趣了解里德。<br />有任何问题，欢迎您发送邮件至：<a href="mailto:info@leadvill.com">info@leadvill.com</a></p>
+                   
 <p>欧洲办公室：<br />
 1st Floor Holborn Gate, 330 High Holborn, London, WC1V 7QT
 Fax: +44 (0) 20 7203 6701
@@ -69,7 +69,7 @@ Fax: 973-622-8160
 长宁区愚园路168号 环球世界大厦A座
 
 </p>
-
+<p>非常感谢您有兴趣了解里德咨询。<br />有任何问题，欢迎您发送邮件至：<a href="mailto:info@leadvill.com">info@leadvill.com</a></p>
                     </div>
                 </div>
 

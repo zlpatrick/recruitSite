@@ -85,7 +85,7 @@
 		    </ul>
 
 
-<div class="row">
+<div class="row" style="margin-bottom:40px">
 <div class="col-md-3">
 <div class="list-group">
   <a href="/admin/main-insights-add.aspx" class="list-group-item">
@@ -120,12 +120,22 @@
 
         <span>&nbsp;&nbsp;领域&nbsp;&nbsp;</span>
         <asp:DropDownList ID="area" runat="server">
-        <asp:ListItem Value="金融服务">金融服务</asp:ListItem>
-        <asp:ListItem Value="制造工业">制造工业</asp:ListItem>
-        <asp:ListItem Value="能源及化工">能源及化工</asp:ListItem>
-        <asp:ListItem Value="汽车及配件">汽车及配件</asp:ListItem>
-        <asp:ListItem Value="生命科学">生命科学</asp:ListItem>
-        <asp:ListItem Value="酒店地产">酒店地产</asp:ListItem>
+        <asp:ListItem Value="finance">金融服务</asp:ListItem>
+        <asp:ListItem Value="manuf">制造工业</asp:ListItem>
+        <asp:ListItem Value="power">能源及化工</asp:ListItem>
+        <asp:ListItem Value="auto">汽车及配件</asp:ListItem>
+        <asp:ListItem Value="life">生命科学</asp:ListItem>
+        <asp:ListItem Value="hotel">酒店地产</asp:ListItem>
+        </asp:DropDownList>
+
+         <span>&nbsp;&nbsp;职能&nbsp;&nbsp;</span>
+        <asp:DropDownList ID="department" runat="server">
+        <asp:ListItem Value="sales">销售/市场</asp:ListItem>
+        <asp:ListItem Value="rd">研发/技术</asp:ListItem>
+        <asp:ListItem Value="supply">运营/供应链</asp:ListItem>
+        <asp:ListItem Value="legal">财务/法务</asp:ListItem>
+        <asp:ListItem Value="it">IT</asp:ListItem>
+        <asp:ListItem Value="hr">人力资源</asp:ListItem>
         </asp:DropDownList>
         </div>
         <div style="height:30px"><span>内容&nbsp;&nbsp;</span><br /></div> 
