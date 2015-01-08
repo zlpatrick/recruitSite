@@ -62,7 +62,8 @@
     <div class="col-md-3 leftText">
       <p><input type="text" placeholder="please input to search" ID="positionName" style="width:88%"/> <a href="#" id="searchButton" onclick="doSearch()"><span class="glyphicon glyphicon-search" style="font-size:15px;;margin-left:4px;position:relative;top:4px"></span></a></p>
     <p style="line-height:22px">Thanks for your choosing LEADVILL Consulting to be the associates on your career path, because we care about our candidates!</p>
-<p style="line-height:22px">Besides excellent job opportunities, as a candidate, you can also acquire: HR market survey, target employer analysis, career development planning, remuneration proposal, interview skills training, etc.</p>
+<p style="line-height:22px">Besides excellent job opportunities, as a candidate, you can also acquire: <br />
+-HR market survey<br />-target employer analysis<br />-career development planning<br />-remuneration proposal<br />-interview skills training</p>
 
 </div>
 

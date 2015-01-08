@@ -65,7 +65,8 @@
     <div class="col-md-3 leftText" style="border-right:1px solid #eeeeee;">
     <p><input type="text" placeholder="请输入搜索职位名" ID="positionName" style="width:88%"/> <a href="#" id="searchButton" onclick="doSearch()"><span class="glyphicon glyphicon-search" style="font-size:15px;;margin-left:4px;position:relative;top:4px"></span></a></p>
         <p style="line-height:22px">感谢您选择里德作为职业生涯的伙伴。因为，除了客户，我们同样关心每一位候选人。</p>
-<p style="line-height:22px">除了优秀的工作机会之外，您还可以获得：人力资源的市场报告，目标雇主分析，职业发展规划，薪资报酬建议，面试技巧培训等。</p>
+<p style="line-height:22px">除了优秀的工作机会之外，您还可以获得：<br />
+-人力资源的市场报告<br />-目标雇主分析<br />-职业发展规划<br />-薪资报酬建议<br />-面试技巧培训</p>
 
 </div>
     <div class="col-md-9" >

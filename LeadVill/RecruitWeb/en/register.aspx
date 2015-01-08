@@ -159,9 +159,9 @@
 		    </ul>
       <div class="row">
       <div class="col-md-3"  style="padding:25px;color:grey;line-height:28px">
-      <p><span class="glyphicon glyphicon-star"></span> After your registration，you will be one of our talents .</p>
+      <p>- After your registration, your will officially become one of the potential candidates in our talent database, and enjoy our services special for you.</p>
 
- <p><span class="glyphicon glyphicon-star"></span> Only when there is a job that fits you, our professional consultants will contact you directly.</p></div>
+ <p>- Our consultant will contact you directly, ONLY when get job opportunity fits you. </p></div>
       <div class="col-md-9" style="border-left:1px solid lightgrey">
       <table style="width:600px;margin:30px auto;font-size:12px;color:Grey;" id="regTable">
       <tr><td>Member ID：</td><td><asp:TextBox ID="memberID" runat="server"></asp:TextBox></td><td style="text-align:left">&nbsp;* Please use Email address</td></tr>

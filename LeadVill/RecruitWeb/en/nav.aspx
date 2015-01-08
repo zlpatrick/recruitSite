@@ -34,8 +34,7 @@
 .home-banner-column-title
 {
     color:#333;
-    height:25px !important;
-    line-height: 25px !important;
+    
 }
 
  .main-form
@@ -67,7 +66,7 @@
 
 a
 {
-    color:#333;
+    color:black;
 }
 
 a:hover
@@ -94,22 +93,22 @@ a:hover
 					class="icon-bar"></span>
 			</button>
 			<a class="navbar-brand" href="/en/index.aspx" title="Home" style="padding: 0"><img
-				src="/img/logo.png" class="img-responsive" style="height:55px;margin-left:20px;"/></a>
+				src="/img/logo.png" class="img-responsive" style="height:70px;margin-left:10px;"/></a>
 		</div>
 		<div class="navbar-collapse collapse">
 			<div style="float:right;position:relative;padding-right:10px;margin-top:15px;color:grey"><form method="post" action="login.aspx">
-            <a href="/index.aspx">Chinese</a>&nbsp;&nbsp;<a href="/en/index.aspx" style="margin-right:20px">English</a>
+           
             <% 
             if(Session["loginID"]==null) 
             {
                       %>
-<input placeholder="Your Member ID" type="text" id="loginMemberID" style="margin-left:15px;border:1px solid #ddd"  name="loginMemberID"><input placeholder="Your Password"  style="margin-left:5px;border:1px solid #ddd" type="password" id="loginPassWord" name="loginPassWord"/><input style="border: none;height: 25px;line-height: 25px;padding-left: 5px;padding-right: 5px;border:none; color:grey;background-color:white" id="Submit1" type="submit" value="Sign In"/><a href="register.aspx" style="color:Grey">Sign Up</a>
+<input placeholder="Your Member ID" type="text" id="loginMemberID" style="margin-left:15px;border:1px solid #ddd"  name="loginMemberID"><input placeholder="Your Password"  style="margin-left:5px;border:1px solid #ddd" type="password" id="loginPassWord" name="loginPassWord"/><input style="border: none;height: 25px;line-height: 25px;padding-left: 5px;padding-right: 5px;border:none; color:grey;background-color:white" id="Submit1" type="submit" value="Sign In"/>&nbsp;|&nbsp;&nbsp;<a href="register.aspx" style="color:Grey">Sign Up</a>
             <%
             }
             else
                 {%>
                  Welcome: <%=Session["loginID"] %> <a href="user-profile.aspx" style="margin-right:5px;margin-left:10px">Profile</a><a href="logout.aspx">Log out</a>
-                 <% }%>  
+                 <% }%>   <a href="/index.aspx" style="margin-left:20px">Chinese</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/en/index.aspx">English</a>
                  </form>
                </div>
            

@@ -160,9 +160,9 @@
     <div class="row">
      
       <div class="col-md-3" style="padding:25px;color:grey;line-height:28px">
-      <p><span class="glyphicon glyphicon-star"></span> 注册成为会员以后，您将进入我们的人才数据库
+      <p>- 注册成为会员以后，您将正式成为我司数据库中众多人才之一，并享受我们带来的专业服务
       </p>
-      <p><span class="glyphicon glyphicon-star"></span> 只有当合适您的工作机会出现时，我们的专业职业顾问才会直接与您沟通。</p>
+      <p>- 只有当合适您的工作机会出现时，我们的专业职业顾问才会直接与您沟通。</p>
       
       </div>
       <div class="col-md-9" style="border-left:1px solid lightgrey">
