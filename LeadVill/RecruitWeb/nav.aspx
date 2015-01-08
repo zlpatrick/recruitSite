@@ -75,7 +75,10 @@ a:hover
     text-decoration:none;
 }
 
-
+.list-group-item
+{
+    border:none;
+}
 </style>
 <script>
     function doSearch() {

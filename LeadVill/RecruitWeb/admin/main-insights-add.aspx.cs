@@ -53,7 +53,7 @@ namespace RecruitWeb.admin
             string docFile = maxid + getExtention(this.docUpload.FileName);
             this.docUpload.SaveAs(Server.MapPath("\\InsightFiles\\document\\" + maxid + getExtention(this.docUpload.FileName)));
 
-            sql = string.Format("insert into Insights(titleText,contentText,documentLoc,areaText,languageText,submitDateTime) values('{0}','{1}','{2}','{3}','{4}','{5}','{6}')",
+            sql = string.Format("insert into Insights(titleText,contentText,documentLoc,areaText,languageText,submitDateTime) values('{0}','{1}','{2}','{3}','{4}','{5}')",
                 titleText,contentText, docFile, area, language, DateTime.Now.ToString());
             DBUtil.executeNonQuery(sql);
             Response.Redirect("main-insights-list.aspx");
