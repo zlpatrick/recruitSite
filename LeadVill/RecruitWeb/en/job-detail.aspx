@@ -46,7 +46,11 @@
                 ID="applyPosition" text="Apply for this position" onclick="applyPosition_Click" style="background-color:White;color:grey;border:none"/><%} %></div>
         <hr />
         <div>
-        <%=jobContent %>
+        <p><strong>Responsibilities</strong></p>
+        <div><%=jobContent %></div>
+
+        <p><strong>Requirements</strong></p>
+        <div><%=jobRequirement %></div>
         </div>
        
        

@@ -49,11 +49,44 @@
     }
     select
     {
-        width:45%;
-        height:25px;
+        width:88%;
+        height:30px;
         color:darkgrey;
     }
     </style>
+    <script>
+        function onSort() {
+            var address = location.href;
+            var sort = $("#sortBy")[0].value;
+            if (sort != null && sort != "") {
+                sort = "sort=" + sort;
+                if (address.indexOf("?") == -1) {
+                    address = address + "?";
+                }
+                if (address.indexOf("&sort=asc") >= 0) {
+                    address = address.replace("&sort=asc", "");
+                }
+                if (address.indexOf("&sort=desc") >= 0) {
+                    address = address.replace("&sort=desc", "");
+                }
+                if (address.indexOf("sort=asc") >= 0) {
+                    address = address.replace("sort=asc", "");
+                }
+                if (address.indexOf("sort=desc") >= 0) {
+                    address = address.replace("sort=desc", "");
+                }
+
+                if ((address.indexOf("search") == -1) && (address.indexOf("area") == -1) && (address.indexOf("depart") == -1)) {
+                    location.href = address + sort;
+                }
+                else {
+
+                    location.href = address + "&" + sort;
+                }
+
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -76,8 +109,8 @@
     <option value="life">Life Science</option>
     <option value="hotel">Hotel & Real Estate</option>
     </select>
-    
-
+    </p>
+    <p>
     <select id="positionDepartment">
     <option value="">Function...</option>
     <option value="sales">Sales / Marketing</option>
@@ -88,12 +121,12 @@
     <option value="hr">HR</option>
     </select>
 
-
+    </p>
 
 
 
     
-    </p>
+    
 
 
 
@@ -106,7 +139,15 @@
 
         
     <div class="col-md-9" style="border-left:1px solid lightgrey">
-    <div style="width:95%;margin:auto;color:Grey">All Openings</div>
+    <div style="width:95%;margin:auto;color:Grey">All Openings
+    <select name="sortBy" id="sortBy" style="float:right;width:120px;height:25px" onchange="onSort()">
+    <option value="">Sort By..</option>
+    <option value="asc">By Salary Ascending</option>
+    <option value="desc">By Salary Descending</option>
+    </select>
+    
+    
+    </div>
     <hr />
 
     <asp:DataGrid runat="server" ID="positionList" PagerStyle-PrevPageText="Previous Page" 

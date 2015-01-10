@@ -12,6 +12,7 @@ namespace RecruitWeb
     {
         public string jobTitle;
         public string jobContent;
+        public string jobRequirement;
         protected void Page_Load(object sender, EventArgs e)
         {
             loadJob();
@@ -24,6 +25,7 @@ namespace RecruitWeb
             DataSet ds = DBUtil.executeQuery(sql);
             jobTitle = ds.Tables[0].Rows[0]["titleText"].ToString();
             jobContent = ds.Tables[0].Rows[0]["contentText"].ToString();
+            jobRequirement = ds.Tables[0].Rows[0]["requirementText"].ToString();
         }
 
         private string getExtention(string file)

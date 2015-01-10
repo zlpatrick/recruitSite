@@ -43,7 +43,17 @@ namespace RecruitWeb
                 }
             }
 
-            sql += "order by submitDateTime desc";
+            if (Request.QueryString["sort"] != null)
+            {
+                if (Request.QueryString["sort"].Equals("asc"))
+                    sql += "order by salaryScope asc";
+                else
+                    sql += "order by salaryScope desc";
+            }
+            else
+            {
+                sql += "order by submitDateTime desc";
+            }
             this.positionList.DataSource = DBUtil.executeQuery(sql);
             this.positionList.DataBind();
         }

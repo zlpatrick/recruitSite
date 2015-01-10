@@ -19,12 +19,12 @@ namespace RecruitWeb
 
         private void loadPositions()
         {
-            string sql = "select * from Positions where languageText='中文' ";
+            string sql = "select * from Positions where languageText is not null ";
             string searchKey = "";
             if (Request.QueryString["search"] != null)
             {
                 searchKey = Request.QueryString["search"];
-                sql = "select * from Positions where titleText like '%" + searchKey + "%' and languageText='中文' ";
+                sql = "select * from Positions where titleText like '%" + searchKey + "%'";
             }
             if (Request.QueryString["area"] != null)
             {
@@ -42,8 +42,17 @@ namespace RecruitWeb
                     sql += "and departmentText='" + depart + "' ";
                 }
             }
-
-            sql += "order by submitDateTime desc";
+            if (Request.QueryString["sort"] != null)
+            {
+                if(Request.QueryString["sort"].Equals("asc"))
+                    sql +="order by salaryScope asc";
+                else
+                    sql +="order by salaryScope desc";
+            }
+            else
+            {
+                sql += "order by submitDateTime desc";
+            }
             this.positionList.DataSource = DBUtil.executeQuery(sql);
             this.positionList.DataBind();
         }

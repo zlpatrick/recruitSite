@@ -103,19 +103,15 @@
     <div id="errorText" style="text-align:center;margin-bottom:5px;color:Red">信息填写不全,请检查</div>
     <div style="text-align:center">添加职位信息</div>
     <hr />
-        <div style="height:30px"><span>标题&nbsp;&nbsp;</span><asp:TextBox ID="title" runat="server" style="width:560px"></asp:TextBox></div>
-        <div style="height:30px"><span>公司类型&nbsp;&nbsp;</span>
-        <asp:DropDownList ID="companyType" runat="server">
-            <asp:ListItem Value="中国公司">中国公司</asp:ListItem>
-            
-            <asp:ListItem Value="欧美公司">欧美公司</asp:ListItem>
-        </asp:DropDownList>
+        <div style="height:30px"><span>地点&nbsp;&nbsp;</span><asp:TextBox  ID="jobPlace" runat="server" style="width:50px"></asp:TextBox><span>名称&nbsp;&nbsp;</span><asp:TextBox ID="title" runat="server" style="width:460px"></asp:TextBox></div>
+        <div >
+     
 
-        <span>&nbsp;&nbsp;语言&nbsp;&nbsp;</span>
+        <span>JD&nbsp;&nbsp;</span>
         <asp:DropDownList ID="language" runat="server">
-            <asp:ListItem Value="中文">中文</asp:ListItem>
+            <asp:ListItem Value="中文">有中文</asp:ListItem>
             
-            <asp:ListItem Value="英文">英文</asp:ListItem>
+            <asp:ListItem Value="英文">仅英文</asp:ListItem>
         </asp:DropDownList>
 
         <span>&nbsp;&nbsp;领域&nbsp;&nbsp;</span>
@@ -126,6 +122,8 @@
         <asp:ListItem Value="auto">汽车及配件</asp:ListItem>
         <asp:ListItem Value="life">生命科学</asp:ListItem>
         <asp:ListItem Value="hotel">酒店地产</asp:ListItem>
+        <asp:ListItem Value="food">消费品及餐饮</asp:ListItem>
+        <asp:ListItem Value="net">互联网及咨询</asp:ListItem>
         </asp:DropDownList>
 
          <span>&nbsp;&nbsp;职能&nbsp;&nbsp;</span>
@@ -137,9 +135,23 @@
         <asp:ListItem Value="it">IT</asp:ListItem>
         <asp:ListItem Value="hr">人力资源</asp:ListItem>
         </asp:DropDownList>
+       
+       
+        <span>&nbsp;&nbsp;薪水范围&nbsp;&nbsp;</span>
+        <asp:DropDownList ID="salaryScope" runat="server">
+        <asp:ListItem Value="1">10-20w</asp:ListItem>
+        <asp:ListItem Value="2">20-30w</asp:ListItem>
+        <asp:ListItem Value="3">30-50w</asp:ListItem>
+        <asp:ListItem Value="4">50-80w</asp:ListItem>
+        <asp:ListItem Value="5">80-120w</asp:ListItem>
+        <asp:ListItem Value="6">120w以上</asp:ListItem>
+        </asp:DropDownList>
+
         </div>
-        <div style="height:30px"><span>内容&nbsp;&nbsp;</span><br /></div> 
+        <div style="height:30px"><span>职责&nbsp;&nbsp;</span><br /></div> 
         <CKEditor:CKEditorControl ID="positionContent" BasePath="/ckeditor/" runat="server"></CKEditor:CKEditorControl>
+           <div style="height:30px"><span>需求&nbsp;&nbsp;</span><br /></div> 
+        <CKEditor:CKEditorControl ID="positionRequirement" BasePath="/ckeditor/" runat="server"></CKEditor:CKEditorControl>
         
         <div style="text-align:center;padding-top:10px">
            <asp:Button Text="提交" runat="server" ID="submitPosition" 

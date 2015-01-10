@@ -119,6 +119,8 @@
         <asp:ListItem Value="汽车及配件">汽车及配件</asp:ListItem>
         <asp:ListItem Value="生命科学">生命科学</asp:ListItem>
         <asp:ListItem Value="酒店地产">酒店地产</asp:ListItem>
+        <asp:ListItem Value="消费品及餐饮">消费品及餐饮</asp:ListItem>
+        <asp:ListItem Value="互联网及咨询">互联网及咨询</asp:ListItem>
         </asp:DropDownList>
     </td>
     </tr>

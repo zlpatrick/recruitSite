@@ -102,7 +102,7 @@
     <ItemStyle CssClass="positionRow" />
     <Columns>
     <asp:BoundColumn DataField="titleText" HeaderText="职位名称"></asp:BoundColumn>
-    <asp:BoundColumn DataField="companyType" HeaderText="公司类别"></asp:BoundColumn>
+    
     <asp:BoundColumn DataField="submitDateTime" HeaderText="提交时间"></asp:BoundColumn>
     <asp:HyperLinkColumn HeaderText="编辑" Text="编辑" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/admin/main-position-edit.aspx?id={0}"></asp:HyperLinkColumn>
     <asp:HyperLinkColumn  HeaderText="删除" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/admin/main-position-delete.aspx?id={0}" Text="删除"></asp:HyperLinkColumn>

@@ -54,7 +54,7 @@
                     Our services
                     </div>
                     <div class="solution-section-body">
-                        <p>With in-depth study and research in our adept area of expertise, LEADVILL assists our clients with managing talent, providing strategic organizational HR consulting services to help our clients on talent acquisition, candidate assessment and evaluation.Our professional services include:</p>
+                        <p>With in-depth study and research in our adept area of expertise, LEADVILL assists our clients with managing talent, providing strategic organizational HR consulting services to help our clients on talent acquisition, candidate assessment and evaluation. </p><p>Our professional services include:</p>
                         <ul><li>- Executive Search</li>
                         <li>- Organization Talent Mapping</li>
                         <li>- Talent Assessment Center</li>

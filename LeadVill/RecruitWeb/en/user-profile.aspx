@@ -78,7 +78,7 @@
 				    href="index.aspx">Home Page</a><span class="divider"></span></li>
 			    <li class="active">Profile</li>
 		    </ul>
-<div class="row" style="margin-bottom:20px">
+<div class="row" style="margin-bottom:20px;margin-top:20px">
     <div class="col-md-3">
         <div class="list-group">
           <a href="user-profile.aspx" class="list-group-item active">
@@ -92,7 +92,7 @@
         
         </div>
     </div>
-<div class="col-md-9">
+<div class="col-md-9" style="border-left:1px solid lightgrey">
 
 
            

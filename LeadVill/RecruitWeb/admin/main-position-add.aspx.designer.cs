@@ -22,6 +22,15 @@ namespace RecruitWeb.admin {
         protected global::System.Web.UI.HtmlControls.HtmlForm Form2;
         
         /// <summary>
+        /// jobPlace 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox jobPlace;
+        
+        /// <summary>
         /// title 控件。
         /// </summary>
         /// <remarks>
@@ -29,15 +38,6 @@ namespace RecruitWeb.admin {
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox title;
-        
-        /// <summary>
-        /// companyType 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList companyType;
         
         /// <summary>
         /// language 控件。
@@ -67,6 +67,15 @@ namespace RecruitWeb.admin {
         protected global::System.Web.UI.WebControls.DropDownList department;
         
         /// <summary>
+        /// salaryScope 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList salaryScope;
+        
+        /// <summary>
         /// positionContent 控件。
         /// </summary>
         /// <remarks>
@@ -74,6 +83,15 @@ namespace RecruitWeb.admin {
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::CKEditor.NET.CKEditorControl positionContent;
+        
+        /// <summary>
+        /// positionRequirement 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::CKEditor.NET.CKEditorControl positionRequirement;
         
         /// <summary>
         /// submitPosition 控件。

@@ -19,7 +19,8 @@ namespace RecruitWeb.admin
 
         protected void submitPosition_Click(object sender, EventArgs e)
         {
-            string title = this.title.Text.Trim();
+            
+            string title = this.jobPlace.Text.Trim() +" - "+this.title.Text.Trim();
             string positionDetail = this.positionContent.Text;
             string areaText = this.area.SelectedValue;
             if (title.Equals("") || positionDetail.Equals(""))
@@ -27,10 +28,12 @@ namespace RecruitWeb.admin
                 ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>showError();</script>");
                 return;
             }
+            string salary = this.salaryScope.SelectedValue;
             string depart = this.department.SelectedValue;
-            string companyType = this.companyType.SelectedValue;
+            string companyType = "";
             string language = this.language.SelectedValue;
-            string sql = string.Format("insert into Positions(titleText,contentText,submitDateTime,companyType,languageText,areaText,departmentText) values('{0}','{1}','{2}','{3}','{4}','{5}','{6}')", title, positionDetail, DateTime.Now.ToString(), companyType, language, areaText, depart);
+            string requirement = this.positionRequirement.Text;
+            string sql = string.Format("insert into Positions(titleText,contentText,submitDateTime,companyType,languageText,areaText,departmentText,salaryScope,requirementText) values('{0}','{1}','{2}','{3}','{4}','{5}','{6}',{7},'{8}')", title, positionDetail, DateTime.Now.ToString(), companyType, language, areaText, depart,salary,requirement);
             DBUtil.executeNonQuery(sql);
             Response.Redirect("/admin/main-position-list.aspx");
         }

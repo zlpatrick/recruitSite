@@ -74,15 +74,37 @@ a:hover
     color:darkblue;
     text-decoration:none;
 }
+
+.list-group-item
+{
+    border:none;
+}
+
+a.list-group-item:hover,a.list-group-item:active
+{
+    background-color:White;
+}
+
+.list-group-item.active,.list-group-item.active
+{
+    background-color:White;
+    color:darkblue;
+}
+
+a.list-group-item.active:hover,a.list-group-item.active:active
+{
+    background-color:White;
+    color:darkblue;
+}
 </style>
 <script>
     function doSearch() {
         var searchKeyWord = $("#positionName")[0].value;
         var area = $("#positionArea")[0].value;
         var department = $("#positionDepartment")[0].value;
-        if ((searchKeyWord != null) && (searchKeyWord != "")) {
+       
             location.href = "/en/job-center.aspx?search=" + searchKeyWord + "&area=" + area + "&depart=" + department;
-        }
+        
     }
 </script>
 <div class="navbar navbar-default navbar-fixed-top"

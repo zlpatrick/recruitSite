@@ -50,11 +50,45 @@
     
     select
     {
-        height:25px;
+        height:30px;
         color:darkgrey;
+        width:88%;
     }
     
     </style>
+    <script>
+        function onSort() {
+            var address = location.href;
+            var sort = $("#sortBy")[0].value;
+            if (sort != null && sort != "") {
+                sort = "sort=" + sort;
+                if (address.indexOf("?") == -1) {
+                    address = address + "?";
+                }
+                if (address.indexOf("&sort=asc") >= 0) {
+                    address = address.replace("&sort=asc", "");
+                }
+                if (address.indexOf("&sort=desc") >= 0) {
+                    address = address.replace("&sort=desc", "");
+                }
+                if (address.indexOf("sort=asc")>=0) {
+                    address=address.replace("sort=asc", "");
+                }
+                if (address.indexOf("sort=desc") >= 0) {
+                    address = address.replace("sort=desc", "");
+                }
+                
+                if ((address.indexOf("search") == -1) && (address.indexOf("area") == -1) && (address.indexOf("depart") == -1)) {
+                    location.href = address + sort;
+                }
+                else {
+                    
+                    location.href = address + "&"+sort;
+                }
+
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -77,8 +111,8 @@
     <option value="life">生命科学</option>
     <option value="hotel">酒店地产</option>
     </select>
-    
-
+    </p>
+    <p>
     <select id="positionDepartment">
     <option value="">职能...</option>
     <option value="sales">销售/市场</option>
@@ -89,12 +123,12 @@
     <option value="hr">人力资源</option>
     </select>
 
-
+    </p>
 
 
 
     
-    </p>
+    
     <p><input type="text" placeholder="请输入搜索职位名" ID="positionName" style="width:88%"/> <a href="#" id="searchButton" onclick="doSearch()"><span class="glyphicon glyphicon-search" style="font-size:15px;;margin-left:4px;position:relative;top:4px"></span></a></p>
     
         <p style="line-height:22px">感谢您选择里德咨询作为职业生涯的伙伴。因为，除了客户，我们同样关心每一位候选人。</p>
@@ -103,7 +137,14 @@
 
 </div>
     <div class="col-md-9" >
-    <div style="width:95%;margin:auto;color:Grey">职位列表</div>
+    <div style="width:95%;margin:auto;color:Grey">职位列表
+    <select name="sortBy" id="sortBy" style="float:right;width:120px;height:25px" onchange="onSort()">
+    <option value="">排序方式..</option>
+    <option value="asc">按薪水升序</option>
+    <option value="desc">按薪水降序</option>
+    </select>
+    
+    </div>
     <hr />
 
     <asp:DataGrid runat="server" ID="positionList" PagerStyle-PrevPageText="上一页" 

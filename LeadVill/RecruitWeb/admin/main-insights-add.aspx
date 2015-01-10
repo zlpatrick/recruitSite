@@ -92,7 +92,7 @@
           <asp:TextBox ID="titleText" runat="server" style="width:100%"></asp:TextBox></td>
     </tr>
 
-    <tr><td style="padding-right:20px;text-align:right">内容</td><td>
+    <tr><td style="padding-right:20px;text-align:right">摘要</td><td>
         <asp:TextBox TextMode="MultiLine" Rows="10" Columns="60"   id="contentText" runat="server"/></td>
     </tr>
 
@@ -104,6 +104,8 @@
         <asp:ListItem Value="汽车及配件">汽车及配件</asp:ListItem>
         <asp:ListItem Value="生命科学">生命科学</asp:ListItem>
         <asp:ListItem Value="酒店地产">酒店地产</asp:ListItem>
+        <asp:ListItem Value="消费品及餐饮">消费品及餐饮</asp:ListItem>
+        <asp:ListItem Value="互联网及咨询">互联网及咨询</asp:ListItem>
         </asp:DropDownList>
     </td>
     </tr>

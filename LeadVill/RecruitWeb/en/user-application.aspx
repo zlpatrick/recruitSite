@@ -104,8 +104,8 @@
 				    href="index.aspx">Home Page</a><span class="divider"></span></li>
 			    <li class="active">Opening Application</li>
 		    </ul>
-<div class="row">
-    <div class="col-md-3">
+<div class="row" style="margin-top:20px">
+    <div class="col-md-3" style="border-right:1px solid lightgrey">
         <div class="list-group">
           <a href="user-profile.aspx" class="list-group-item">
             Basic Profile
