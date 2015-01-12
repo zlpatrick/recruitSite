@@ -116,6 +116,23 @@ We maintain good relationships with top talents in this industry around the worl
 </p>
                     </div>
                     </div>
+
+<div class="row">
+<div class="col-md-6">
+                    <p style="color:#333"><a href="insights-area.aspx?area=food">Retail & Beverage</a></p><hr />
+                    <p style="margin-left:20px">
+                    Based on years of experience in talent acquisition, we has accumulated a wealth of talent resources and deeply insights in FMCG, DCG, Luxury, Retail and Beverages service industry, also won the favor and recognition from our partners.
+</p>
+</div>
+<div class="col-md-6">
+                    <p style="color:#333;text-align:right"><a href="insights-area.aspx?area=it">Internet and Consulting</a></p><hr />
+                    <p style="margin-left:20px">
+                    In this rapidly changing and growing industry, we have been keeping up with the trend, and accumulated rich talent resources. Our professional services not only won the recognition of partners, but also enhance the ability of partners to respond to the innovations.
+</p>
+                    </div>
+          </div>
+
+
                     </div>
                 </div>
             </div>

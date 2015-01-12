@@ -65,7 +65,14 @@
         margin-left:5px;
         margin-right:20px;
     }
+    .hideCalendar
+    {
+        display:none;
+    }
+    
+    
     </style>
+    <script src="/js/Calendar.js"></script>
 </head>
 
 <body>
@@ -101,7 +108,9 @@
       <tr><td>会员ID：</td><td><asp:TextBox ID="memberID" runat="server" Enabled="false"></asp:TextBox></td><td></td></tr>
             <tr><td>姓名：</td><td><asp:TextBox ID="name" runat="server"></asp:TextBox></td><td></td></tr>
       
-        <tr><td>出生年月：</td><td><asp:TextBox ID="dateOfBirth" runat="server"></asp:TextBox></td><td>&nbsp;YYYY-MM-DD</td></tr>
+        <tr><td>出生日期：</td><td><asp:DropDownList id="birthYear" runat="server" style="width:15%"></asp:DropDownList>&nbsp;年&nbsp;&nbsp;&nbsp;<asp:DropDownList  style="width:10%" ID="birthMonth" runat="server"></asp:DropDownList>&nbsp;月
+        
+        </td><td></td></tr>
       <tr><td>手机：</td><td><asp:TextBox ID="mobile" runat="server"></asp:TextBox></td><td></td></tr>
       <tr><td>当前公司：</td><td><asp:TextBox ID="currentCompany" runat="server"></asp:TextBox></td><td></td></tr>
       <tr><td>现任职务：</td><td><asp:TextBox ID="currentPosition" runat="server"></asp:TextBox></td><td></td></tr>

@@ -71,5 +71,41 @@ namespace RecruitWeb
             this.positionList.CurrentPageIndex = index;
             loadPositions();
         }
+
+        protected void positionList_ItemDataBound(object sender, DataGridItemEventArgs e)
+        {
+            string i = e.Item.Cells[1].Text;
+            e.Item.Cells[1].Text = getSalaryText(i);
+        }
+
+        private string getSalaryText(string salary)
+        {
+            if (salary.Equals("1"))
+            {
+                return "10-20万";
+            }
+            else if (salary.Equals("2"))
+            {
+                return "20-30万";
+            }
+            else if (salary.Equals("3"))
+            {
+                return "30-50万";
+            }
+            else if (salary.Equals("4"))
+            {
+                return "50-80万";
+            }
+            else if (salary.Equals("5"))
+            {
+                return "80-120万";
+            }
+            else if (salary.Equals("6"))
+            {
+                return "120万以上";
+            }
+            else
+                return "";
+        }
     }
 }

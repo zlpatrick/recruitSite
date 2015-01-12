@@ -59,15 +59,15 @@
                   
                  
 <p>Europe Office：<br />
-1st Floor Holborn Gate, 330 High Holborn, London, WC1V 7QT
+1st Floor Holborn Gate, 330 High Holborn, London, WC1V 7QT<br />
 Fax: +44 (0) 20 7203 6701
 </p>
 <p>America Office：<br />
-One Gateway Center, Suite 2600, Newark, New Jersey, 07102
+One Gateway Center, Suite 2600, Newark, New Jersey, 07102<br />
 Fax: 973-622-8160
 </p>
 <p>China Office：<br />
-Globe Tower A, No.168 YuYuan Rd. Shanghai
+Globe Tower A, No.168 YuYuan Rd, JingAn District, Shanghai
 
 </p>
 

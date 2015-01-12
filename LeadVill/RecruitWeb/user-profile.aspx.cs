@@ -25,6 +25,14 @@ namespace RecruitWeb
 
         private void loadProfile()
         {
+            for (int i = DateTime.Now.Year; i > 1920; i--)
+            {
+                this.birthYear.Items.Add(new ListItem(i.ToString(), i.ToString()));
+            }
+            for (int i = 1; i <= 12; i++)
+            {
+                this.birthMonth.Items.Add(new ListItem(i.ToString(), i.ToString()));
+            }
             string userid = Session["loginID"].ToString();
             string sql = "select * from Users where userid='" + userid + "'";
             DataSet ds = DBUtil.executeQuery(sql);
@@ -36,7 +44,10 @@ namespace RecruitWeb
                
                 this.currentCompany.Text = ds.Tables[0].Rows[0]["currentCompany"].ToString();
                 this.currentPosition.Text = ds.Tables[0].Rows[0]["currentPosition"].ToString();
-                this.dateOfBirth.Text = ds.Tables[0].Rows[0]["dateOfBirth"].ToString();
+                string dateofBirth = ds.Tables[0].Rows[0]["dateOfBirth"].ToString();
+                string[] yearAndMonth = dateofBirth.Split('-');
+                this.birthYear.SelectedValue = yearAndMonth[0];
+                this.birthMonth.SelectedValue = yearAndMonth[1];
                 this.location.SelectedValue = ds.Tables[0].Rows[0]["placeOfNow"].ToString();
 
                 List<string> interestArea = ds.Tables[0].Rows[0]["interestArea"].ToString().Split(',').ToList();
@@ -73,7 +84,7 @@ namespace RecruitWeb
             string mobile = this.mobile.Text.Trim();
             string currentCompany = this.currentCompany.Text.Trim();
             string currentPosition = this.currentPosition.Text.Trim();
-            string dateOfBirth = this.dateOfBirth.Text.Trim();
+            string dateOfBirth = this.birthYear.SelectedValue + "-"+this.birthMonth.SelectedValue;
             string placeOfNow = this.location.SelectedValue;
             string sex = "";
 
@@ -95,7 +106,12 @@ namespace RecruitWeb
                 "placeOfNow='{3}',currentCompany='{4}',currentPosition='{5}',interestArea='{6}',dateOfBirth='{7}' where userid='{8}'",
                 name, mobile, sex, placeOfNow, currentCompany, currentPosition, interestArea, dateOfBirth, Session["loginID"].ToString());
             DBUtil.executeNonQuery(sql);
+            ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>alert('账号更新成功');</script>");
         }
+
+       
+
+        
     }
     
 }

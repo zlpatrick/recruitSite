@@ -13,6 +13,7 @@ namespace RecruitWeb
         public string jobTitle;
         public string jobContent;
         public string jobRequirement;
+        public string salary;
         protected void Page_Load(object sender, EventArgs e)
         {
             loadJob();
@@ -26,6 +27,40 @@ namespace RecruitWeb
             jobTitle = ds.Tables[0].Rows[0]["titleText"].ToString();
             jobContent = ds.Tables[0].Rows[0]["contentText"].ToString();
             jobRequirement = ds.Tables[0].Rows[0]["requirementText"].ToString();
+            salary = ds.Tables[0].Rows[0]["salaryScope"].ToString();
+            salary = getSalaryText(salary);
+        }
+
+            
+
+        private string getSalaryText(string salary)
+        {
+            if (salary.Equals("1"))
+            {
+                return "10-20w";
+            }
+            else if (salary.Equals("2"))
+            {
+                return "20-30w";
+            }
+            else if (salary.Equals("3"))
+            {
+                return "30-50w";
+            }
+            else if (salary.Equals("4"))
+            {
+                return "50-80w";
+            }
+            else if (salary.Equals("5"))
+            {
+                return "80-120w";
+            }
+            else if (salary.Equals("6"))
+            {
+                return "Above 120w";
+            }
+            else
+                return "";
         }
 
         private string getExtention(string file)

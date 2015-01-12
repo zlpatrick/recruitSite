@@ -65,6 +65,14 @@
     }
     
     </style>
+
+     <script>
+         $(document).ready(function () {
+             $(".deleteButton").click(function () {
+                 return confirm('确认删除此条职位信息?');
+             });
+         });
+    </script>
 </head>
 
 <body>
@@ -105,7 +113,7 @@
     
     <asp:BoundColumn DataField="submitDateTime" HeaderText="提交时间"></asp:BoundColumn>
     <asp:HyperLinkColumn HeaderText="编辑" Text="编辑" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/admin/main-position-edit.aspx?id={0}"></asp:HyperLinkColumn>
-    <asp:HyperLinkColumn  HeaderText="删除" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/admin/main-position-delete.aspx?id={0}" Text="删除"></asp:HyperLinkColumn>
+    <asp:HyperLinkColumn ItemStyle-CssClass="deleteButton" HeaderText="删除" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/admin/main-position-delete.aspx?id={0}" Text="删除"></asp:HyperLinkColumn>
     </Columns>
     </asp:DataGrid>
 

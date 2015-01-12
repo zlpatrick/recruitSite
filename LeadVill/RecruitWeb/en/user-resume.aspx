@@ -120,7 +120,7 @@
                                 <asp:Button Text="Delete" runat="server" ID="Button2" 
                                 
                                 style="border: none;height: 30px;line-height: 30px;outline:none;padding-left: 10px;padding-right: 20px; color:grey;background-color:white" 
-                                onclick="Button2_Click" /></td></tr>
+                                onclick="Button2_Click"  OnClientClick="javascript:return confirm('Confirm to delete current resume?')" /></td></tr>
                         
                        
                     

@@ -121,7 +121,7 @@
                                 <asp:Button Text="删除" runat="server" ID="Button2" 
                                 
                                 style="border: none;height: 30px;line-height: 30px;outline:none;padding-left: 10px;padding-right: 20px; color:grey;background-color:white" 
-                                onclick="Button2_Click" /></td></tr>
+                                onclick="Button2_Click" OnClientClick="javascript:return confirm('确认删除当前简历?')" /></td></tr>
                         
                        
                     

@@ -119,13 +119,31 @@
                     我们致力于帮助国际知名地产商和国际型酒店获得长期稳健的人力资源咨询服务。我们的候选人皆为来自住宅地产、购物中心及城市综合体、旅游地产的专业技术人才及中高级管理人才。
 </p>
                     </div>
+          </div>
+
+<div class="row">
+<div class="col-md-6">
+                    <p style="color:#333"><a href="insights-area.aspx?area=food">零售及餐饮</a></p><hr />
+                    <p style="margin-left:20px">
+                    多年的人才服务经验，使我们在快速/耐用消费品、奢侈品等零售行业，及餐饮服务行业积累了丰富的人才资源以及对行业深刻把握，也赢得了合作伙伴广泛的青睐及认可。
+</p>
+</div>
+<div class="col-md-6">
+                    <p style="color:#333;text-align:right"><a href="insights-area.aspx?area=it">互联网及咨询</a></p><hr />
+                    <p style="margin-left:20px">
+                    在这个快速变革、增长的行业，我们一直紧跟行业发展潮流，积累了丰富的候选人资源及行业服务经验，我们专业服务赢得了合作伙伴的认可，同时也提升了合作伙伴应对变革的能力。
+</p>
                     </div>
+          </div>
+
+
+
+
                     </div>
                 </div>
             </div>
-            
+          
        
-        
 
 
         

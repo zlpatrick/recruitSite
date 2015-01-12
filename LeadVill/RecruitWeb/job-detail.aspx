@@ -46,6 +46,8 @@
                 ID="applyPosition" text="申请该职位" onclick="applyPosition_Click" style="background-color:White;color:grey;border:none"/><%} %></div>
         <hr />
         <div>
+        <p style="margin-bottom:20px"><strong>薪水范围：</strong> <%=salary %></p>
+        
         <p style="margin-bottom:20px"><strong>职位职责</strong></p>
         <div><%=jobContent %></div>
 

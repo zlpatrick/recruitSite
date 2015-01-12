@@ -35,6 +35,10 @@ namespace RecruitWeb
                 areaText = "汽车及配件";
             else if (area.Equals("hotel"))
                 areaText = "酒店地产";
+            else if (area.Equals("it"))
+                areaText = "互联网及咨询";
+            else if (area.Equals("food"))
+                areaText = "消费品及餐饮";
 
             string sql = "select * from Insights where areaText='" + areaText + "' and languageText='中文' order by submitDateTime desc";
             ds = DBUtil.executeQuery(sql);

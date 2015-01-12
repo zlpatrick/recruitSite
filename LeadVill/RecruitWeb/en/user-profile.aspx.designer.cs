@@ -40,13 +40,22 @@ namespace RecruitWeb.en {
         protected global::System.Web.UI.WebControls.TextBox name;
         
         /// <summary>
-        /// dateOfBirth 控件。
+        /// birthYear 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dateOfBirth;
+        protected global::System.Web.UI.WebControls.DropDownList birthYear;
+        
+        /// <summary>
+        /// birthMonth 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList birthMonth;
         
         /// <summary>
         /// mobile 控件。

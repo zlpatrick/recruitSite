@@ -27,12 +27,13 @@ namespace RecruitWeb
                 }
                 else
                 {
-                    Response.Redirect("index.aspx");
+                    ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>alert('密码错误，请重试!');location.href='index.aspx';</script>");
+                    
                 }
             }
             else
             {
-                Response.Redirect("index.aspx");
+                ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>alert('用户名不存在，请重试!');location.href='index.aspx';</script>");
             }
         }
 

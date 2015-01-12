@@ -27,12 +27,12 @@ namespace RecruitWeb.en
                 }
                 else
                 {
-                    Response.Redirect("index.aspx");
+                    ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>alert('Password is incorrect，please retry');location.href='index.aspx';</script>");
                 }
             }
             else
             {
-                Response.Redirect("index.aspx");
+                ClientScript.RegisterStartupScript(Page.GetType(), "", "<script>alert('Member ID does not exist，please retry');location.href='index.aspx';</script>");
             }
         }
 

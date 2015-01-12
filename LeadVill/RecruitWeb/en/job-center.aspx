@@ -153,12 +153,13 @@
     <asp:DataGrid runat="server" ID="positionList" PagerStyle-PrevPageText="Previous Page" 
         PagerStyle-NextPageText="Next Page" AllowPaging="true"  AutoGenerateColumns="false" 
         PageSize="20" style="width:95%;margin:auto;border:none" 
-            onpageindexchanged="positionList_PageIndexChanged">
+            onpageindexchanged="positionList_PageIndexChanged" 
+            onitemdatabound="positionList_ItemDataBound">
    <HeaderStyle CssClass="jobitemHeader" />
     <Columns>
    
     <asp:HyperLinkColumn HeaderText="职位列表" DataTextField="titleText" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/en/job-detail.aspx?id={0}"></asp:HyperLinkColumn>
-   
+   <asp:BoundColumn DataField="salaryScope" ItemStyle-HorizontalAlign="Right"></asp:BoundColumn>
    </Columns>
     </asp:DataGrid>
     

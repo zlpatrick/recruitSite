@@ -20,7 +20,7 @@ namespace RecruitWeb.admin
         protected void submitPosition_Click(object sender, EventArgs e)
         {
             
-            string title = this.jobPlace.Text.Trim() +" - "+this.title.Text.Trim();
+            string title = this.jobPlace.Text.Trim() +" - "+ this.companydesc.Text.Trim()+" - "+ this.title.Text.Trim();
             string positionDetail = this.positionContent.Text;
             string areaText = this.area.SelectedValue;
             if (title.Equals("") || positionDetail.Equals(""))

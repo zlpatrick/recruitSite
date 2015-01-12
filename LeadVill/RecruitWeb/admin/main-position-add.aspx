@@ -103,7 +103,9 @@
     <div id="errorText" style="text-align:center;margin-bottom:5px;color:Red">信息填写不全,请检查</div>
     <div style="text-align:center">添加职位信息</div>
     <hr />
-        <div style="height:30px"><span>地点&nbsp;&nbsp;</span><asp:TextBox  ID="jobPlace" runat="server" style="width:50px"></asp:TextBox><span>名称&nbsp;&nbsp;</span><asp:TextBox ID="title" runat="server" style="width:460px"></asp:TextBox></div>
+        <div style="height:30px"><span>地点&nbsp;&nbsp;</span><asp:TextBox  ID="jobPlace" runat="server" style="width:50px"></asp:TextBox><span>
+        <span>公司描述&nbsp;&nbsp;</span><asp:TextBox  ID="companydesc" runat="server" style="width:100px"></asp:TextBox>
+        <span>职位名称&nbsp;&nbsp;</span><asp:TextBox ID="title" runat="server" style="width:300px"></asp:TextBox></div>
         <div >
      
 

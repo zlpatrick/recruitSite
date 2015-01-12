@@ -66,6 +66,12 @@
         margin-right:20px;
     }
     </style>
+    <script>
+    function hideCalendar
+    {
+        $('#calendar').css('display','none');
+    }
+    </script>
 </head>
 
 <body>
@@ -100,7 +106,14 @@
       <tr><td>Member ID：</td><td><asp:TextBox ID="memberID" runat="server" Enabled="false"></asp:TextBox></td><td></td></tr>
             <tr><td>Name：</td><td><asp:TextBox ID="name" runat="server"></asp:TextBox></td><td></td></tr>
       
-        <tr><td>Date Of Birth：</td><td><asp:TextBox ID="dateOfBirth" runat="server"></asp:TextBox></td><td>&nbsp;YYYY-MM-DD</td></tr>
+        <tr><td>Date Of Birth：</td><td>
+        
+        
+        
+       <asp:DropDownList id="birthYear" runat="server" style="width:15%"></asp:DropDownList>&nbsp;Year&nbsp;&nbsp;&nbsp;<asp:DropDownList  style="width:10%" ID="birthMonth" runat="server"></asp:DropDownList>&nbsp;Month
+        </td>
+        
+        <td></td></tr>
       <tr><td>Mobile Phone：</td><td><asp:TextBox ID="mobile" runat="server"></asp:TextBox></td><td></td></tr>
       <tr><td>Current Company：</td><td><asp:TextBox ID="currentCompany" runat="server"></asp:TextBox></td><td></td></tr>
       <tr><td>Current Position：</td><td><asp:TextBox ID="currentPosition" runat="server"></asp:TextBox></td><td></td></tr>

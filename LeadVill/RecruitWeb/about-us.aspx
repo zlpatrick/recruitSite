@@ -58,15 +58,15 @@
                     <div class="solution-section-body">
                    
 <p>欧洲办公室：<br />
-1st Floor Holborn Gate, 330 High Holborn, London, WC1V 7QT
+1st Floor Holborn Gate, 330 High Holborn, London, WC1V 7QT<br />
 Fax: +44 (0) 20 7203 6701
 </p>
 <p>美国办公室：<br />
-One Gateway Center, Suite 2600, Newark, New Jersey, 07102
+One Gateway Center, Suite 2600, Newark, New Jersey, 07102<br />
 Fax: 973-622-8160
 </p>
 <p>中国办公室：<br />
-长宁区愚园路168号 环球世界大厦A座
+静安区愚园路168号 环球世界大厦A座
 
 </p>
 

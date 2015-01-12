@@ -68,6 +68,7 @@
     <Content Include="admin\resume-download.aspx" />
     <Content Include="App_Data\data.mdb" />
     <Content Include="bottom.aspx" />
+    <Content Include="js\Calendar.js" />
     <Content Include="CKEditor.NET.dll" />
     <Content Include="ckeditor\adapters\jquery.js" />
     <Content Include="ckeditor\CHANGES.html" />
