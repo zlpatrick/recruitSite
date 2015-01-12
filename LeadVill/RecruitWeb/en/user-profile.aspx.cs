@@ -25,10 +25,12 @@ namespace RecruitWeb.en
 
         private void loadProfile()
         {
+            this.birthYear.Items.Add("");
             for (int i = DateTime.Now.Year; i > 1920; i--)
             {
                 this.birthYear.Items.Add(new ListItem(i.ToString(), i.ToString()));
             }
+            this.birthMonth.Items.Add("");
             for (int i = 1; i <= 12; i++)
             {
                 this.birthMonth.Items.Add(new ListItem(i.ToString(), i.ToString()));
@@ -45,9 +47,17 @@ namespace RecruitWeb.en
                 this.currentCompany.Text = ds.Tables[0].Rows[0]["currentCompany"].ToString();
                 this.currentPosition.Text = ds.Tables[0].Rows[0]["currentPosition"].ToString();
                 string dateofBirth = ds.Tables[0].Rows[0]["dateOfBirth"].ToString();
-                string[] yearAndMonth = dateofBirth.Split('-');
-                this.birthYear.SelectedValue = yearAndMonth[0];
-                this.birthMonth.SelectedValue = yearAndMonth[1];
+                if (dateofBirth.Equals(""))
+                {
+                    this.birthYear.SelectedValue = "";
+                    this.birthMonth.SelectedValue = "";
+                }
+                else
+                {
+                    string[] yearAndMonth = dateofBirth.Split('-');
+                    this.birthYear.SelectedValue = yearAndMonth[0];
+                    this.birthMonth.SelectedValue = yearAndMonth[1];
+                }
                 this.location.SelectedValue = ds.Tables[0].Rows[0]["placeOfNow"].ToString();
 
                 List<string> interestArea = ds.Tables[0].Rows[0]["interestArea"].ToString().Split(',').ToList();
