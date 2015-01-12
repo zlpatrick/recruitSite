@@ -125,7 +125,7 @@ We maintain good relationships with top talents in this industry around the worl
 </p>
 </div>
 <div class="col-md-6">
-                    <p style="color:#333;text-align:right"><a href="insights-area.aspx?area=it">Internet and Consulting</a></p><hr />
+                    <p style="color:#333;text-align:right"><a href="insights-area.aspx?area=it">Internet & Consulting</a></p><hr />
                     <p style="margin-left:20px">
                     In this rapidly changing and growing industry, we have been keeping up with the trend, and accumulated rich talent resources. Our professional services not only won the recognition of partners, but also enhance the ability of partners to respond to the innovations.
 </p>
