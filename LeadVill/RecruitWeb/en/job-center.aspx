@@ -160,7 +160,7 @@
    
     <asp:BoundColumn HeaderText="Location" DataField="city" ItemStyle-CssClass="jobitemHeader"></asp:BoundColumn>
    <asp:BoundColumn HeaderText="Company" DataField="company"  ItemStyle-CssClass="jobitemHeader"></asp:BoundColumn>
-    <asp:HyperLinkColumn HeaderText="Opening" DataTextField="titleText" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/job-detail.aspx?id={0}"></asp:HyperLinkColumn>
+    <asp:HyperLinkColumn HeaderText="Job Title" DataTextField="titleText" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/job-detail.aspx?id={0}"></asp:HyperLinkColumn>
     <asp:BoundColumn HeaderText="Salary Range" DataField="salaryScope"  ItemStyle-CssClass="jobitemHeader" ItemStyle-HorizontalAlign=Right HeaderStyle-HorizontalAlign=Right ></asp:BoundColumn>
    </Columns>
     </asp:DataGrid>
