@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
 
 namespace RecruitWeb
 {
@@ -54,7 +55,42 @@ namespace RecruitWeb
             {
                 sql += "order by submitDateTime desc";
             }
-            this.positionList.DataSource = DBUtil.executeQuery(sql);
+            DataSet ds = DBUtil.executeQuery(sql);
+            DataTable dt = new DataTable();
+            dt.Columns.Add("ID");
+            dt.Columns.Add("city");
+            dt.Columns.Add("company");
+            dt.Columns.Add("titleText");
+            dt.Columns.Add("salaryScope");
+            for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
+            {
+                DataRow row = dt.NewRow();
+                string titleText = ds.Tables[0].Rows[i]["titleText"].ToString();
+                string[] titleItems = titleText.Split('-');
+                row[0] = ds.Tables[0].Rows[i]["ID"].ToString();
+                if (titleItems.Length == 3)
+                {
+                    row[1] = titleItems[0];
+                    row[2] = titleItems[1];
+                    row[3] = titleItems[2];
+                }
+                else if (titleItems.Length > 3)
+                {
+                    row[1] = titleItems[0];
+                    string titleStr = "";
+                    for (int j = 1; j <= titleItems.Length - 2; j++)
+                    {
+                        titleStr += titleItems[j] + "-";
+                    }
+                    titleStr = titleStr.Substring(0, titleStr.Length - 1);
+                    row[2] = titleStr;
+                    row[3] = titleItems[titleItems.Length - 1];
+                }
+                row[4] = ds.Tables[0].Rows[i]["salaryScope"].ToString();
+                dt.Rows.Add(row);
+            }
+
+            this.positionList.DataSource = dt;
             this.positionList.DataBind();
         }
 
@@ -75,8 +111,8 @@ namespace RecruitWeb
 
         protected void positionList_ItemDataBound(object sender, DataGridItemEventArgs e)
         {
-            string i = e.Item.Cells[1].Text;
-            e.Item.Cells[1].Text = getSalaryText(i);
+            string i = e.Item.Cells[3].Text;
+            e.Item.Cells[3].Text = getSalaryText(i);
         }
 
         private string getSalaryText(string salary)
@@ -106,7 +142,7 @@ namespace RecruitWeb
                 return "Above 120w";
             }
             else
-                return "";
+                return "Salary Range";
         }
     }
 }

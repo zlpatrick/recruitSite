@@ -22,8 +22,8 @@
     }
      .jobitemHeader
     {
-        display:none;
-       
+        
+       color:grey;
     }
     .jobitem-title
     {
@@ -152,11 +152,12 @@
         PageSize="20" style="width:95%;margin:auto;border:none" 
             onpageindexchanged="positionList_PageIndexChanged" 
             onitemdatabound="positionList_ItemDataBound">
-   <HeaderStyle CssClass="jobitemHeader" />
+   <HeaderStyle CssClass="jobitemHeader" ForeColor="Black"/>
     <Columns>
-   
-    <asp:HyperLinkColumn HeaderText="职位列表" DataTextField="titleText" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/job-detail.aspx?id={0}"></asp:HyperLinkColumn>
-    <asp:BoundColumn DataField="salaryScope"  ItemStyle-HorizontalAlign="Right"></asp:BoundColumn>
+   <asp:BoundColumn HeaderText="地点" DataField="city" ItemStyle-CssClass="jobitemHeader"></asp:BoundColumn>
+   <asp:BoundColumn HeaderText="公司" DataField="company" ItemStyle-CssClass="jobitemHeader"></asp:BoundColumn>
+    <asp:HyperLinkColumn HeaderText="职位名称" DataTextField="titleText" DataNavigateUrlField="ID" DataNavigateUrlFormatString="/job-detail.aspx?id={0}"></asp:HyperLinkColumn>
+    <asp:BoundColumn HeaderText="薪水范围" DataField="salaryScope" ItemStyle-CssClass="jobitemHeader" ItemStyle-HorizontalAlign=Right HeaderStyle-HorizontalAlign=Right ></asp:BoundColumn>
    </Columns>
     </asp:DataGrid>
     

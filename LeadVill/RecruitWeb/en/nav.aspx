@@ -132,7 +132,7 @@ a.list-group-item.active:hover,a.list-group-item.active:active
             else
                 {%>
                  Welcome: <%=Session["loginID"] %> <a href="user-profile.aspx" style="margin-right:5px;margin-left:10px">Profile</a><a href="logout.aspx">Log out</a>
-                 <% }%>   <a href="/index.aspx" style="margin-left:20px">Chinese</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/en/index.aspx">English</a>
+                 <% }%>   <a href="/index.aspx" style="margin-left:20px">中文</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/en/index.aspx">English</a>
                  </form>
                </div>
            

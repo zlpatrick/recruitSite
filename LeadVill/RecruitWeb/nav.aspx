@@ -129,7 +129,7 @@ a.list-group-item.active:hover,a.list-group-item.active:active
                       欢迎您：<%=Session["loginID"] %>  &nbsp;&nbsp;<a href="user-profile.aspx" style="margin-right:5px">个人档案</a><a href="logout.aspx">注销</a>
                      <%} %>
 
-                     <a href="/index.aspx" style="margin-left:20px">中文</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/en/index.aspx">英文</a>
+                     <a href="/index.aspx" style="margin-left:20px">中文</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/en/index.aspx">English</a>
                      </form>
                </div>
                
