@@ -66,9 +66,13 @@ Fax: +44 (0) 20 7203 6701
 One Gateway Center, Suite 2600, Newark, New Jersey, 07102<br />
 Fax: 973-622-8160
 </p>
-<p>China Office：<br />
+<p>Shanghai Office：<br />
 Globe Tower A, No.168 YuYuan Rd, JingAn District, Shanghai
 
+</p>
+<p>Chengdu Office：<br />
+W6-7-1-728, New Century Global Center, No.1700 Tianfu Avenue North, Chengdu<br />
+Tel:+86 28 68763180<br /> +86 28 68760150
 </p>
 
                     </div>
